@@ -14,6 +14,8 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+This project covers Georgia Tech OMSCS course-selection and workload advice, with a focus on the first-year questions students ask when deciding what to take and what to avoid pairing together. The official OMSCS site explains what each course is about, but it does not centralize the lived experience details students care about most: hidden workload, math intensity, project ambiguity, group-project risk, and whether a class feels like a good entry point for someone new to the program.
+
 ---
 
 ## Document Sources
@@ -24,16 +26,18 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | OMSCS Machine Learning specialization page | Official page | https://omscs.gatech.edu/specialization-machine-learning |
+| 2 | r/OMSCS Specializations and Courses Megathread | Reddit thread | https://www.reddit.com/r/OMSCS/comments/1pyef5z/course_specs_megathread_selection_choices/ |
+| 3 | CS 6515: Intro to Graduate Algorithms | Official page | https://omscs.gatech.edu/cs-6515-intro-graduate-algorithms |
+| 4 | Introduction to Graduate Algorithms reviews | Student review page | https://www.omscentral.com/courses/introduction-to-graduate-algorithms/reviews |
+| 5 | CS 7641: Machine Learning | Official page | https://omscs.gatech.edu/cs-7641-machine-learning |
+| 6 | Machine Learning reviews | Student review page | https://www.omscentral.com/courses/machine-learning/reviews |
+| 7 | CS 6300: Software Development Process | Official page | https://omscs.gatech.edu/cs-6300-software-development-process |
+| 8 | Software Development Process reviews | Student review page | https://www.omscentral.com/courses/software-development-process/reviews |
+| 9 | CS 6310: Software Architecture and Design | Official page | https://omscs.gatech.edu/cs-6310-software-architecture-and-design |
+| 10 | Software Architecture and Design reviews | Student review page | https://www.omscentral.com/courses/software-architecture-and-design/reviews |
+| 11 | CS 6603: AI, Ethics, and Society | Official page | https://omscs.gatech.edu/cs-6603-ai-ethics-and-society |
+| 12 | AI, Ethics, and Society reviews | Student review page | https://www.omscentral.com/courses/ai-ethics-and-society/reviews |
 
 ---
 
