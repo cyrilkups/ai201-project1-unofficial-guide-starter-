@@ -56,6 +56,8 @@ This project covers Georgia Tech OMSCS course-selection and workload advice, wit
 
 **Why these choices fit your documents:** My corpus mixes short official course pages with much longer student review pages, so I chunked by natural units first instead of splitting everything mechanically. Official OMSCS pages are cleaned into paragraph-sized sections, while OMSCentral pages are split into one review block at a time and then only split further if a single review runs long. I also capped OMSCentral ingestion at the 100 most recent reviews per course page so the corpus stays balanced and does not get overwhelmed by older repetitive reviews.
 
+**Ingestion and cleaning process:** `scripts/build_document_pipeline.py` reads `documents/source_manifest.csv`, fetches each source page, strips navigation text and repeated site boilerplate, removes leftover URLs and duplicate lines, and saves both raw text and cleaned text before chunking. The pipeline writes intermediate outputs to `documents/raw_text/` and `documents/cleaned/`, then writes the final structured chunk data to `artifacts/chunks.jsonl`.
+
 **Final chunk count:** 1,812 chunks across 11 loaded sources
 
 ---
@@ -107,6 +109,14 @@ Source attribution is enforced in two ways. First, the LLM sees each retrieved c
 | 4 | What risk shows up repeatedly in student feedback for CS 6310 Software Architecture and Design? | Group-project problems and mixed opinions about assignment clarity, grading, and course value. | The system identified bad group assignments, unclear project instructions, weak TA feedback, and slow or arbitrary grading as recurring risks. | Relevant | Accurate |
 | 5 | How is CS 6603 AI, Ethics, and Society positioned compared with the other courses in this set? | It should come across as lighter-weight and less technical than classes like GA or ML, with more reading and discussion. | The system declined with `I don't have enough information on that.` instead of giving a comparison answer. | Partially relevant | Partially accurate |
 
+**Top retrieved chunks by question:**
+
+1. `03-cs-6515-intro-to-graduate-algorithms-chunk-006`, `03-cs-6515-intro-to-graduate-algorithms-chunk-002`, `03-cs-6515-intro-to-graduate-algorithms-chunk-001`, `03-cs-6515-intro-to-graduate-algorithms-chunk-004`
+2. `06-machine-learning-reviews-chunk-276`, `06-machine-learning-reviews-chunk-072`, `06-machine-learning-reviews-chunk-089`, `06-machine-learning-reviews-chunk-202`
+3. `08-software-development-process-reviews-chunk-051`, `08-software-development-process-reviews-chunk-088`, `08-software-development-process-reviews-chunk-197`, `08-software-development-process-reviews-chunk-052`
+4. `10-software-architecture-and-design-reviews-chunk-018`, `10-software-architecture-and-design-reviews-chunk-163`, `10-software-architecture-and-design-reviews-chunk-117`, `10-software-architecture-and-design-reviews-chunk-125`
+5. `12-ai-ethics-and-society-reviews-chunk-029`, `10-software-architecture-and-design-reviews-chunk-259`, `04-introduction-to-graduate-algorithms-reviews-chunk-320`, `08-software-development-process-reviews-chunk-088`
+
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
 
@@ -150,7 +160,11 @@ I would improve the retrieval stage for comparison questions by adding course-le
 
 **One way the spec helped you during implementation:**
 
+The spec helped most during retrieval and evaluation because it forced me to define concrete test questions before I built the final answer step. That made it much easier to tell whether a bad output came from weak retrieval, weak prompting, or simply a question my documents did not really cover.
+
 **One way your implementation diverged from the spec, and why:**
+
+The biggest practical divergence was the Gradio version. The milestone handout suggests `gradio>=6.9.0`, but this project environment is on Python 3.9 and Gradio 6 requires Python 3.10+, so I used `gradio==4.44.1` instead. I also ended up adding extra retrieval heuristics for comparison questions and low-signal official chunks because plain semantic search alone was not reliable enough on the review-heavy corpus.
 
 ---
 
@@ -167,12 +181,12 @@ I would improve the retrieval stage for comparison questions by adding course-le
 
 **Instance 1**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* I gave Codex the domain summary, the source manifest, and my chunking strategy from `planning.md`, including the 650-character target, 120-character overlap, and the fact that official pages and review pages should be chunked differently.
+- *What it produced:* It produced the ingestion and chunking pipeline in `scripts/build_document_pipeline.py`, plus cleaned-text outputs and chunk artifacts.
+- *What I changed or overrode:* I kept the natural-block-first approach, capped OMSCentral ingestion at the 100 most recent reviews per course, and treated the blocked Reddit source as a documented skip instead of pretending it had been loaded successfully.
 
 **Instance 2**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* I gave Codex the retrieval approach, evaluation questions, and grounding requirement from `planning.md`, then asked it to wire retrieval, Groq generation, and a Gradio interface together.
+- *What it produced:* It produced the end-to-end query pipeline in `query.py`, the Gradio app in `app.py`, and the initial grounding prompt and source-attribution flow.
+- *What I changed or overrode:* I tightened the no-answer behavior so unsupported questions return `I don't have enough information on that.`, made the final source list programmatic instead of trusting the model alone, and pinned Gradio to a Python-3.9-compatible version after testing the environment.
