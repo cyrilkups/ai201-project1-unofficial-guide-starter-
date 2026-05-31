@@ -9,10 +9,8 @@ Students will learn fundamental algorithms associated with each of these domains
 Rank 3 | distance=0.3897 | source=CS 6515 Intro to Graduate Algorithms | chunk=03-cs-6515-intro-to-graduate-algorithms-chunk-001
 This course is a graduate-level course in the theory of algorithm design and analysis. The course introduces several categories of algorithmic techniques, including:
 
-Rank 4 | distance=0.4363 | source=CS 6515 Intro to Graduate Algorithms | chunk=03-cs-6515-intro-to-graduate-algorithms-chunk-003
-Spring 2026 syllabus (PDF)
-Fall 2025 syllabus (PDF)
-Summer 2025 syllabus (PDF)
+Rank 4 | distance=0.4670 | source=CS 6515 Intro to Graduate Algorithms | chunk=03-cs-6515-intro-to-graduate-algorithms-chunk-004
+Note: Sample syllabi are provided for informational purposes only. For the most up-to-date information, consult the official course documentation.
 
 ================================================================================
 
@@ -23,42 +21,31 @@ Review 58
 PLNqkSni4Yo64dBlTjLJ1g==May 1, 2025spring 2025
 First things first: this is a graduate-level course in a CS program—so expect to engage your brain, not just your fingers. The goal isn’t to write pristine code that passes every test case. Instead, you’re encouraged to use all the libraries at your disposal to get things running quickly, so you can focus on the real challenge: understanding why algorithms exist, when to use them, and how they behave in the wild.
 
-Rank 2 | distance=0.3261 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-001
-Machine Learning
-Name
-Listed As
-CS-7641
-Credit Hours
-3
-Available to
-CS students
-Description
-Machine learning techniques and applications. Topics include foundational issues; inductive, analytical, numerical, and theoretical approaches; and real-world applications.
-Syllabus
-Textbooks
-Machine Learning, 1st Edition
+Rank 2 | distance=0.3202 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-072
+Review 17
+OlkEe+VxAbTFD6/52gTbgQ==April 27, 2026spring 2026
+I found this machine learning course both rewarding and challenging. The workload is quite heavy, with a strong focus on reports (especially Report 4) and frequent quizzes, so I had to manage my time carefully to keep up.
+At times, I felt overwhelmed, particularly when multiple deadlines were close together. However, the course pushed me to really understand the material instead of just going through it superficially. In the end, I learned a lot, both in terms of theory and practical skills.
 
-Rank 3 | distance=0.3321 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-327
-Course Learnability:
-Compared to MIT's course structure, this class is less math-intensive. While the course materials include mathematical explanations, neither the homework nor the exams require manual calculations. This makes the class easier but less rigorous.
+Rank 3 | distance=0.3129 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-089
+A defining strength of the course is its emphasis on analysis and communication. Assignments go beyond implementation, requiring thoughtful experimentation, interpretation, and well-structured reports. This reflects real-world expectations where explaining model behavior is just as important as building it.
+That said, there are a few challenges students should be aware of.
 
-Rank 4 | distance=0.3384 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-040
-Review 7
-sriKQMcJ2p6HVPM/lkANFw==May 8, 2026spring 2026
-Background: Non CS undergrad. Haven't had to do math since college (almost a decade ago now). Non software engineer in technical position, working full time while doing this class. I did not remember any linear algebra coming into this. Took kbai, ml4t, and watched some other mooc lectures on ml before the semester.
-Grade: A
+Rank 4 | distance=0.3249 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-202
+The workload is excessive, with four different projects, four closed-book quizzes, and closed-book exams, all demanding a high level of preparation Overall, the structure and delivery of this course need significant improvement to be effective and fair to students. I am not sure why we forced to take this course.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 35 hours / week
 
 ================================================================================
 
 Query: Is CS 6300 Software Development Process a good first OMSCS course?
 
-Rank 1 | distance=0.2664 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-088
-However, personally, I think this course might be the easiest one in the OMSCS program for me. It feels like a second-semester freshman course that's been rebranded as a graduate course. I can't imagine any other course being easier than this. (Don't get me wrong, it's easy, but it's still useful.)
-Rating: 4 / 5Difficulty: 1 / 5Workload: 5 hours / week
-
-Rank 2 | distance=0.2717 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-051
+Rank 1 | distance=0.2717 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-051
 If you're a seasoned engineer, I wouldn't take this class unless it's part of your graduation requirements. Otherwise, it's a good class to take at the beginning of the OMSCS program.
 Rating: 3 / 5Difficulty: 3 / 5Workload: 20 hours / week
+
+Rank 2 | distance=0.2664 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-088
+However, personally, I think this course might be the easiest one in the OMSCS program for me. It feels like a second-semester freshman course that's been rebranded as a graduate course. I can't imagine any other course being easier than this. (Don't get me wrong, it's easy, but it's still useful.)
+Rating: 4 / 5Difficulty: 1 / 5Workload: 5 hours / week
 
 Rank 3 | distance=0.2942 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-197
 Review 72
@@ -75,5 +62,58 @@ TLDR: (thanks GPT!)
 During Spring 2024, I completed the CS 6300 Software Development Process course, a core requirement for the Interactive Intelligence specialization in the OMSCS program.
 As a seasoned software engineer, I approached the course to gain an academic perspective on software development.
 The course was project-based, covering topics such as Git, unit testing, Android development, and UML design.
+
+================================================================================
+
+Query: What risk shows up repeatedly in student feedback for CS 6310 Software Architecture and Design?
+
+Rank 1 | distance=0.3833 | source=Software Architecture and Design reviews | chunk=10-software-architecture-and-design-reviews-chunk-018
+The project could be cool but the assignment has very unclear instructions and the feedback from the TAs is infrequent and unhelpful.
+The class feels like it is just going through the motions of understanding software architecture but you don't actually learn much.
+The class needs a reboot from a professor who cares about the course and the subject matter.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 15 hours / week
+
+Rank 2 | distance=0.3742 | source=Software Architecture and Design reviews | chunk=10-software-architecture-and-design-reviews-chunk-163
+Review 42
+Georgia Tech StudentDecember 4, 2021fall 2021
+Yes it is very SAD indeed. Got a bad group filled with non cs people ugh ended dropping grade to B. Avoid non cs people like the comment below said
+Rating: 1 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Rank 3 | distance=0.3835 | source=Software Architecture and Design reviews | chunk=10-software-architecture-and-design-reviews-chunk-117
+Review 26
+//fwgM01UvZdQ5FStHIG1w==May 10, 2023spring 2023
+This course is relatively easy to pass, however assignment grades are arbitrary and based more on stylistic choices than actual computer science. Assignments build off of each other, but grades and feedback are often returned close to the due date of the next assignment, leaving deceptively short time to fix errors. In terms of learning CS concepts, there is minimal to no value in this course, in terms of getting a passing grade, this course is decent although at times frustrating.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 4 hours / week
+
+Rank 4 | distance=0.3950 | source=Software Architecture and Design reviews | chunk=10-software-architecture-and-design-reviews-chunk-125
+Review 31
+9ZhVYPWVOBNnkBpI+VuC6w==December 13, 2022fall 2022
+Most comments would be covered if people read more than 10 reviews and would no need to repeat here. This course may not be designerd as a hard course, but thinking about there are many novel CS learners around the class(which is true and fact) and taking this class as the OMSCS first class, you may enter into a group that either you need to be ready to work super hard to carry the group project to and A/B or say, don't care that much, just let it go!
+The TA team also release grade quite slow, they may have valid reasons but it is slow.
+
+================================================================================
+
+Query: How is CS 6603 AI, Ethics, and Society positioned compared with the other courses in this set?
+
+Rank 1 | distance=0.2802 | source=AI Ethics and Society reviews | chunk=12-ai-ethics-and-society-reviews-chunk-029
+Review 12
+waOELleCMCnHjYrwxXJVtA==July 28, 2025spring 2025
+I took CS 6603 in Summer 2025. Overall, the class was easy to complete, but it didn’t offer much depth. While I think the course has potential, especially given the importance of the subject, it didn’t deliver as much value as I had hoped.
+
+Rank 2 | distance=0.2688 | source=Software Architecture and Design reviews | chunk=10-software-architecture-and-design-reviews-chunk-259
+Review 80
+Georgia Tech StudentMay 11, 2020spring 2020
+Probably one of the easiest courses in OMSCS. I have no rigorous software engineering experience and don't come from a CS background yet managed to get an easy A.
+Take this course only if you are burnt out or paring with another heavier course
+Rating: 4 / 5Difficulty: 1 / 5Workload: 2 hours / week
+
+Rank 3 | distance=0.2850 | source=Introduction to Graduate Algorithms reviews | chunk=04-introduction-to-graduate-algorithms-reviews-chunk-320
+For prospective students, if you're eyeing OMSCS, I'd strongly recommend looking into the Interactive Intelligence specialization. It allows you to bypass this course entirely, preserving both your sanity and your wallet.
+In summary, CS 6515 is a masterclass in poor management and toxic educational environments. I cannot, in good conscience, recommend this course or any class associated with these professors and TAs. Proceed with caution.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 15 hours / week
+
+Rank 4 | distance=0.3774 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-088
+However, personally, I think this course might be the easiest one in the OMSCS program for me. It feels like a second-semester freshman course that's been rebranded as a graduate course. I can't imagine any other course being easier than this. (Don't get me wrong, it's easy, but it's still useful.)
+Rating: 4 / 5Difficulty: 1 / 5Workload: 5 hours / week
 
 ================================================================================

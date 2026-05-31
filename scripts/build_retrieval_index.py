@@ -144,6 +144,7 @@ def course_code_from_query(query: str) -> str | None:
 
 def expand_query(query: str) -> str:
     lower = query.lower()
+    course_code = course_code_from_query(query)
     additions: list[str] = []
 
     if any(token in lower for token in ["background", "prereq", "expect before", "before a student takes"]):
@@ -157,6 +158,20 @@ def expand_query(query: str) -> str:
 
     if any(token in lower for token in ["first omscs course", "first course", "beginning of the program"]):
         additions.append("good first course beginning of the program beginner friendly introductory")
+
+    if query_is_comparative(query):
+        additions.append(
+            "compare relative workload difficulty technical depth rigor math heavy coding heavy "
+            "reading discussion project based easier harder lighter less technical more technical"
+        )
+        if course_code:
+            additions.append(comparison_catalog_terms(course_code))
+
+    if any(token in lower for token in ["risk", "recurring", "repeatedly", "student feedback", "complaint"]):
+        additions.append(
+            "recurring complaint repeated issue problem downside frustration unclear instructions "
+            "group project coordination outdated material weak feedback arbitrary grading"
+        )
 
     if not additions:
         return query
@@ -229,6 +244,165 @@ def query_prefers_student_reviews(query: str) -> bool:
     )
 
 
+def query_is_comparative(query: str) -> bool:
+    lower = query.lower()
+    return any(
+        phrase in lower
+        for phrase in [
+            "compared with",
+            "compared to",
+            "compared against",
+            "compared with the other courses",
+            "other courses in this set",
+            "less technical than",
+            "more technical than",
+            "lighter than",
+            "heavier than",
+            "versus",
+            " vs ",
+        ]
+    )
+
+
+def comparison_catalog_terms(anchor_course_code: str) -> str:
+    seen_codes: set[str] = set()
+    terms: list[str] = []
+    for course_meta in COURSE_METADATA.values():
+        course_code = course_meta["course_code"]
+        if course_code == anchor_course_code or course_code in seen_codes:
+            continue
+        seen_codes.add(course_code)
+        terms.append(f"{course_code} {course_meta['course_name']}")
+    return " ".join(terms)
+
+
+def comparison_focus_query(anchor_course_code: str) -> str:
+    return (
+        "other OMSCS courses for comparison "
+        f"{comparison_catalog_terms(anchor_course_code)} "
+        "technical depth workload difficulty rigor math heavy coding heavy project based "
+        "reading discussion easier harder lighter less technical more technical"
+    )
+
+
+def is_low_signal_chunk(text: str, metadata: dict[str, Any]) -> bool:
+    lower = text.lower()
+    boilerplate_patterns = [
+        "listed as",
+        "credit hours",
+        "available to",
+        "syllabus",
+        "textbooks",
+        "lecture videos",
+        "windows xp",
+        "mac: os x",
+        "ed lessons account",
+    ]
+    if any(pattern in lower for pattern in boilerplate_patterns):
+        return True
+
+    if metadata["character_count"] < 100 and ("\n" in text or ":" in text) and not re.search(r"[.!?]", text):
+        return True
+
+    return False
+
+
+def collect_matches(
+    results: dict[str, list[list[Any]]],
+    *,
+    q_tokens: set[str],
+    prefers_official: bool,
+    prefers_reviews: bool,
+    anchor_course_code: str | None,
+    comparative_query: bool,
+) -> list[dict[str, Any]]:
+    matches: list[dict[str, Any]] = []
+    for index in range(len(results["ids"][0])):
+        metadata = results["metadatas"][0][index]
+        text = results["documents"][0][index]
+        chunk_tokens = overlap_tokens(f"{metadata['source_title']} {text}")
+        overlap_ratio = len(q_tokens & chunk_tokens) / max(len(q_tokens), 1)
+        adjusted_distance = float(results["distances"][0][index]) - (0.18 * overlap_ratio)
+        if prefers_official and metadata["source_type"] == "official page":
+            adjusted_distance -= 0.08
+        if prefers_reviews and metadata["source_type"] == "student review page":
+            adjusted_distance -= 0.05
+        if comparative_query and anchor_course_code and metadata["course_code"] == anchor_course_code:
+            adjusted_distance -= 0.03
+
+        low_signal = is_low_signal_chunk(text, metadata)
+        if low_signal:
+            adjusted_distance += 0.24
+
+        matches.append(
+            {
+                "rank": index + 1,
+                "chunk_id": results["ids"][0][index],
+                "distance": float(results["distances"][0][index]),
+                "adjusted_distance": adjusted_distance,
+                "source_title": metadata["source_title"],
+                "source_type": metadata["source_type"],
+                "url": metadata["url"],
+                "block_index": metadata["block_index"],
+                "character_count": metadata["character_count"],
+                "course_code": metadata["course_code"],
+                "low_signal": low_signal,
+                "text": text,
+            }
+        )
+    return matches
+
+
+def deduplicate_matches(matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    by_chunk_id: dict[str, dict[str, Any]] = {}
+    for match in matches:
+        existing = by_chunk_id.get(match["chunk_id"])
+        if existing is None or (match["adjusted_distance"], match["distance"]) < (
+            existing["adjusted_distance"],
+            existing["distance"],
+        ):
+            by_chunk_id[match["chunk_id"]] = match
+    return list(by_chunk_id.values())
+
+
+def select_comparative_matches(
+    matches: list[dict[str, Any]],
+    *,
+    top_k: int,
+    anchor_course_code: str,
+) -> list[dict[str, Any]]:
+    ordered = sorted(matches, key=lambda match: (match["adjusted_distance"], match["distance"]))
+    selected: list[dict[str, Any]] = []
+    selected_ids: set[str] = set()
+    seen_comparison_courses: set[str] = set()
+
+    best_anchor = next((match for match in ordered if match["course_code"] == anchor_course_code), None)
+    if best_anchor is not None:
+        selected.append(best_anchor)
+        selected_ids.add(best_anchor["chunk_id"])
+
+    for match in ordered:
+        if len(selected) >= top_k:
+            break
+        if match["chunk_id"] in selected_ids or match["course_code"] == anchor_course_code:
+            continue
+        if match["course_code"] in seen_comparison_courses:
+            continue
+        selected.append(match)
+        selected_ids.add(match["chunk_id"])
+        seen_comparison_courses.add(match["course_code"])
+
+    for match in ordered:
+        if len(selected) >= top_k:
+            break
+        if match["chunk_id"] in selected_ids:
+            continue
+        selected.append(match)
+        selected_ids.add(match["chunk_id"])
+
+    return selected[:top_k]
+
+
 def retrieve(query: str, model: SentenceTransformer, top_k: int = DEFAULT_TOP_K) -> list[dict[str, Any]]:
     collection = get_collection()
     embedded_query = expand_query(query)
@@ -241,48 +415,86 @@ def retrieve(query: str, model: SentenceTransformer, top_k: int = DEFAULT_TOP_K)
     course_code = course_code_from_query(query)
     prefers_official = query_prefers_official_page(query)
     prefers_reviews = query_prefers_student_reviews(query)
-    if course_code and prefers_official:
+    comparative_query = query_is_comparative(query)
+    if course_code and prefers_official and not comparative_query:
         where_filter = {"$and": [{"course_code": course_code}, {"source_type": "official page"}]}
-    elif course_code and prefers_reviews:
+    elif course_code and prefers_reviews and not comparative_query:
         where_filter = {"$and": [{"course_code": course_code}, {"source_type": "student review page"}]}
-    elif course_code:
+    elif course_code and not comparative_query:
         where_filter = {"course_code": course_code}
     else:
         where_filter = None
-    candidate_count = max(top_k * 4, 12)
-    results = collection.query(
-        query_embeddings=query_embedding,
-        n_results=candidate_count,
-        include=["documents", "metadatas", "distances"],
-        where=where_filter,
-    )
+    candidate_count = max(top_k * 6, 20) if comparative_query else max(top_k * 4, 12)
+    q_tokens = overlap_tokens(embedded_query)
 
-    matches: list[dict[str, Any]] = []
-    q_tokens = overlap_tokens(query)
-    for index in range(len(results["ids"][0])):
-        metadata = results["metadatas"][0][index]
-        text = results["documents"][0][index]
-        chunk_tokens = overlap_tokens(f"{metadata['source_title']} {text}")
-        overlap_ratio = len(q_tokens & chunk_tokens) / max(len(q_tokens), 1)
-        adjusted_distance = float(results["distances"][0][index]) - (0.18 * overlap_ratio)
-        if prefers_official and metadata["source_type"] == "official page":
-            adjusted_distance -= 0.08
-        matches.append(
-            {
-                "rank": index + 1,
-                "chunk_id": results["ids"][0][index],
-                "distance": float(results["distances"][0][index]),
-                "adjusted_distance": adjusted_distance,
-                "source_title": metadata["source_title"],
-                "source_type": metadata["source_type"],
-                "url": metadata["url"],
-                "block_index": metadata["block_index"],
-                "character_count": metadata["character_count"],
-                "text": text,
-            }
+    if comparative_query and course_code:
+        comparison_embedding = model.encode(
+            [comparison_focus_query(course_code)],
+            convert_to_numpy=True,
+            normalize_embeddings=True,
+            show_progress_bar=False,
+        ).tolist()
+        global_results = collection.query(
+            query_embeddings=query_embedding,
+            n_results=candidate_count,
+            include=["documents", "metadatas", "distances"],
         )
-    matches.sort(key=lambda match: (match["adjusted_distance"], match["distance"]))
-    trimmed = matches[:top_k]
+        anchor_results = collection.query(
+            query_embeddings=query_embedding,
+            n_results=max(top_k * 3, 8),
+            include=["documents", "metadatas", "distances"],
+            where={"course_code": course_code},
+        )
+        comparison_results = collection.query(
+            query_embeddings=comparison_embedding,
+            n_results=candidate_count,
+            include=["documents", "metadatas", "distances"],
+        )
+        matches = deduplicate_matches(
+            collect_matches(
+                global_results,
+                q_tokens=q_tokens,
+                prefers_official=prefers_official,
+                prefers_reviews=prefers_reviews,
+                anchor_course_code=course_code,
+                comparative_query=comparative_query,
+            )
+            + collect_matches(
+                anchor_results,
+                q_tokens=q_tokens,
+                prefers_official=prefers_official,
+                prefers_reviews=prefers_reviews,
+                anchor_course_code=course_code,
+                comparative_query=comparative_query,
+            )
+            + collect_matches(
+                comparison_results,
+                q_tokens=overlap_tokens(comparison_focus_query(course_code)),
+                prefers_official=False,
+                prefers_reviews=False,
+                anchor_course_code=course_code,
+                comparative_query=comparative_query,
+            )
+        )
+        trimmed = select_comparative_matches(matches, top_k=top_k, anchor_course_code=course_code)
+    else:
+        results = collection.query(
+            query_embeddings=query_embedding,
+            n_results=candidate_count,
+            include=["documents", "metadatas", "distances"],
+            where=where_filter,
+        )
+        matches = collect_matches(
+            results,
+            q_tokens=q_tokens,
+            prefers_official=prefers_official,
+            prefers_reviews=prefers_reviews,
+            anchor_course_code=course_code,
+            comparative_query=comparative_query,
+        )
+        matches.sort(key=lambda match: (match["adjusted_distance"], match["distance"]))
+        trimmed = matches[:top_k]
+
     for index, match in enumerate(trimmed, start=1):
         match["rank"] = index
     return trimmed
