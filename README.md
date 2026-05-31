@@ -68,9 +68,9 @@ This project covers Georgia Tech OMSCS course-selection and workload advice, wit
      Consider: context length limits, multilingual support, accuracy on domain-specific text,
      latency, and local vs. API-hosted. -->
 
-**Model used:**
+**Model used:** `all-MiniLM-L6-v2` via `sentence-transformers`
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** I used `all-MiniLM-L6-v2` because it is easy to run locally and was fast enough for a small corpus like this one. It did a good job on course-specific questions once I paired it with course-code-aware retrieval and a little query expansion for cases like prerequisites or “good first course” questions. If this were a real product, I would compare it against a stronger embedding model to see whether it handled opinion-heavy review text better, but I would still have to weigh that against speed, cost, and how much complexity I wanted in a student-facing tool.
 
 ---
 

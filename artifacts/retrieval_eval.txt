@@ -1,0 +1,79 @@
+Query: What background does CS 6515 expect before a student takes it?
+
+Rank 1 | distance=0.2778 | source=CS 6515 Intro to Graduate Algorithms | chunk=03-cs-6515-intro-to-graduate-algorithms-chunk-006
+Students are expected to have an undergraduate course on the design and analysis of algorithms. In particular, they should be familiar with basic graph algorithms, including DFS, BFS, and Dijkstra's shortest path algorithm, and basic dynamic programming and divide and conquer algorithms (including solving recurrences). An undergraduate course in discrete mathematics is assumed, and students should be comfortable analyzing the asymptotic running time of algorithms.
+
+Rank 2 | distance=0.3868 | source=CS 6515 Intro to Graduate Algorithms | chunk=03-cs-6515-intro-to-graduate-algorithms-chunk-002
+Students will learn fundamental algorithms associated with each of these domains, then practice the application of those algorithms through the design, analysis, and expression of algorithmic techniques.
+
+Rank 3 | distance=0.3897 | source=CS 6515 Intro to Graduate Algorithms | chunk=03-cs-6515-intro-to-graduate-algorithms-chunk-001
+This course is a graduate-level course in the theory of algorithm design and analysis. The course introduces several categories of algorithmic techniques, including:
+
+Rank 4 | distance=0.4363 | source=CS 6515 Intro to Graduate Algorithms | chunk=03-cs-6515-intro-to-graduate-algorithms-chunk-003
+Spring 2026 syllabus (PDF)
+Fall 2025 syllabus (PDF)
+Summer 2025 syllabus (PDF)
+
+================================================================================
+
+Query: What do students say makes CS 7641 Machine Learning difficult in practice?
+
+Rank 1 | distance=0.2686 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-276
+Review 58
+PLNqkSni4Yo64dBlTjLJ1g==May 1, 2025spring 2025
+First things first: this is a graduate-level course in a CS program—so expect to engage your brain, not just your fingers. The goal isn’t to write pristine code that passes every test case. Instead, you’re encouraged to use all the libraries at your disposal to get things running quickly, so you can focus on the real challenge: understanding why algorithms exist, when to use them, and how they behave in the wild.
+
+Rank 2 | distance=0.3261 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-001
+Machine Learning
+Name
+Listed As
+CS-7641
+Credit Hours
+3
+Available to
+CS students
+Description
+Machine learning techniques and applications. Topics include foundational issues; inductive, analytical, numerical, and theoretical approaches; and real-world applications.
+Syllabus
+Textbooks
+Machine Learning, 1st Edition
+
+Rank 3 | distance=0.3321 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-327
+Course Learnability:
+Compared to MIT's course structure, this class is less math-intensive. While the course materials include mathematical explanations, neither the homework nor the exams require manual calculations. This makes the class easier but less rigorous.
+
+Rank 4 | distance=0.3384 | source=Machine Learning reviews | chunk=06-machine-learning-reviews-chunk-040
+Review 7
+sriKQMcJ2p6HVPM/lkANFw==May 8, 2026spring 2026
+Background: Non CS undergrad. Haven't had to do math since college (almost a decade ago now). Non software engineer in technical position, working full time while doing this class. I did not remember any linear algebra coming into this. Took kbai, ml4t, and watched some other mooc lectures on ml before the semester.
+Grade: A
+
+================================================================================
+
+Query: Is CS 6300 Software Development Process a good first OMSCS course?
+
+Rank 1 | distance=0.2664 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-088
+However, personally, I think this course might be the easiest one in the OMSCS program for me. It feels like a second-semester freshman course that's been rebranded as a graduate course. I can't imagine any other course being easier than this. (Don't get me wrong, it's easy, but it's still useful.)
+Rating: 4 / 5Difficulty: 1 / 5Workload: 5 hours / week
+
+Rank 2 | distance=0.2717 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-051
+If you're a seasoned engineer, I wouldn't take this class unless it's part of your graduation requirements. Otherwise, it's a good class to take at the beginning of the OMSCS program.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 20 hours / week
+
+Rank 3 | distance=0.2942 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-197
+Review 72
+Georgia Tech StudentApril 25, 2022spring 2022
+This was my 2nd course in the OMSCS program (first was CN). Coming from a non-CS background, I was excited to take this course as I thought it would provide some very functional learning outcomes.
+I certainly did learn some important things from this course, but probably not as much as I expected. This course really honed my Git skills, as well as strengthened my Java coding, but I didn't feel like I took a wealth of new knowledge away from this course.
+Pros -
+
+Rank 4 | distance=0.3217 | source=Software Development Process reviews | chunk=08-software-development-process-reviews-chunk-052
+Review 19
+zgMHxawDF1NZxVYd8Iu4aw==December 30, 2024spring 2024
+The full review is here:
+TLDR: (thanks GPT!)
+During Spring 2024, I completed the CS 6300 Software Development Process course, a core requirement for the Interactive Intelligence specialization in the OMSCS program.
+As a seasoned software engineer, I approached the course to gain an academic perspective on software development.
+The course was project-based, covering topics such as Git, unit testing, Android development, and UML design.
+
+================================================================================

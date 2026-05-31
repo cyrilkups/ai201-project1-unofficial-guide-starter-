@@ -1,0 +1,161 @@
+[
+  {
+    "query": "What background does CS 6515 expect before a student takes it?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "03-cs-6515-intro-to-graduate-algorithms-chunk-006",
+        "distance": 0.2777838110923767,
+        "adjusted_distance": 0.10778381109237671,
+        "source_title": "CS 6515 Intro to Graduate Algorithms",
+        "source_type": "official page",
+        "url": "https://omscs.gatech.edu/cs-6515-intro-graduate-algorithms",
+        "block_index": 6,
+        "character_count": 468,
+        "text": "Students are expected to have an undergraduate course on the design and analysis of algorithms. In particular, they should be familiar with basic graph algorithms, including DFS, BFS, and Dijkstra's shortest path algorithm, and basic dynamic programming and divide and conquer algorithms (including solving recurrences). An undergraduate course in discrete mathematics is assumed, and students should be comfortable analyzing the asymptotic running time of algorithms."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "03-cs-6515-intro-to-graduate-algorithms-chunk-002",
+        "distance": 0.3868072032928467,
+        "adjusted_distance": 0.24680720329284667,
+        "source_title": "CS 6515 Intro to Graduate Algorithms",
+        "source_type": "official page",
+        "url": "https://omscs.gatech.edu/cs-6515-intro-graduate-algorithms",
+        "block_index": 2,
+        "character_count": 203,
+        "text": "Students will learn fundamental algorithms associated with each of these domains, then practice the application of those algorithms through the design, analysis, and expression of algorithmic techniques."
+      },
+      {
+        "rank": 3,
+        "chunk_id": "03-cs-6515-intro-to-graduate-algorithms-chunk-001",
+        "distance": 0.3897375464439392,
+        "adjusted_distance": 0.2497375464439392,
+        "source_title": "CS 6515 Intro to Graduate Algorithms",
+        "source_type": "official page",
+        "url": "https://omscs.gatech.edu/cs-6515-intro-graduate-algorithms",
+        "block_index": 1,
+        "character_count": 165,
+        "text": "This course is a graduate-level course in the theory of algorithm design and analysis. The course introduces several categories of algorithmic techniques, including:"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "03-cs-6515-intro-to-graduate-algorithms-chunk-003",
+        "distance": 0.436335027217865,
+        "adjusted_distance": 0.296335027217865,
+        "source_title": "CS 6515 Intro to Graduate Algorithms",
+        "source_type": "official page",
+        "url": "https://omscs.gatech.edu/cs-6515-intro-graduate-algorithms",
+        "block_index": 3,
+        "character_count": 78,
+        "text": "Spring 2026 syllabus (PDF)\nFall 2025 syllabus (PDF)\nSummer 2025 syllabus (PDF)"
+      }
+    ]
+  },
+  {
+    "query": "What do students say makes CS 7641 Machine Learning difficult in practice?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "06-machine-learning-reviews-chunk-276",
+        "distance": 0.2686117887496948,
+        "adjusted_distance": 0.1914689316068377,
+        "source_title": "Machine Learning reviews",
+        "source_type": "student review page",
+        "url": "https://www.omscentral.com/courses/machine-learning/reviews",
+        "block_index": 59,
+        "character_count": 473,
+        "text": "Review 58\nPLNqkSni4Yo64dBlTjLJ1g==May 1, 2025spring 2025\nFirst things first: this is a graduate-level course in a CS program\u2014so expect to engage your brain, not just your fingers. The goal isn\u2019t to write pristine code that passes every test case. Instead, you\u2019re encouraged to use all the libraries at your disposal to get things running quickly, so you can focus on the real challenge: understanding why algorithms exist, when to use them, and how they behave in the wild."
+      },
+      {
+        "rank": 2,
+        "chunk_id": "06-machine-learning-reviews-chunk-001",
+        "distance": 0.3260785937309265,
+        "adjusted_distance": 0.2489357365880694,
+        "source_title": "Machine Learning reviews",
+        "source_type": "student review page",
+        "url": "https://www.omscentral.com/courses/machine-learning/reviews",
+        "block_index": 1,
+        "character_count": 313,
+        "text": "Machine Learning\nName\nListed As\nCS-7641\nCredit Hours\n3\nAvailable to\nCS students\nDescription\nMachine learning techniques and applications. Topics include foundational issues; inductive, analytical, numerical, and theoretical approaches; and real-world applications.\nSyllabus\nTextbooks\nMachine Learning, 1st Edition"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "06-machine-learning-reviews-chunk-327",
+        "distance": 0.33207517862319946,
+        "adjusted_distance": 0.25493232148034234,
+        "source_title": "Machine Learning reviews",
+        "source_type": "student review page",
+        "url": "https://www.omscentral.com/courses/machine-learning/reviews",
+        "block_index": 69,
+        "character_count": 264,
+        "text": "Course Learnability:\nCompared to MIT's course structure, this class is less math-intensive. While the course materials include mathematical explanations, neither the homework nor the exams require manual calculations. This makes the class easier but less rigorous."
+      },
+      {
+        "rank": 4,
+        "chunk_id": "06-machine-learning-reviews-chunk-040",
+        "distance": 0.3384014964103699,
+        "adjusted_distance": 0.26125863926751275,
+        "source_title": "Machine Learning reviews",
+        "source_type": "student review page",
+        "url": "https://www.omscentral.com/courses/machine-learning/reviews",
+        "block_index": 8,
+        "character_count": 382,
+        "text": "Review 7\nsriKQMcJ2p6HVPM/lkANFw==May 8, 2026spring 2026\nBackground: Non CS undergrad. Haven't had to do math since college (almost a decade ago now). Non software engineer in technical position, working full time while doing this class. I did not remember any linear algebra coming into this. Took kbai, ml4t, and watched some other mooc lectures on ml before the semester.\nGrade: A"
+      }
+    ]
+  },
+  {
+    "query": "Is CS 6300 Software Development Process a good first OMSCS course?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "08-software-development-process-reviews-chunk-088",
+        "distance": 0.26643335819244385,
+        "adjusted_distance": 0.16643335819244384,
+        "source_title": "Software Development Process reviews",
+        "source_type": "student review page",
+        "url": "https://www.omscentral.com/courses/software-development-process/reviews",
+        "block_index": 33,
+        "character_count": 354,
+        "text": "However, personally, I think this course might be the easiest one in the OMSCS program for me. It feels like a second-semester freshman course that's been rebranded as a graduate course. I can't imagine any other course being easier than this. (Don't get me wrong, it's easy, but it's still useful.)\nRating: 4 / 5Difficulty: 1 / 5Workload: 5 hours / week"
+      },
+      {
+        "rank": 2,
+        "chunk_id": "08-software-development-process-reviews-chunk-051",
+        "distance": 0.27167654037475586,
+        "adjusted_distance": 0.17167654037475585,
+        "source_title": "Software Development Process reviews",
+        "source_type": "student review page",
+        "url": "https://www.omscentral.com/courses/software-development-process/reviews",
+        "block_index": 19,
+        "character_count": 239,
+        "text": "If you're a seasoned engineer, I wouldn't take this class unless it's part of your graduation requirements. Otherwise, it's a good class to take at the beginning of the OMSCS program.\nRating: 3 / 5Difficulty: 3 / 5Workload: 20 hours / week"
+      },
+      {
+        "rank": 3,
+        "chunk_id": "08-software-development-process-reviews-chunk-197",
+        "distance": 0.2942155599594116,
+        "adjusted_distance": 0.17421555995941163,
+        "source_title": "Software Development Process reviews",
+        "source_type": "student review page",
+        "url": "https://www.omscentral.com/courses/software-development-process/reviews",
+        "block_index": 73,
+        "character_count": 520,
+        "text": "Review 72\nGeorgia Tech StudentApril 25, 2022spring 2022\nThis was my 2nd course in the OMSCS program (first was CN). Coming from a non-CS background, I was excited to take this course as I thought it would provide some very functional learning outcomes.\nI certainly did learn some important things from this course, but probably not as much as I expected. This course really honed my Git skills, as well as strengthened my Java coding, but I didn't feel like I took a wealth of new knowledge away from this course.\nPros -"
+      },
+      {
+        "rank": 4,
+        "chunk_id": "08-software-development-process-reviews-chunk-052",
+        "distance": 0.32168054580688477,
+        "adjusted_distance": 0.18168054580688478,
+        "source_title": "Software Development Process reviews",
+        "source_type": "student review page",
+        "url": "https://www.omscentral.com/courses/software-development-process/reviews",
+        "block_index": 20,
+        "character_count": 501,
+        "text": "Review 19\nzgMHxawDF1NZxVYd8Iu4aw==December 30, 2024spring 2024\nThe full review is here:\nTLDR: (thanks GPT!)\nDuring Spring 2024, I completed the CS 6300 Software Development Process course, a core requirement for the Interactive Intelligence specialization in the OMSCS program.\nAs a seasoned software engineer, I approached the course to gain an academic perspective on software development.\nThe course was project-based, covering topics such as Git, unit testing, Android development, and UML design."
+      }
+    ]
+  }
+]
