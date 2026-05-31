@@ -101,13 +101,13 @@ Source attribution is enforced in two ways. First, the LLM sees each retrieved c
      Be honest — a partially accurate or inaccurate result that you explain well is more
      valuable than a suspiciously perfect result. -->
 
-| # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
+| # | Question | Expected answer | Actual response (excerpt) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | What background does CS 6515 expect before a student takes it? | Strong undergraduate algorithms background, including graph algorithms, dynamic programming, divide-and-conquer, and discrete math. | The system answered with the official prerequisite list from the OMSCS page and cited the GA course page. | Relevant | Accurate |
-| 2 | What do students say makes CS 7641 Machine Learning difficult in practice? | It is time-intensive, concept-heavy, and difficult because students have to understand and explain model behavior, not just code. | The system said students find ML hard because of the heavy workload and the need to understand why algorithms behave the way they do, not just write code. | Relevant | Accurate |
-| 3 | Is CS 6300 Software Development Process a good first OMSCS course? | Usually yes for newer students, though experienced engineers may find it basic. | The system answered yes overall, while noting that experienced engineers may find it less valuable. | Relevant | Accurate |
-| 4 | What risk shows up repeatedly in student feedback for CS 6310 Software Architecture and Design? | Group-project problems and mixed opinions about assignment clarity, grading, and course value. | The system identified bad group assignments, unclear project instructions, weak TA feedback, and slow or arbitrary grading as recurring risks. | Relevant | Accurate |
-| 5 | How is CS 6603 AI, Ethics, and Society positioned compared with the other courses in this set? | It should come across as lighter-weight and less technical than classes like GA or ML, with more reading and discussion. | The system declined with `I don't have enough information on that.` instead of giving a comparison answer. | Partially relevant | Partially accurate |
+| 1 | What background does CS 6515 expect before a student takes it? | Strong undergraduate algorithms background, including graph algorithms, dynamic programming, divide-and-conquer, and discrete math. | `CS 6515 expects students to have an undergraduate course on the design and analysis of algorithms... Students should also be comfortable with discrete mathematics and analyzing the asymptotic running time of algorithms [Source 1].` | Relevant | Accurate |
+| 2 | What do students say makes CS 7641 Machine Learning difficult in practice? | It is time-intensive, concept-heavy, and difficult because students have to understand and explain model behavior, not just code. | `According to the students, what makes CS 7641 Machine Learning difficult in practice includes the heavy workload with a strong focus on reports and frequent quizzes... and understanding why algorithms exist, when to use them, and how they behave in the wild [Source 1].` | Relevant | Accurate |
+| 3 | Is CS 6300 Software Development Process a good first OMSCS course? | Usually yes for newer students, though experienced engineers may find it basic. | `According to the provided context snippets, CS 6300 Software Development Process can be a good first OMSCS course... the consensus leans towards it being a viable option for an early course in the OMSCS program [Source 1, Source 2].` | Relevant | Accurate |
+| 4 | What risk shows up repeatedly in student feedback for CS 6310 Software Architecture and Design? | Group-project problems and mixed opinions about assignment clarity, grading, and course value. | `The risk that shows up repeatedly... is the risk of being assigned to a bad group... Additionally, there is a risk of arbitrary and slow grading, with feedback being returned close to the due date of the next assignment [Source 3, Source 4].` | Relevant | Accurate |
+| 5 | How is CS 6603 AI, Ethics, and Society positioned compared with the other courses in this set? | It should come across as lighter-weight and less technical than classes like GA or ML, with more reading and discussion. | `CS 6603 AI, Ethics, and Society is considered an easy course... it can be positioned as one of the easier ones... However, it is much easier than Introduction to Graduate Algorithms [Source 3].` | Partially relevant | Partially accurate |
 
 **Top retrieved chunks by question:**
 
@@ -141,15 +141,15 @@ How is CS 6603 AI, Ethics, and Society positioned compared with the other course
 
 **What the system returned:**
 
-`I don't have enough information on that.`
+`CS 6603 AI, Ethics, and Society is considered an easy course... it can be positioned as one of the easier ones... However, it is much easier than Introduction to Graduate Algorithms [Source 3].`
 
 **Root cause (tied to a specific pipeline stage):**
 
-This failure came from the retrieval-plus-generation handoff, not from a broken API call. Retrieval did find some useful `CS 6603` review chunks and cross-course comparison chunks, but they were mostly short opinion snippets rather than explicit side-by-side comparisons. Because the generation prompt is intentionally strict, the model chose to decline instead of stitching together a comparison that was only indirectly supported.
+This failure still comes from the retrieval-plus-generation handoff. Retrieval found relevant chunks about `CS 6603` being easy and also found chunks from easier and harder comparison courses, but those chunks were indirect difficulty opinions, not explicit statements about `CS 6603` being more reading/discussion-oriented or less technical. The model then stitched those snippets into a shallow "easy versus hard" comparison, which is partially grounded but misses the richer comparison the question actually asked for.
 
 **What you would change to fix it:**
 
-I would improve the retrieval stage for comparison questions by adding course-level summary chunks or a small post-retrieval summarization step that groups evidence by course before sending it to the LLM. That would give the model clearer comparative context without relaxing the grounding rule.
+I would improve the retrieval stage for comparison questions by adding course-level summary chunks or a small post-retrieval summarization step that groups evidence by course before sending it to the LLM. That would give the model more direct comparative evidence about technical depth, reading load, and course style instead of forcing it to infer too much from scattered review snippets.
 
 ---
 
