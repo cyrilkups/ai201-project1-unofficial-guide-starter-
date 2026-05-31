@@ -44,11 +44,11 @@ This unofficial guide focuses on Georgia Tech OMSCS course-selection and workloa
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:** 650 characters target per chunk
 
-**Overlap:**
+**Overlap:** 120 characters when a segment must be split; no overlap when a single review or paragraph already fits in one chunk
 
-**Reasoning:**
+**Reasoning:** This corpus mixes very short student reviews with shorter official course pages and one longer Reddit planning thread, so I do not want a one-size-fits-all splitter that ignores document structure. I plan to split on natural boundaries first: individual review entries for OMSCentral, paragraphs or bullet sections for official OMSCS pages, and paragraph-level comments for Reddit. If any single unit is longer than 650 characters, I will fall back to a sliding window with 120 characters of overlap so details like "the projects are useful but the group work is frustrating" do not get cut across boundaries. A smaller chunk size would risk separating workload comments from the course name or context, while a much larger chunk size would blur together multiple opinions from different reviewers and hurt retrieval precision.
 
 ---
 
@@ -60,11 +60,11 @@ This unofficial guide focuses on Georgia Tech OMSCS course-selection and workloa
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:** `all-MiniLM-L6-v2` via `sentence-transformers`
 
-**Top-k:**
+**Top-k:** 4
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** I am choosing `all-MiniLM-L6-v2` because it is fast, local, and strong enough for a small course-advice corpus where the main job is matching conceptually similar phrases like "good first class," "manageable workload," or "math heavy" even when the exact wording changes. Retrieving the top 4 chunks should give the generator enough evidence from both official and student sources without flooding the prompt with repetitive or contradictory reviews. If cost were not a constraint in a production system, I would compare this local model against a larger embedding model with stronger nuance on opinion-heavy text, because student reviews often use slang, abbreviations, and indirect judgments instead of formal descriptions. I would weigh that gain in retrieval accuracy against latency, hosting cost, privacy of student-written text, and whether a larger model handled longer Reddit-style discussion chunks better.
 
 ---
 
@@ -91,9 +91,9 @@ This unofficial guide focuses on Georgia Tech OMSCS course-selection and workloa
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Mixed writing styles could pull retrieval in the wrong direction. Official OMSCS pages use formal catalog language, while students use abbreviations like GA, ML, SDP, and SAD plus subjective phrases like "good starter" or "sneaky workload." A query about "best first course" might accidentally retrieve only official descriptions unless chunk metadata and the grounding prompt keep student-review evidence visible.
 
-2.
+2. Review pages are noisy and sometimes contradictory. One student may call a course manageable while another calls it overwhelming, and the useful claim may only appear in one sentence inside a larger review. If chunks are too large, multiple opinions will be blended together; if they are too small, retrieval may return a sentiment without enough context to know whether it refers to workload, grading, group projects, or prerequisites.
 
 ---
 
@@ -105,7 +105,13 @@ This unofficial guide focuses on Georgia Tech OMSCS course-selection and workloa
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
----
+```mermaid
+flowchart LR
+    A[Document Ingestion\nsource_manifest.csv + Python fetch/cleaning] --> B[Chunking\nreview or paragraph first\n650 char target / 120 overlap]
+    B --> C[Embedding + Vector Store\nsentence-transformers\nall-MiniLM-L6-v2 + ChromaDB]
+    C --> D[Retrieval\nsemantic search\nTop-k = 4]
+    D --> E[Generation\nGroq API with grounded prompt\nand source attribution]
+```
 
 ## AI Tool Plan
 
@@ -119,8 +125,8 @@ This unofficial guide focuses on Georgia Tech OMSCS course-selection and workloa
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
-**Milestone 3 — Ingestion and chunking:**
+**Milestone 3 — Ingestion and chunking:** I will give Codex my Domain, Documents, and Chunking Strategy sections plus `documents/source_manifest.csv`, then ask it to implement the ingestion script that loads each source, extracts plain text, and splits it into chunks with source metadata. I expect it to produce chunking code and a reproducible output format such as JSON records with `source`, `url`, `chunk_id`, and `text`. I will verify the result by manually inspecting sample chunks from one official page, one OMSCentral review page, and the Reddit thread to confirm that each chunk preserves a complete thought and includes enough source information for citation later.
 
-**Milestone 4 — Embedding and retrieval:**
+**Milestone 4 — Embedding and retrieval:** I will give Codex my Retrieval Approach section and ask it to implement an indexing script using `all-MiniLM-L6-v2` and ChromaDB, plus a retrieval function that returns the top 4 most relevant chunks with similarity scores and source labels. I expect code that builds the vector store, persists it locally, and supports repeatable search queries. I will verify it by running my five evaluation questions and checking whether the retrieved chunks mention the correct course and the right aspect of that course, such as prerequisites, workload, or group-project risk.
 
-**Milestone 5 — Generation and interface:**
+**Milestone 5 — Generation and interface:** I will give Codex my Retrieval Approach and Evaluation Plan sections and ask it to implement a grounded answer-generation function and a simple interface, most likely CLI first and optionally Gradio if time allows. I expect it to produce a Groq-backed response step that answers only from the retrieved chunks and formats citations clearly. I will verify the output by checking that answers cite the retrieved sources, stay within the evidence, and admit uncertainty when the retrieved context does not support a stronger claim.
