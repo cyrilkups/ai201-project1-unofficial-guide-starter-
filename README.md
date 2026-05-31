@@ -85,7 +85,11 @@ This project covers Georgia Tech OMSCS course-selection and workload advice, wit
 
 **System prompt grounding instruction:**
 
+My generation step uses a strict system prompt in `query.py` with rules like: "Use only the provided context snippets," "Do not use outside knowledge, guesses, or generic advice," and "If the context is missing, weak, or does not directly answer the question, reply with exactly: `I don't have enough information on that.`" I also require inline source labels such as `[Source 1]` so the model has to tie each claim back to one of the retrieved snippets instead of answering from memory.
+
 **How source attribution is surfaced in the response:**
+
+Source attribution is enforced in two ways. First, the LLM sees each retrieved chunk wrapped in a labeled block like `[Source 1]`, plus the source title and URL. Second, after generation, the app programmatically returns a `Retrieved from` list built from the actual retrieved chunks, so the interface always shows which documents supported the answer even if the model's wording is short. I also filter out weak retrieval cases before generation: if the best chunks are low-signal or too distant, the system returns `I don't have enough information on that.` without asking the model to improvise.
 
 ---
 
@@ -97,11 +101,11 @@ This project covers Georgia Tech OMSCS course-selection and workload advice, wit
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | What background does CS 6515 expect before a student takes it? | Strong undergraduate algorithms background, including graph algorithms, dynamic programming, divide-and-conquer, and discrete math. | The system answered with the official prerequisite list from the OMSCS page and cited the GA course page. | Relevant | Accurate |
+| 2 | What do students say makes CS 7641 Machine Learning difficult in practice? | It is time-intensive, concept-heavy, and difficult because students have to understand and explain model behavior, not just code. | The system said students find ML hard because of the heavy workload and the need to understand why algorithms behave the way they do, not just write code. | Relevant | Accurate |
+| 3 | Is CS 6300 Software Development Process a good first OMSCS course? | Usually yes for newer students, though experienced engineers may find it basic. | The system answered yes overall, while noting that experienced engineers may find it less valuable. | Relevant | Accurate |
+| 4 | What risk shows up repeatedly in student feedback for CS 6310 Software Architecture and Design? | Group-project problems and mixed opinions about assignment clarity, grading, and course value. | The system identified bad group assignments, unclear project instructions, weak TA feedback, and slow or arbitrary grading as recurring risks. | Relevant | Accurate |
+| 5 | How is CS 6603 AI, Ethics, and Society positioned compared with the other courses in this set? | It should come across as lighter-weight and less technical than classes like GA or ML, with more reading and discussion. | The system declined with `I don't have enough information on that.` instead of giving a comparison answer. | Partially relevant | Partially accurate |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
@@ -123,11 +127,19 @@ This project covers Georgia Tech OMSCS course-selection and workload advice, wit
 
 **Question that failed:**
 
+How is CS 6603 AI, Ethics, and Society positioned compared with the other courses in this set?
+
 **What the system returned:**
+
+`I don't have enough information on that.`
 
 **Root cause (tied to a specific pipeline stage):**
 
+This failure came from the retrieval-plus-generation handoff, not from a broken API call. Retrieval did find some useful `CS 6603` review chunks and cross-course comparison chunks, but they were mostly short opinion snippets rather than explicit side-by-side comparisons. Because the generation prompt is intentionally strict, the model chose to decline instead of stitching together a comparison that was only indirectly supported.
+
 **What you would change to fix it:**
+
+I would improve the retrieval stage for comparison questions by adding course-level summary chunks or a small post-retrieval summarization step that groups evidence by course before sending it to the LLM. That would give the model clearer comparative context without relaxing the grounding rule.
 
 ---
 
