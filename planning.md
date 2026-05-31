@@ -11,7 +11,7 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
-This unofficial guide focuses on Georgia Tech OMSCS course-selection and workload advice, especially the first-year decisions students make about which classes to take, how hard they really are, and what background they assume. That knowledge is valuable because the official OMSCS pages explain course goals and prerequisites, but they do not capture week-to-week workload, how forgiving a course is for newcomers, whether group projects go smoothly, or which classes students consistently describe as good entry points. Student reviews and planning threads contain that tacit knowledge, but it is scattered across review feeds and Reddit discussions instead of living in one searchable place.
+This unofficial guide is about Georgia Tech OMSCS course planning, especially the questions students usually have at the start of the program. The official course pages explain what a class covers, but they do not really tell you how heavy the workload feels, whether a course is beginner-friendly, how stressful the projects are, or what students wish they had known before enrolling. That kind of advice exists, but it is spread across review sites and Reddit threads instead of being easy to search in one place.
 
 ---
 
@@ -48,7 +48,7 @@ This unofficial guide focuses on Georgia Tech OMSCS course-selection and workloa
 
 **Overlap:** 120 characters when a segment must be split; no overlap when a single review or paragraph already fits in one chunk
 
-**Reasoning:** This corpus mixes very short student reviews with shorter official course pages and one longer Reddit planning thread, so I do not want a one-size-fits-all splitter that ignores document structure. I plan to split on natural boundaries first: individual review entries for OMSCentral, paragraphs or bullet sections for official OMSCS pages, and paragraph-level comments for Reddit. If any single unit is longer than 650 characters, I will fall back to a sliding window with 120 characters of overlap so details like "the projects are useful but the group work is frustrating" do not get cut across boundaries. A smaller chunk size would risk separating workload comments from the course name or context, while a much larger chunk size would blur together multiple opinions from different reviewers and hurt retrieval precision.
+**Reasoning:** My sources are a mix of short student reviews, short official course pages, and one longer Reddit thread, so I do not want to split everything the exact same way. I plan to keep natural units when possible: one review at a time for OMSCentral, paragraph or bullet sections for official pages, and paragraph-level comments for Reddit. If a section is too long, I will split it with a 120-character overlap so important details are not cut in half. I chose 650 characters because it is large enough to keep a full thought together, but still small enough to avoid stuffing too many different opinions into one chunk.
 
 ---
 
@@ -64,7 +64,7 @@ This unofficial guide focuses on Georgia Tech OMSCS course-selection and workloa
 
 **Top-k:** 4
 
-**Production tradeoff reflection:** I am choosing `all-MiniLM-L6-v2` because it is fast, local, and strong enough for a small course-advice corpus where the main job is matching conceptually similar phrases like "good first class," "manageable workload," or "math heavy" even when the exact wording changes. Retrieving the top 4 chunks should give the generator enough evidence from both official and student sources without flooding the prompt with repetitive or contradictory reviews. If cost were not a constraint in a production system, I would compare this local model against a larger embedding model with stronger nuance on opinion-heavy text, because student reviews often use slang, abbreviations, and indirect judgments instead of formal descriptions. I would weigh that gain in retrieval accuracy against latency, hosting cost, privacy of student-written text, and whether a larger model handled longer Reddit-style discussion chunks better.
+**Production tradeoff reflection:** I chose `all-MiniLM-L6-v2` because it is fast, local, and should work well for a small project like this. The main goal is to match ideas, not just exact words, so it should still connect phrases like "good first class" and "manageable workload" even if the wording is different. I picked top-4 retrieval because it should give the model enough evidence without overwhelming it with repeated or conflicting reviews. If I were building this for real users with a bigger budget, I would compare it against a stronger embedding model to see if it handled opinion-heavy student writing better, but I would also have to think about speed, cost, and privacy.
 
 ---
 
@@ -91,9 +91,9 @@ This unofficial guide focuses on Georgia Tech OMSCS course-selection and workloa
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1. Mixed writing styles could pull retrieval in the wrong direction. Official OMSCS pages use formal catalog language, while students use abbreviations like GA, ML, SDP, and SAD plus subjective phrases like "good starter" or "sneaky workload." A query about "best first course" might accidentally retrieve only official descriptions unless chunk metadata and the grounding prompt keep student-review evidence visible.
+1. The sources do not all sound the same. Official OMSCS pages are formal, but student reviews use shorthand like GA, ML, SDP, and SAD and say things in a much more casual way. That could make retrieval miss the student perspective if the system leans too much on official language.
 
-2. Review pages are noisy and sometimes contradictory. One student may call a course manageable while another calls it overwhelming, and the useful claim may only appear in one sentence inside a larger review. If chunks are too large, multiple opinions will be blended together; if they are too small, retrieval may return a sentiment without enough context to know whether it refers to workload, grading, group projects, or prerequisites.
+2. Student reviews can be messy and sometimes disagree with each other. One person might say a class is manageable while another says it is overwhelming. If my chunks are too big, those opinions get mixed together; if they are too small, I might retrieve a sentence without enough context to know what the student was actually talking about.
 
 ---
 
@@ -125,8 +125,8 @@ flowchart LR
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
-**Milestone 3 — Ingestion and chunking:** I will give Codex my Domain, Documents, and Chunking Strategy sections plus `documents/source_manifest.csv`, then ask it to implement the ingestion script that loads each source, extracts plain text, and splits it into chunks with source metadata. I expect it to produce chunking code and a reproducible output format such as JSON records with `source`, `url`, `chunk_id`, and `text`. I will verify the result by manually inspecting sample chunks from one official page, one OMSCentral review page, and the Reddit thread to confirm that each chunk preserves a complete thought and includes enough source information for citation later.
+**Milestone 3 — Ingestion and chunking:** I will give Codex my Domain, Documents, and Chunking Strategy sections plus `documents/source_manifest.csv`, then ask it to build the ingestion script. I want it to load each source, clean the text, and split it into chunks with metadata like source name, URL, and chunk ID. I will check the result by reading sample chunks from an official page, an OMSCentral review page, and the Reddit thread to make sure each chunk still feels readable and complete.
 
-**Milestone 4 — Embedding and retrieval:** I will give Codex my Retrieval Approach section and ask it to implement an indexing script using `all-MiniLM-L6-v2` and ChromaDB, plus a retrieval function that returns the top 4 most relevant chunks with similarity scores and source labels. I expect code that builds the vector store, persists it locally, and supports repeatable search queries. I will verify it by running my five evaluation questions and checking whether the retrieved chunks mention the correct course and the right aspect of that course, such as prerequisites, workload, or group-project risk.
+**Milestone 4 — Embedding and retrieval:** I will give Codex my Retrieval Approach section and ask it to build the indexing and search steps using `all-MiniLM-L6-v2` and ChromaDB. I want a retrieval function that returns the top 4 relevant chunks along with their source labels. I will test it with my five evaluation questions and check whether the retrieved results actually talk about the right course and the right issue, like workload, prerequisites, or group projects.
 
-**Milestone 5 — Generation and interface:** I will give Codex my Retrieval Approach and Evaluation Plan sections and ask it to implement a grounded answer-generation function and a simple interface, most likely CLI first and optionally Gradio if time allows. I expect it to produce a Groq-backed response step that answers only from the retrieved chunks and formats citations clearly. I will verify the output by checking that answers cite the retrieved sources, stay within the evidence, and admit uncertainty when the retrieved context does not support a stronger claim.
+**Milestone 5 — Generation and interface:** I will give Codex my Retrieval Approach and Evaluation Plan sections and ask it to build a grounded answer step plus a simple interface, probably CLI first and maybe Gradio later if I have time. I want the model to answer only from the retrieved chunks and clearly show where the information came from. I will verify that by checking whether answers stay close to the sources, include citations, and avoid making claims that are not supported by the retrieved text.
