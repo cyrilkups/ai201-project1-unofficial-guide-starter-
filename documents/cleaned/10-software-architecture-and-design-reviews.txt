@@ -1,0 +1,891 @@
+Software Architecture and Design
+Name
+Listed As
+CS-6310
+Credit Hours
+3
+Available to
+CS students
+Description
+This project-based course will cover fundamental principles, advanced techniques, and tools for the development of high-quality, industrial-strength software.
+Syllabus
+Textbooks
+No textbooks found.
+
+Review 1
+SnsPepK++V1+zn6C+Qu/9A==May 4, 2026fall 2025
+The content of this course is a mixed bag, it will basically go through all sorts of architectural styles that have been used since the very inception of the concept. It does not give any opinions as to what styles are good or bad, and thus there are some things you'll have to throw out of your mind after the fact if you want to become a successful architect (e.g. unified process, agile). So it's a good way to find out what's out there in the wild, but not necessarily what works in practice. There is a big disclaimer for this at the beginning of the course that design can't be directly taught, and that's totally fair.
+The fun part of the course is the project. That's where you really get to see if the design you make actually comes together well and works with a whole team touching the code. I came into the course with some architecture skills already, so take this whole thing with a bag of salt, but it was satisfying to put what I knew to the test and seeing the different features work properly faster than I ever see in the madness of corporate America. Tip for anyone who wants to have a successful project: write tests ASAP for any lower level modules you finish as you progress. They will give you the peace of mind you need to move forward and trust that things are working properly in the layers you've previously made. It's always harder to debug when there's more code involved.
+I should also mention that the workload of this course is uneven. It's mostly chill, but the 2nd part of the project will be a significant spike.
+Rating: 4 / 5Difficulty: 2 / 5Workload: 10 hours / week
+
+Review 2
+ox72rJvxb4n3IWluHcPZMA==April 7, 2026spring 2026
+Overall, this was a great course that took a deep dive into Class Model Diagrams and Sequence Diagrams. It really pushes you to think from an architect's perspective, which is a valuable shift in mindset. If you stay on top of the assignments and quizzes, you'll be well-prepared for the exams.
+Rating: 5 / 5Difficulty: 2 / 5Workload: 8 hours / week
+
+Review 3
+LdUCwaravOrZ37Up9FutNA==May 6, 2025spring 2025
+My background: This was my fourth course in the program. I have a BS in CS from a while back.
+The course:
+The graded components are:
+39 lecture sections with an associated quiz. These quizzes can be taken an unlimited number of times. Use your resources to figure out how to get 100 on them. Your five lowest quizzes here are dropped. Do these as early as possible so you have time for other things.
+Assignment quizzes - there are 7 of these. All allow 2 attempts. Aside from the 1st quiz, which is all about not cheating and such, your lowest of the 6 remaining grades is dropped. If you remember your selections from your first attempt, you should be able to ace this.
+Team surveys: you get to grade yourself and your teammates on participation of your team project at the end of each half of your project. You get graded for the completeness of your comment and on how your team scored you.
+Ed Discussion - participate in Ed Discussions. There is no rubric, per se. Everyone will ask how it's scored. The answer is... its scored basedon whether you've been reading your Ed Discussions all term. Maybe you ask a few questions. Maybe you answer a few. If you're participating, you'll get the points. You know if you've been doing enough.
+All of the above, accounting for 40% of your grade, are relatively easy to get even if you have about no knowledge of computer science.
+The remaining 60 percent is the fun.
+You have two exams worth 20% of the grade. Your lower of the two exams is dropped. You'll get your exam 1 score frighteningly close to your exam 2 deadline.
+For the first exam, you are given two sets of three UML class diagrams created by prior students for a prior assignment. Your goal is to rank three diagrams from each set from best to worst. You must also give a healthy explanation as to your grading. If you pick wrong, but your reasoning is sensible, you can get partial credit. If you really know your UML classes and connectors, this may be painless. You even get the assignment details ahead of time and can practice making your own diagram.
+Exam 2 is all about sequence diagrams. Once again, you get the problem ahead of time, though it has slight adjustments in the exam. You have to make your sequences based on actions described in the exam. It is a mad dash to finish. Figure out which online program you can use most efficiently because you will need the time.
+The rest are assignments. Assignments 1 and 3 are a team assignments. I have never had a bad time getting on a team as early as possible, so I highly recommend doing that.
+Assignment 1 is building a UML class and a couple sequences. This is a great time to figure out who is good at what and get everything put together.
+Assignment 2 is an individual assignment where you grade 3 other teams' diagrams. You will be writing a LOT. It works out to a good 5 pages worth of writing. Use Motepad to compile all your notes then drop in the simple text box.
+Assignment 3 updates your assignment 1 task and requires you build a full program with a front-end and multiple documents, along with a video explaining the program. This will be a lot of work, especially as you're also working on 3 quiz assignments and taking exam 2, as needed. Be prepared for a meltdown.
+All grades seem to take about 4 - 5 weeks to come out. I never got my exam 2 or assignment 3 grades, judt my letter grade. It was a bit of an experience.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 15 hours / week
+
+Review 4
+RadUHmNAM2Eel0fvwEKV6ClfqQzavWZESRkwywSXU/0=April 23, 2025fall 2024
+I think there's only one set of lectures that is useful (class diagrams). The rest is not used and I wish it was because it's important content. When I say used I mean in assignments, this is the best way to learn.
+Attending/watching all office hours and staying on top of Ed is necessary for this course since instructions in the assignments are not clear enough and don't suffice which is really annoying.
+The project was interesting and I had a good group. I was able to form my own group. I think this course could use a revamp since Software Architecture and Design is very crucial and the only thing this course covers is UML class diagrams and sequence diagrams which is very basic.
+Rating: 2 / 5Difficulty: 3 / 5Workload: 10 hours / week
+
+Review 5
+wLMhvXbZKQ3IINBkNGi+iw==April 21, 2025spring 2025
+This could be an interesting class but it feels very low effort from the professors / TA. The videos seem like they are 20 years old. There is a high emphasis placed on UML diagrams but they are often applied inappropriately, not explained well, and feel like a waste of time in many cases. The quizzes are trivial. The exams are graded in a very arbitrary way. The bulk of the class is the group project. If you have good team members it won't be bad, but if you do not have good team members it can be a significant commitment. The project could be cool but the assignment has very unclear instructions and the feedback from the TAs is infrequent and unhelpful. The class feels like it is just going through the motions of understanding software architecture but you don't actually learn much. The class needs a reboot from a professor who cares about the course and the subject matter.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 15 hours / week
+
+Review 6
+HeiTHwPz+3EI+hLqWEUPVw==April 15, 2025spring 2025
+The material in this course isn't hard at all, it's frustrating nonetheless because the way this course is ran is a logistical nightmare. Nothing in this class will blindside you if you have prior experience with OOP design principles.
+Lectures: The lecture content is very dry for the first half of the class, like many others have said. They get interesting in the latter half, but the course is backloaded so I found myself more concerned with getting all of the assignments and the project done rather than with the lectures. The way the lectures and lecture quizzes are handled are very careless. All of the lectures are split jarringly into 30s-1m snippets of video and the lecture quizzes feel like nonsense as well.
+Reading: These aren't too bad. There's 1 assigned reading every other week, on average, and the reading quizzes are easy enough.
+Exams: There are two exams with the lowest scoring one being dropped, so your best exam makes up 20% of the final grade. You're given UML diagrams for a written scenario and have to rank them based on design principles. There's a 90 minute time limit, and I found myself and many others on Ed talking about taking all of the allotted time to do it. You need to prepare for this by reading the write-up beforehand and making your own mock diagrams so you don't spend extra time on the exam trying to understand the problem. The grading can be subjective, but about 70% of the points on the exam is in the justification so be ready to defend your choices. In my opinion, exam 2 is harder than exam 1.
+Project: This is the bulk of the workload and time spent in this course.
+Project Group Logistics: Your group will 100% determine how smooth this project goes. There's a matchmaking thread within the first week or two, PLEASE DO NOT MISS THIS. Do not let yourself get matched randomly and please make sure that you find group members that you can work with, are communicative, and accountable. Also, try to aim for 3-4 members, the lower the better, since there are less hoops to jump through when deciding things. If you end up in random matchmaking, best of luck. The project implementation is very doable solo, but you still end up having to keep everyone involved for people that will contribute nothing.
+Project Requirements: You'll be implementing a sort of Pokemon autobattler using Java with a front-end interface. This isn't too bad, but there's no reason they should be this vague with the requirements. There are things never mentioned in the write-up and the only way you can find the answer is to go to OH or ask in Ed when you get blindsided by an obscure functionality. They'll ask you to add modifications, ranging from non-functional (security, authentication, persistence) to functional (more gameplay mechanics resembling the real franchise). If you've taken SDP before, then this is very similar to that Android app. However, you're given less time, more features to implement, and on-top of that, a bunch of diagrams and a 10-minute demonstration video.
+All in all, this is a poorly ran course, and it's unfortunate that the same concerns echoed 6 years ago on Reddit and this forum are still not addressed. It seems like no one cares about anything, from the staff to the students themselves. You'll pass, but know that barely anything has changed from the constant complaints that have existed since this course's inception and I'm disappointed that I didn't believe them.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 15 hours / week
+
+Review 7
+w+BVGxdf9QhUa2bE7QInpw==December 6, 2024fall 2024
+Background: SDE with 4 YOE. Bachelor's in Informatics (Data Science). Expected grade: A
+Overall: I believe this course should be pretty easy for people with a CS background or any experience in a software engineering job. Some of the content is good, but there was too much of it and the lecture/exams/assignments feel very disconnected. The pacing of the class is not great, there is much more work in the second half of the course.
+Assignments: The main assignment is a group project. You are able to form your own group so if you want an easy time I would recommend joining people who have experience in Java/Spring Boot. I was in a very good group which made the experience a lot better. My group ended up meeting about once a week (during assignments) so be prepared for that commitment. The assignment was pretty interesting but bad pacing. You get so much time for the 1st and 2nd part (which was just class + sequence diagrams), however the 3rd part is very condensed as you need to do both implementation + more diagrams + video. Also you have to hunt for requirements and be on top of edposts and office hours (though I got away with just emailing the TA my questions instead of attending OH). For example this semester they required a specific Pokemon move to be implemented, but this was not called out ANYWHERE in the requirement PDF and you had to look at the test cases to figure it out.
+Lectures/Readings: I watched a quarter of it and only did 3 of the readings. There was too much content (especially since I was taking a 2nd course) that didn't tie into any quizzes or exam. They spent too much time on UML/OCL. The 2nd half of lectures were much more interesting to me since it went over design patterns, but I had to skip most of it because the 3rd assignment took most of time.
+Exams: Only 1 exam is counted so I only did the first one. This was straightforward - you have to rank class diagrams and explain your reasoning. I watched the lectures and spent 1 hour to review the requirements they released ahead of time. But basically the 2nd half of the course is not tested at all so there's no learning reinforcement here.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 8
+riOMki32eNBpb+1jBCtpOQ==August 12, 2024spring 2024
+I took this class in 2024 spring as the first class in OMSCS. As mentioned by some other review, this class was updated dramatically since 2024 spring. It used to be a super easy class, but it's not the case anymore (from some aspect).
+Pros:
+- The group project is to do a full-stack website for Pokemon battle. This topic is pretty interesting. You have full flexibility to pick your own frameworks, DB. Pretty good chance to practice every aspect of the full-stack dev.
+- Grading is not bad. I got an A eventually (I did spend a lot of time on this course though). Especially the final project phase. I really doubt they don’t have enough time to grade everyone and ended up curved the grade.
+- Prof seems to really want students to learn something, so I guess that's part of the reason why they are trying to fully revise this class.
+Cons:
+- You will be really burned out by the messy and disorganized arrangement of this class. The assignment won't clearly tell you how they will test your code, which is really frustrating. TA will tell you something like 'we will test your code with our hidden Pokemon' without either sharing one of their hidden pokemon, or sharing the interface attributes how his hidden pokemon was set up… We will have to guess and wish we guess correctly, which is ridiculous. The released assignment PDF and starter code will be revised many times after publishing, and they will never shout out. You'll have to consistently check back to ensure you are still working on the latest version (I learned this in a hard way to debug for the entire night and eventually figured out that they revised the assignment PDF without publishing an announcement). The exams are super subjective and open ended, so it's really difficult to prepare for it and know exactly what you should write in the answer.
+- Many critical info, like changes to assignment, how the exam will be tested and graded, how your code output should look like, will be splattered among tons of Ed post answers and 2-3 hrs office hours/week (and yes, weekly OH is mandatory for this class).
+- Ed is really busy for this course as all students are posting actively to clarify what's required for assignment/exam, which made browsing the critical info that TA posted even harder. In our class, there was one student eventually volunteering to summarize all the critical info from Ed and OH for the entire class to track, which is supposed to be done by the TA team (and you can also imagine how messy it was).
+- TA will never answer the question straight. He always answers a question with another question, or something like 'I believe/I think'. It turns to be a guess game. Since there are many info that are really not clear for everyone, people tends to ask similar questions from everywhere, and TA will just answer something like 'this was answered in the office hour' without mentioning which date, time frame you should check among 2-3 hrs OH video per week.
+- As many other courses, the group project is a big part of this class, and you really want to make sure you have a good team (unfortunately this part is really out of control. My teammates didn't involve that much and I ended up having to do most of the project all by myself). What makes it even worse is, since so many students were disappointed with this course, there ended up have many people drop off the class after midterm, which made the rest of the teammates even more struggling. Prof. and TA did ask the teams to re-hire people as needed, but it's not an easy thing to have a new guy joining your team after midterm and take over the group project code from middle.
+Anyways, this class might be getting better after a few semesters assuming they will listen to all the feedback from students and settle down with the assignment/exam/grading and understand what they really want.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 30 hours / week
+
+Review 9
+v1v10dr1IPSgSfNc76EumQ==August 12, 2024summer 2024
+What could have been, and should have been, one of the best and most important courses in OMSCS ended up being a huge failure.
+This course has so much potential to teach students the most relevant and industry-related concepts and principles of Software Engineering. However, it feels stuck in the 2000s. There's an excessive focus on UML diagramming, with four weeks of lectures dedicated to it. Additionally, the course feels like a graduate writing course due to the overwhelming number of writing assignments. The course structure is chaotic, with too many components running simultaneously, leading to distractions. Assignment quizzes are based on books and papers outside the course lectures, requiring substantial time to properly learn the material. On top of that, there are project assignments, exams, and lecture quizzes, some of which even test your memory in trivial ways (e.g., how many windows are in a building from a lecture, not an actual question but to emphasize the point). The lectures themselves are outdated, extremely long and difficult to navigate. Furthermore, a portion of the grade depends on viewing all posts on Ed/Canvas and attending/watching mandatory weekly hour-long office hours. I genuinely want one of the course TAs to take this course and see if they can manage everything thrown at them, and have a successful learning outcome. Critical project-related clarifications are buried in minute details sprinkled around Ed comments, which is frustrating.
+The most disheartening part of this class was never receiving final grades or feedback on the group project that my team and I worked on tirelessly for three weeks, sacrificing our weekends. It feels irresponsible and disrespectful of the students' time. As another review mentioned, it's hard to believe Georgia Tech is allowing such a dysfunctional course to be offered.
+As someone with 8 years of experience in the software industry, I was particularly disappointed to see how disconnected this course is from the realities of modern software engineering. If the course creators genuinely care about teaching industry-relevant concepts, I would suggest the following improvements:
+Condense the UML portion of the course to one or two weeks: The industry has largely moved on from the traditional use of UML, and the course is not keeping pace with current practices. Instead, the course should focus on core skills like Architecture and Design Patterns, which are essential for any software developer.
+Focus on meaningful learning: What does a student gain by answering how many items are in a specific object from a lecture? Please design quiz questions with the student's learning experience in mind. We are here to learn engineering concepts, not to improve our memory.
+Prioritize quality over quantity: Be realistic about what can be accomplished in 11-15 weeks. Due to the overwhelming number of tasks, my group and I could not focus on the lectures and actual learning. We were constantly distracted by all the additional tasks, which defeats the purpose of the course. Mandatory office hours and Ed discussions are not conducive to learning when we are already swamped with other course requirements.
+Be timely and respectful with feedback: We spent countless days on the final project, and we deserve to know how we performed. It’s incredibly frustrating that we received our final grades without ever getting any feedback on our group project. Despite all the hard work, we never got to know how we actually did. Additionally, we provided detailed feedback on our teammates for the first half of the project but received nothing in return, which could have helped us improve for the second half. Even more frustratingly, we were asked to provide similarly detailed feedback for the second half, but once again, we got no feedback at all. If feedback isn’t going to be provided, why ask us to invest so much time in it?
+Overall, as I mentioned at the beginning, I enrolled in this course to learn industry-relevant concepts. When I first saw the course content in week one, I was excited and felt I had made the right choice. However, as the course progressed, I was devastated by how poorly it was executed. It was a complete waste of a course, money, and time. Totally unacceptable.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 25 hours / week
+
+Review 10
+kydpWvukGC+Dp9OviDFR2Q==August 7, 2024summer 2024
+Background: This is my 7th course in the program. I currently work as a developer.
+This is the worst run course (and least favorite) I've experienced in graduate school (this will be my 3rd graduate degree/program). I'll give an overview and try to be specific to help future students. I have also shared my thoughts directly with the instructors, so hopefully they make some changes.
+First of all, I do genuinely think the professor and instructor are interested in students actually learning. I think they mean well, but when it comes time to prepare and do the work, they just don't. The big problems can really be summed up by saying that their ability to communicate expectations just doesn't exist. The assignment documents that are supposed to declare the requirements are unclear and incomplete. They think they can make up for that by making Ed Discussions and office hours required. This means they can throw out random tidbits of information on those platforms and expect those tidbits to become assignment requirements. In theory, this would be confusing and disorganized, but manageable. I found myself (and my group) reading posts over and over and going back through office hours videos over and over to make sure we didn't miss a change to the assignment requirements. The real problem is that the TA's have different opinions about the requirements. So, you have one TA answer one way on Ed Discussions, then another TA answer another way on office hours, then your grading TA never even read or listened to any of that and have a completely different opinion. For example, our very first group assignment, the first comment (and a few others) for point deductions was a direct contradiction to a written response on Ed Discussions. We pointed this out and were awarded points back - we shouldn't have to do that. Bottom line: ask very detailed questions on Ed Discussions so that it's in writing, and don't let them get away with vague answers. Instructors, if you're reading this, please please please make your assignment requirements crystal clear.
+They also changed the overall big project assignment from previous semesters, and they were too lazy to fully update the document, so there was a lot of residual, irrelevant, and confusing information.
+The "exams" are quite odd and highly subjective. "Which of these things is the best and worst and why?" Your score is very dependent on who grades it and what mood they are in. Some items it seemed like they didn't even read it and just gave a good grade, while other items you'd think "how on earth is that wrong and why THAT?"
+The course lectures are super old and boring. And there are a million of them. And you have to watch them and take regurgitation quizzes. No one involved in the course today had anything to do with those videos at any point in their lifetime.
+Finally, grading. It's slow. And as previously mentioned, it's inconsistent and seemingly random. We never did get a grade or any feedback from the big final project (ya know, the one we spent over 100 man hours on). That's a let down and completely unacceptable in my opinion. It feels like they just never even graded it and gave out final grades. We never got our "participation" grades or feedback from our group members. I ended up with an A, but I feel gross about it. Of course I worked hard, but I feel like they just handed out grades randomly.
+I'm glad it's over. I'm upset I wasted my time. As someone who has been an educator my entire adult life (I'm almost 40), I'm disappointed in Georgia Tech for letting this happen.
+Rating: 2 / 5Difficulty: 3 / 5Workload: 20 hours / week
+
+Review 11
+PoQ3UPp0U2AnwzOB/7IwRw==May 14, 2024spring 2024
+Background: B.S. in CS, 3.5 YOE as an SWE, Java 8 OCA Certified and coding in Java for 12 years.
+I think this course covers really useful material and has a lot of potential. It just needs more focus. It spends too much time on diagrams and on a large group project and not enough time on the course material of software architecture and design. There are massive readings covered by simple quizzes that you have to text search to answer even if you read them. The schedule is flexible and this is a great course to pair with another during a semester. This course will not be very demanding if you have a Java background, however, about 80% of the work for this course takes place in a multi-phase group project so your group will affect your required level of effort significantly. I suggest trying to form a group your self and making sure everyone meets the pre-reqs of the course of having a background in Java - otherwise, you'll end up doing significantly more work and this course can become demanding.
+Pre-reqs: Java, some full stack development experience, version control such as Github, knowledge of object-oriented design, knowledge of recursion, and be ready to learn Java Spring Boot in about a week (or better yet learn it ahead of time!).
+Tip: Read / Watch the material on Design Patterns ahead of time (during the first few weeks). That material will be relevant to your exams and projects before it's actually covered.
+Exams: Know how to make your class and sequence diagrams. Know some design patterns and software principles you can reference when defending your decisions and you'll do fine.
+Projects: There is safety in the herd. Read Ed Discussions religiously. With hundreds of students, good clarifying questions will be asked there that you'll need for the projects. Also, watch all the office hours. They often contain clarifications or even novel information necessary for the project assignments. Part of the main criticism for the course from students was ambiguity in the project assignments. I think an important point is that what they're trying to assess is not your Java project implementation ability - the projects themselves are not that hard if you knew everything you had to do. What they're assessing is your design ability. The main challenge in some of the phases is reverse-engineering and figuring out how you would design your software to complete the project requirements. That's kind of tricky to find the right balance of how much information to give students because the projects themselves are not difficult. Read the entire assignment description carefully, monitor Ed Discussions, go to office hours, and ask clarifying questions. Think about design principles and try to have your software assume as little as possible, be flexible, and keep in mind you will be modifying the same software over the entire course of the semester.
+Final Project: You will not have a lot of time and it will be during finals week. Plan out the minimum deliverables you can do that your grader will approve. You are graded on meeting the expectations you propose so set them low and you may always exceed them if you have time. There will be plenty of work to do in those last weeks anyway.
+Course Staff: Very responsive and transparent about the course. Some mistakes were made during the semester with project grading or project requirements not being stated clearly, but I thought they handled the situations well. It was very clear to me that their priority was our learning in all the decisions made - and that made for a refreshing and pleasant course experience.
+Recommendations for the course: Reduce the material of the course but make it more rigorous and individualized. Have two phases for the major project and reduce diagramming requirements. Get rid of the first minor assignment. Get rid of the reading quizzes - instead do applied learning assignments. Have students produce relevant diagrams, implement different architectures to compare, and do mini assignments around implementing design patterns in Java. Add in individualized mini-assignments having students implementing design patterns from the Gang of Four from the beginning of the course until the end - my biggest regret is not spending more time just implementing design patterns and I feel like the course took time away from me to do that which would have been a more worthwhile use of my time than the group project. Have students do individual Java programming assignments using Github right at the start of the course to enforce course pre-reqs for the benefit of groups later on. It would be good to have some light Spring Boot and full stack mini individual assignments leading up to the final phase to make sure all the group members can contribute to that phase as well.
+Overall: I enjoyed the course. I ended with a high 'A'. I put a lot of effort into this course and think I could have certainly put in less time given a different group composition - so I would expect less time for the course but keep in mind you could be putting in 20 hours / week depending on the group you get. Design Patterns by the Gang of Four is the most useful material in this course and I wish we spent more time on that. I'll probably do my own personal project of going through each of those to learn them.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 20 hours / week
+
+Review 12
+DFpppuzCfHZA+jRyr8hgF4YJMR9AgY91UX14R660IPw=May 13, 2024spring 2024
+I took this course in Spring 2024. This course is pretty fun to learn if you have good knowledge in Java and good team mates. Its very important to have at least 3 competent team members else the team projects can get overwhelming and exhaustive. Besides, the course was little less organized and sometimes the responses from from TAs could be vague causing more frustration. We had two Exams for design. Exams were good but as we did not have any practice exam we were not sure what to write. Overall, the course is good and has lots to learn. Having a good team will make it more fun and interesting.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 13
+Hig9YJ6iwHd4OC//H3iewQ==May 8, 2024spring 2023
+I took this course in spring 2024. The course is based on java and the group assignment requires a good knowledge of the language. Each assignment requires a diagrams like sequence, class, state and deployment. This depends on the assignment requirement.
+There were quizzes from course videos and these were considered as practise quizzes, which represents 3% of final score.
+7 quizzes with 2 attempts. (You wont know which answers were wrong in either of your attempts). The answers would be released after the quiz deadline.
+1 individual assignment. This is an easy assignment.
+3 group assignment. You get to pick your team and having a good team is important for this part of assignment. This is a 3 part group assignment where each one is a continuation of the other and in each assignment we have to write code and draw diagrams. For this semester we had pokemon battle and tournament. The first 2 assignments were purely java code.But the final assignment, we will be assigned a mentor who will grade our final assignment. For the last assignment we were expected to develop a fullstack development.
+The lectures were monotonous and the course as a whole, didnt help me much apart from learning some UML concepts and design patterns. But the group assignment were engaging and office hours and Ed discussions(sometimes) really helped as it answered most of the unanswered questions from the assignment.
+Ed discussions were chaos as there were multiple threads and keeping track of each one was a hassle. And some of the questions goes unanswered until it was brought up in the office hours.
+Rating: 3 / 5Difficulty: 4 / 5Workload: 10 hours / week
+
+Review 14
+hrpccSqZKPxK8pOvrvLNHw==April 5, 2024spring 2023
+This is the first time I've critiqued a course mid-semester because the administrators of this course made me so angry.
+I have an anxiety disorder myself, but my symptoms were exacerbated when I saw the ED Discussion discussion these past few times.
+The mismanagement of the course team has resulted in students being docked points that they don't see as their fault.
+This is not my experience alone, there are dozens of students expressing their displeasure underneath a large number of posts.
+It's now the end of term and the course team have made 3 major mistakes.
+And with student feedback not doing any good, I guess the only way to express my dissatisfaction is by scoring the lowest possible grade here.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 10 hours / week
+
+Review 15
+9yVqyEJRGfFtlYvEuNEz6Q==December 4, 2023fall 2023
+Mixed feeling about this. It spends too much time on diagrams, but the topics are really interesting if you really like software.
+Quizzes and lectures look like kind of a waste of time, but they are NOT. If you put effort to them you will learn new things no matter how much experience you have.
+The first three assignments are easy and fun to work in, but I'm a little disappointed about the class limits, I guess that is part of the idea.
+Even if you have good software background this is a good course to take, even though lectures are a bit funny and absolutely staged.
+Group project is where I learned the most, java/spring is not that bad language/framework.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 16
+G/BcBIK5jl1msxoccob7pg==November 30, 2023fall 2023
+I heard a whole lot about that the course is out of date, but what is taught in the course is invaluable to know. It gives a spectacular base understanding of programing principles. It is well worth the time to take.
+Rating: 5 / 5Difficulty: 3 / 5Workload: 25 hours / week
+
+Review 17
++zhdtsG9h7hrtVeDmIZMdQ==November 2, 2023summer 2023
+Please DONT take this course. The projects especially the final one decide which grade you will get. I have 8 A grades throughout my OMSCS( and last one also expecting A) and this is the only one course where I missed to get A for no fault of mine. The TA had delayed one week in assigning the area of project. Project was open only for one week. We were awarded full points for the proposal even though it was delayed since it was TAs fault. Next implementation part, due to the one week delay caused earlier by the TA, we had to complete the project in less than a week. We got a mix of folks with mech background, and others who talk much but dont know any coding. It all ended up with TAs providing a low score even though we have a total working solution that met all the requirements. I am totally disappointed with this.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 18
+0oxJzYGHRSIVHW32FPBnww==August 7, 2023summer 2023
+The lectures and content of this class are great. I learned a ton from the course itself and the assignments, only to battle with one or two of the TAs over absolutely abysmal grading that included broken scripts for testing assignments and TAs that refuse to review code/projects beyond low quality auto grading. Received an A despite an absolute struggle (and failure) to receive the quality of grading I have come to expect from other classes in this program.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 10 hours / week
+
+Review 19
+43Z2ccpL9BF2RYUXKcwKuw==July 31, 2023summer 2023
+This course is fairly interesting in the beginning but then the lectures and content become a drag. Some of the concepts are a bit outdated but the overall lessons are still important. Out of everything I learned, I think understanding the different diagrams (class model diagrams, sequence diagrams, etc) are the most useful thing to learn and understand. As for projects, I took this class in Summer 2023 and timing is a big issue. The first 2 projects are fairly easy and they give you 3 weeks (2 for the 1st and 1 for the second) to finish them. This honestly is too much time, in reality, they should make the 1st project only 1 week and add the extra week to project 5. Taking this class in the summer does put an extra time constraint as well. All the projects in this class build on each other for the final group project and you should definitely try to find a good team. The last 2 weeks are definitely the most amount of work since that is when the group project opens and you don't have a lot of time to finish it. I personally spent 5 hours a week doing the projects, and quizzes, and watching the lectures for the majority of the time. The last 2 weeks are when I spent about 30 hours/week working on the group project.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 15 hours / week
+
+Review 20
++zhdtsG9h7hrtVeDmIZMdQ==July 23, 2023summer 2022
+Better take my words and stay away from this course. This is one of the most mismanaged courses in in the OMS program. The projects are made unnecessarily complex by giving vague data. The projects wont open early. The TAs will take days to respond, finally you will be left with just one weekend to do all the project coding. Many of the TAs work remotely and I had a TA who had completely opposite timezone as mine. You need to stay awake late nights to communicate via teams and their responses take hours. Since I took this for summer, some of the lectures were mentioned optional. But they would expect to attend the practice quizzes for the optional lectures too!! The group project is a total disaster. You will be given just one week to complete it along with colleagues who don't know anything about coding.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 21
+V+d3ui89TJhj0PenfNr4hg==June 21, 2023fall 2022
+This was my last course in the OMSCS program. I took it during the Fall 2022 term. Analyzing and testing software has always been a black box for me. I knew I tested stuff as I code, but I knew I was lacking an understanding of more than just that.
+Coursework
+Syllabus Quiz (2%): This is a Canvas quiz to test your knowledge of the syllabus. It is proctored through Honorlock, just to get everyone familiar with using Honorlock. You must get a 100 on this quiz in order for other material in Canvas to unlock. You can take this as many times as necessary.
+Lecture Quizzes (1.5% each): These consist of Canvas quizzes covering the material for each Ed module. The first quiz allows 2 attempts, but every other quiz only allows one attempt. These are open everything. There are 11 of these corresponding to the 11 lecture modules in Ed.
+Exam (20%): There is only one exam in this course, and it is treated as a midterm. It is proctored through Honorlock. You have a limited amount of time to take the exam. You are allowed one page of notes in PDF format that must follow a pre-determined format.
+Labs (60%): Several of these consisted of application of lecture/lesson topics. Lab 0 was an introduction to LLVM, although there was no true corresponding lecture for LLVM. Lab 1 was a pain in the rear and probably the hardest of all the labs. It consisted of 3 parts: "simple" dynamic analysis, mutational fuzzing, and feedback-directed fuzzing. The first part was a true challenge. Most of my time was spent trying to figure out what the lab assignment wanted as well as a lot of time looking through LLVM documentation, which, as one instructor put it, "documentation that leaves a lot to be desired." I appreciate the lab videos to try and explain the lab, but after watching hours of lectures, watching a 45-90 minute video just to get an introduction to the lab seems a little excessive... we are going to spend this time telling you are going to have to learn everything on your own, and like every other lab assignment, if you don't know LLVM, be prepared to spend over 75% of your time looking through documentation and trying to piece together what they are wanting you to turn in.
+Participation (125 points): This consisted of 3 parts: Ed participation, group project feedback, and lecture/module quizzes. For the participation points, you had to submit meaningful posts and replies on Ed. This had to be more than an "I agree", or "good point." Many people used it to ask lost of questions about UML diagramming and questions about the assignments. The practice quizzes mentioned above are also a part of this grade. While the grades on those quizzes do not count directly to these points, completing all the practice quizzes with a perfect score was all but required. Lastly, your team's feedback on your group project played a huge role in these points. Make sure you are on a good team, be a good team player, and be sure your team knows your contributions to the success of the project.
+Take-Aways
+Miscellaneous Stuff: I prefer a project heavy course instead of exams; however, I read and agree with other reviews in the sense the mid-term exam is fair, especially with being able to take a sheet of notes into the exam. I despise exams in general. LLVM was a true PITA as a lot of students expressed this same sentiment. Even a lecture on what LLVM actually is and how to use it would be better than what they gave us. In Graduate Algorithms, the lectures would cover what divide-and-conquer is, and when it came time for the homework, you had to answer questions with a D&C algorithm explained. In this course, it was more along the lines of, this is sort of what fuzzing is, now go do Lab 1, read through the LLVM documentation to figure out how to do something, and then do it.
+The "office hour" is held in Slack, which seems strange to me. No recordings, you can only make a general post, you cannot DM a TA unless they DM you first. Just all around.... odd in comparison to other classes I have taken which used multiple platforms.
+Be prepared to spend a lot of time on LLVM. Labs 1 and 2, I didn't submit until like 3 hours before they were due, only because of trying to understand LLVM took that long.
+Quizzes:
+The graded quizzes cover specific material from a given week(s) lecture and reading material. The assignment quiz guide they provide at the beginning of the course outlines what material will be on what quiz. They are open material quizzes covering the lecture in question. Only the first quiz allows multiple attempts.
+Lectures: The lectures were pretty decent and able to keep my attention. I feel they could use a little work and updating.
+Textbook: There is no textbook required.
+Labs: The labs were acceptable and manageable; however, more introduction to LLVM would be appreciated by all. If you don't research LLVM before the class starts, prepare to sink or swim. Become familiar with LLVM!!! You are basically given the lab spec, a VM, and a link to all the LLVM documentation for you to figure out the lab. There is some correlation between some labs and lessons, but not as much as I have seen in other classes. Some of the labs build on the previous lab, but they do not give you any working starting point. "You will design a reaching definition analysis, then a live variables analysis, using Z3." Lab 2 required implementing a Reach Definition Analysis algorithm, so if you didn't get a working solution in that lab, you are out of luck as you are not given any working starting point, so essentially you have to go back and redo Lab 2 to get a working solution before you can even begin Lab 3.
+Exams: The exam seemed fair, especially getting to have a page of notes handy. Also, knowing what topics would be covered in the exam helped the studying process. Go through and understand the sample questions and understand them as the exam is very similar in nature to the sample questions.
+Professor and TAs: The entire teaching staff was great. The TAs have a very obvious present in Ed.
+Extra Credit: There was an opportunity for some extra credit. This was based on your participation in Ed as well as the number of useful posts or replies you made.
+Grading: One thing to note is they do not release any statistics in Canvas. So, unlike other classes, you cannot really gauge where you lie in terms of the rest of the class. They do release this for the Exam in Ed, but not for the individual labs in Canvas. Would have been nice to see if my Lab X grade was similar to others in the course, or did I just really do that bad.
+Overall Grade: Because of the LLVM stuff, I almost failed the course. When my average was around 35-40, I determined it was mathematically impossible to bring my grade up to a C in order to pass. I opted to withdraw from the course.
+TLDR
+I fully regret starting this course, but was relieved to withdraw from it. Some people complain about Grad Algorithms being rough. While I did leave a true, complaining review for GA when I took it, I feel this course is far worse than that class. It is no where near an analysis or testing course. Honestly, it is more of a compiler course. A course title like Formal Analysis and Correctness Proofs would be more appropriate. It has a lot of potential... it really does. But the sink or swim mentality with LLVM is not very conducive to learning. This class is somewhat straightforward but definitely not easy. There is a lot of emphasis on LLVM... to the extent of it being used on every Lab assignment. If you are unfamiliar with LLVM or don't research it before the class, you may struggle the whole way through the class, because honestly, learning the LLVM stuff is truly sink or swim. I know I did, but at the same time, I had no idea the extent of LLVM we needed to know. When they say to not chat with anyone about a lab, take that seriously. Ask questions on Ed. I am not sure if they monitor or scan Teams messages of students, but if you do talk with someone about a lab, be prepared to be contacted by an instructor. Start looking at C++, pointer references, and LLVM and become a little familiar with them before taking this class; otherwise, you will be spending a lot of your time trudging through documentation. Because of this LLVM stuff, I would highly recommend taking a different course. Even an instructor/TA mentioned during the initial lesson 0 video that this class will not teach you to code better. Instead, they want you to figure out how to inject code to handle a divide-by-zero error in Lab 1 instead of just addressing it in the calling code. On the plus side, the instructional staff tries to hold to the commitment of the student getting their grade within 2 weeks of the assignment being due.
+This class has a lot of potential, but the course description couldn't be any more misleading. Just keep your head down, don't talk to anyone in the course outside of Ed, learn, memorize, and bury your life in nothing but LLVM for the entirety of this course. Otherwise, you will be doomed to fail as I did. My only saving grace was being able to withdraw before the deadline.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 8 hours / week
+
+Review 22
+wUQoDxu0OvLc6Y6eKiYNpQ==May 20, 2023spring 2023
+For background, this was my 9th course in OMSCS. I come from a STEM background (EE) and I have a STEM job (CS/IT).
+Well, I don't know how much I can add beyond what's already being said by other students. This was by far the worst course I have taken so far. The course falls short in several aspects.
+The lectures are extremely boring and have a clear disconnect from everything else in the class. I do not blame the instructor team for this since software engineering can be a boring subject in general outside of the development projects. I do however recommend bridging the gap between lectures and projects. So things like, we studied XYZ this past two weeks and now the next assignment is going to exercise that.
+There are quizzes associated with lectures that don't count towards your grade directly but towards class participation. There are six graded quizzes that count directly towards your grade. Lowest score from the six is dropped. Quizzes are open everything.
+Projects gradually get worse as you go on in the class, with the last one being extremely open ended. A TA is assigned to you as a "client" and you are at the mercy of the TA. We probably got the worst one who kept giving conflicting and vague statements. It was a very frustrating process. I don't buy into the argument of "well that's what real world clients are like". They don't try to withhold information for the purposes of grading and at least tell you what they want implemented. My group was good! I did not know anyone personally, just connected through EdStem posts when TAs allowed team forming.
+The professor attended office hours and responded to a few posts on EdStem. The TA team was not always helpful, sometimes even answering a question with a question or just giving vague answers. Grade turn around was extremely slow. In some cases we started the next phase of the project without having any feedback on the previous one.
+Overall, I would not recommend this course even if you are looking for buffer class between hard ones. It can grow frustrating really quickly.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 12 hours / week
+
+Review 23
+okT3XmTMhiVBuQGw0UfeAw==May 11, 2023spring 2023
+Poorly designed class. TAs and Professor are there for most of it but one major flaw with the class is that the lectures do NOT line up with the assignments.
+The general ideas of the lectures are apparent in the assignments but the detailed minutiae that the assignments expect is not covered. There is a course textbook but even in there, some of the material is not readily available and you are at the mercy of TA’s releasing information on Ed Discussions.
+The lectures are connected to the quizzes and cover so much unnecessary information. Quizzes are primarily T/F and have two tries which, if left this way, quizzes will be an easy grade.
+The last two projects are team based. The requirements are vague and in our case, the assigned TA to help us define our group specific requirements was often not there.
+The final group project is coding based on a previous solo assignment in Java. It is reasonable but tedious.
+Overall, I did not enjoy this course very much. The lectures are irrelevant and the projects are tedious. As for content that is actually learned, UML diagramming is really the only concept that is pushed. Other than that, if you have not used Java before, this course may be helpful if you wanted to learn.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 8 hours / week
+
+Review 24
+AxRQyd6qugCgB9RThRLuQQ==May 11, 2023spring 2023
+update: Classmates contacted the school, and the scores for A5 and A6 were eventually released.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 20 hours / week
+
+Review 25
+OHn5/WWkh0kyYLOUT4LNeQ==May 10, 2023spring 2023
+Grade Received : A
+Course was relatively easy at the start which covered obscure concepts on “software architecture” and UML diagrams that are taught in undergrad. It ended up becoming a menial Java programming course with Assignment 3, upon which the last assignment was a group project based on the previous with only 3 weeks left in the class and vague directions from the TAs. Would not recommend taking this class.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 5 hours / week
+
+Review 26
+//fwgM01UvZdQ5FStHIG1w==May 10, 2023spring 2023
+This course is relatively easy to pass, however assignment grades are arbitrary and based more on stylistic choices than actual computer science. Assignments build off of each other, but grades and feedback are often returned close to the due date of the next assignment, leaving deceptively short time to fix errors. In terms of learning CS concepts, there is minimal to no value in this course, in terms of getting a passing grade, this course is decent although at times frustrating.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 4 hours / week
+
+Review 27
+ZmlM/9PhtPMIdvhnI/yBWg==May 9, 2023spring 2023
+easy but seemingly useless course.
+Your grades totally depends which TA was assigned.
+points:
+spend over hundreds of hours working on practice quiz to get 1 point?
+spend a whole week working on review your peers? - A2 assignment
+spend a whole month to work on a group project by yourself, if you were unfortunate to work with free-rider teammates. - A4- A6
+The scores for A5-A6 were never released but the final letter grade was sent to Registrar. Maybe the instructor just did not want to give students opportunity to argue and challenge the potential errors in their grade?
+...
+Some TA was difficult, unresponsive...
+Rating: 1 / 5Difficulty: 1 / 5Workload: 25 hours / week
+
+Review 28
+FawYBMKvhnb++wfAkGTBjw==April 27, 2023spring 2023
+There is a group project that builds off previous work done individually. Make sure you find a great team like I did because the work on that group project is extensive to meet requirements. Also the videos are so old and are a pain to watch. Doing them at 2x helps but they could be done again.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 3 hours / week
+
+Review 29
+5R41708CCJ7LOS98yseijQ==April 17, 2023fall 2022
+As my first class in OMSCS, I can say that the quality of SAD leaves much to be desired.
+The lectures are really boring as I stopped watching them halfway through the semester. The quizzes can be cheesed as you get multiple attempts. There's frankly way too much emphasis on UML diagrams and not enough about actual software architecture for the assignments. The workload is really manageable but definitely picked up for the final assignment (group project). Start it early and pray you get a good group as that'll pretty much determine your final grade.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 6 hours / week
+
+Review 30
+HEHOdpKCyerWWXmGyNKyMw==April 13, 2023fall 2022
+Takeaways: It's a good first course for folks not doing CS work for their role. I still use my UML learnings now and then to get a point across whenever I need to discuss with my team about code fixes (as opposed to showing code on screen which can be tedious). They are strict when grading UML diagrams though. Assignments are good but very slow turn around for grading. I enjoyed anything after the UML diagram assignments. I am in Hardware. I never had formal CS background so yeah, I still found this class useful!
+Lectures:
+Very boring
+Staff:
+Dr. Moss and staff are very helpful, in terms of setting expectations for assignments during office hour calls. Attend them or listen to recordings later.
+Group project:
+Be proactive though for the group project when finding teammates. As soon as the Ed Post is released for group formations, post info immediately. Chances are the early posters are also going to be good teammates as well. I found myself a fine group and learned a lot from them.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 10 hours / week
+
+Review 31
+9ZhVYPWVOBNnkBpI+VuC6w==December 13, 2022fall 2022
+Most comments would be covered if people read more than 10 reviews and would no need to repeat here. This course may not be designerd as a hard course, but thinking about there are many novel CS learners around the class(which is true and fact) and taking this class as the OMSCS first class, you may enter into a group that either you need to be ready to work super hard to carry the group project to and A/B or say, don't care that much, just let it go!
+The TA team also release grade quite slow, they may have valid reasons but it is slow.
+Rating: 2 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 32
+fOvOYG+fIx4WTYyqGlVPnA==September 19, 2022fall 2022
+The course is totally trash! The lectures are diluted by tons of nonsense and ridiculous fake "conversations with students." The conversation videos show two people talking most of the time rather than presenting the software design ideas and practice. Are we learning human facial expressions?! I do not know what the course team is doing. The materials and readings are nothing valuable in terms of software design.
+Assignment 2 is representative of lazy teaching and is a waste of time. If we have the ability to review others' designs, why do we need to take this course?
+The videos are clipped to tens of dozens of 1-minute short videos, which are very very distracting and pathetic. It feels like the course team was preparing the course without brains.
+I hereby warn anyone who would like to take this course, which would put your time and efforts in vain.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 12 hours / week
+
+Review 33
+PzNKuXqOo5+f9/rSyba+Bw==August 18, 2022summer 2022
+I almost never review courses, and this is my 9th course in the program. But I want to warn everyone
+Rating: 1 / 5Difficulty: 2 / 5Workload: 5 hours / week
+
+Review 34
+V+d3ui89TJhj0PenfNr4hg==August 15, 2022summer 2022
+This was my ninth course in the OMSCS program. I took it during the Summer 2022 term. Having got past the hurdle of Graduate Algorithms, my sanity needed a breather. I chose this class for that reason... that, and I am a software developer by profession. Therefore, I feel any software class where I at least learn something is a win for my career. This class consists of some quizzes, an individual project, a team project, discussion forum participation, and completion of Canvas module quizzes. There is a lot of focus on diagrams and the software process in general. Instead of percentages, a total points scale (1000) is used.
+Coursework
+Practice Quizzes: These consist of the Canvas quizzes covering the material in each module. You can take them over and over until you receive full points. While they do not directly count towards your grade, they are a part of the participation grade. It is very tedious, time-consuming, and frustrating having to take some quizzes 5+ times until you get all available points. You must continue taking these until you get a perfect score as thy do play a part in your participation score
+Quizzes (150 points): There are 6 quizzes in the class. The lowest grade of the quizzes is dropped. They are open everything (except fellow students and googling the answer). You have 1 hour to take them in Canvas, and they are not proctored. You are given a guide early in the class as to what material will be covered in the quiz. You are allowed 2 attempts, with the highest score counting. It is easy to review the quiz and better prepare yourself for the second attempt if you have to retake it.
+Assignments (725 points): These consist of various processes throughout the software design process. Assignment 1 was to create a UML diagram based on a spec which was provided. Assignment 2 was to review 3 diagrams provided to you and provide feedback. Assignment 3 was to implement the program identified as part of A1 and A2. The spec for this was very vague, and a lot of inferences and Ed posts are necessary to understand what is really being asked. Assignment 4 is the start of the team project. It requires taking the program discussed in A1-A3, adding some functional and non-functional requirements, create some new documentation, and update existing ones. Assignment 5 is for the team to take the program from A3 and implement these functional and non-functional requirements, generate more new documents, update the documents from A4 as the code evolves, and record videos to submit. Assignment 6 is purely a placeholder for the CATME survey/evaluation of yourself and your teammembers.
+Participation (125 points): This consisted of 3 parts: Ed participation, group project feedback, and lecture/module quizzes. For the participation points, you had to submit meaningful posts and replies on Ed. This had to be more than an "I agree", or "good point." Many people used it to ask lost of questions about UML diagramming and questions about the assignments. The practice quizzes mentioned above are also a part of this grade. While the grades on those quizzes do not count directly to these points, completing all the practice quizzes with a perfect score was all but required. Lastly, your team's feedback on your group project played a huge role in these points. Make sure you are on a good team, be a good team player, and be sure your team knows your contributions to the success of the project.
+Take-Aways
+Miscellaneous Stuff: Not having to worry about exams is a plus. I despise them. I am not the biggest fan of a points system, but in the end, it is a wash with a percentage system. For the points system, A: 900-1000, B:800-899, C:700-199, D: 600-699, F: 0-599. The turnaround time on assignments is horrendous. A3 was due on 27 June 2022, but grades for it were released on 22 July 2022... almost a month later. Part of the A3 assignment was code they ran through an autograder, so not really sure whey they couldn't have done that and got those grades to us while they worked on grading the documentation. When I got my A3 grades, I had to constantly send an Ed message to the TA team to get feedback as they failed to upload comments on my submissions, which reduced the amount of time I had to determine if I wanted to make a regrade request or not.
+Quizzes:
+The practice quizzes are mind-numbing. Some of them you have to take over and over and over until you get a perfect score. While they don't count towards your grade, they are an essential part of the participation grade.
+The graded quizzes cover specific material from a given week(s) lecture and reading material. The assignment quiz guide they provide at the beginning of the course outlines what material will be on what quiz.
+Lectures: The lectures are from when the class was created in the past. The instructor is pretty much reading off the slides. It is like being in a classroom where the professor purely reads off the slides and isn't free-thinking. It all feels too scripted. The lectures where the professor is trying to have a conversation with someone about a task is enough to put you to sleep as it definitely feels scripted. The content could be really good if it was updated; however, it is mediocre, dry, and boring, which is a perfect combination to lose interest.
+Textbook: There is no textbook required.
+Projects: The individual project was broken into 3 Assignments (take a spec and create the UML class diagram, evaluate 3 other student's diagrams with the spec and give meaningful feedback, and implementing the program based on the spec). The team project built on top of the individual project by introducing functional and non-functional requirements, required creating new and updating existing documentation, implementing the program based on the spec and changes to the spec, and evaluating the contributions of your team members.
+Exams: There are no exams.
+Professor and TAs: The entire teaching staff was great. Matt and Pablo do a great job with feedback in Ed. They step in only to re-align incorrect statements, answer when no one else has answered, or confirm a student's reply. They really try to let the students help each other instead of just coming in and answering all the questions. This gives students ample time to work on those participation points.
+Extra Credit: There was an opportunity for some extra credit. The professors started everyone off with 10 points of extra credit, which evaluates to 1% being added to your final grade. There were stipulations, though. Anytime someone requested to have their CATME team member evaluation reopened because they didn't follow instructions, everyone lost 0.4 points of the 10 available points until the value reached 0. So, anytime anyone made a post on the thread, everyone lost points from the extra credit points, regardless if you followed instructions or not. This allows for 25 re-open requests, and they get used up quickly, even with people asking when their survey would be reopened.
+Overall Grade: I put an acceptable amount of time in this course (over 146 hours to be exact). In the end, my grade was 96.4, which got me an A. At the end of the course, I saw an A was posted to my transcript, but it wasn't until 7 days after grades are due to the registrar that I saw my grades for Assignment 5, Assignment 6, and Participation.
+TLDR
+This class is pretty much straightforward and somewhat easy. The course is designed to focus on the diagramming and designing of software. As such, don't expect a lot of programming. Be sure to get all those participation points. Find a good team. Look past the painful monotony of the lectures and practice quizzes. Prepare to wait and wait and wait for grades and feedback... like, expect some grades to appear in Canvas after the course ends and grades are required to be submitted to the registrar for your transcript.
+Rating: 2 / 5Difficulty: 1 / 5Workload: 13 hours / week
+
+Review 35
+/CUbwITWQGYAeInoLR+H8A==August 15, 2022summer 2022
+This course was terrible, and horrible waste of time.
+I rated the difficulty a 3/5. The course content itself is not hard at all, 1/5. The difficulty comes into play with the extremely short deadlines given for assignments, coupled with the fact that assignments build off each other, and assignment grades are ALWAYS late, so you go blindly into it. When the TAs are asked when grades will be complete, the answer was typically "when they are done" or "you don't need them". Super disrespectful lot of TAs.
+You are forced into a group project, of at least 3 people, for work that could have been 1 person driven and handled. There was no aspect of the project that demanded more than 1 person, if that 1 person was willing to do it all themselves.
+The course content and work ended 2 weeks earlier than the semester, and the grades were still late.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 20 hours / week
+
+Review 36
+Georgia Tech StudentApril 21, 2022spring 2022
+This course is a great intro course to the OMSCS program. This was my first course and I enjoyed certain aspects of the course, but did not enjoy the readings which seems to be long and necessary. There are no exams, which can be a plus, though there is a group project element. Personally, I had a fine group to work with, but I can see how it would go awry.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 15 hours / week
+
+Review 37
+Georgia Tech StudentApril 18, 2022spring 2022
+This class was weird. The first 70-80% was very easy. The final group project though, worth a lot of points, was incredibly hard. They gave little information on it, but all previous assignments we were told were building up to it. They had us plan out in Assignment 4 what to do for Assignment 5 (the final project), but we didn't know what Assignment 5 would be.
+The problem is that the hardest parts of the course are the actual developing and coding, and the architecture stuff is easy. Thankfully, at least the architecture stuff is worth a lot of points. In order to achieve our dream architecture, my team had to learn a lot of external, 3rd party pieces of software from the ground up in less than 3 weeks, which was unnecessarily hard for an architecture class. I crammed basically a whole semesters worth of learning in 3 weeks, and the other weeks of the semester I hardly learned anything.
+Rating: 2 / 5Difficulty: 3 / 5Workload: 4 hours / week
+
+Review 38
+Georgia Tech StudentDecember 22, 2021fall 2021
+If not for the sake of 500$ that I spend on this course, already wasted effort and the eagerness to finish the degree a bit early, I would have dropped it just before the deadline.
+Such is the quality of any aspect of it:
+Lectures: The professor just reads the text and the content is completely useless. Pretended conversation with a student was so pathetic.
+Quizzes: Ideally, lectures should explain concepts and quizzes would test student's understanding of it. Having the questions to be highly subjective and exactly the same as that present in the lectures will only make the students copy the answers. I did the same and the experience was awful (Hint: it contributes to only 1.5% of overall grading. OMG, I should have skipped!)
+Assignments: In my experience of more than a decade in a variety of software engineering projects, I would have used UML utmost a couple of times. And having about 50% of overall assignment grading on these useless diagrams is simply awful. In every other course I have taken so far, I have learned something mostly via assignments, but it is ridiculously useless and annoying in this course. Only thing I learnt was the existence of PlantUML which also turned out to be a mistake because the TA cares more about color, layout, symbols than the content (Hint: Don't use OCL in these diagrams). Not all test cases are provided before the grading results are available for coding projects. Who writes Architectural Decision Records? WTF?
+Group project: Given that most students target this course for its easiness, it may fall on you to do the heavy lifting if you don't act appropriately. Though the end result was fruitful, it ended up this way for me.
+The only reason I took up the course is to pair it with another and the comments on several reviews and conversations with former students that the grading is lenient. But as some reviews suggest, be aware that it depends on individual TA. I ended up with a horrible one and if not for the grades given by them, you may end up frustrated by their early comments and responses in regrade requests. Luckily, TAs change for individual and group project and that pretty much saved me to get an A.
+The biggest lesson I learnt by taking this course is that it is better to take relatively harder but highly rated courses at a slower pace.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 14 hours / week
+
+Review 39
+Georgia Tech StudentDecember 21, 2021fall 2021
+This is a very sad course. TAs are not responsive, grade reporting is very delayed, course lecture video is terrible with outdated content. Group project is annoyingly time consuming. This was my 4th OMSCS course, worst so far. I would rather spend time on more challenging but meaningful courses with healthy interaction with teaching team. Assignments are written so vague that no way to start without lengthy clarification. Do not take this course just because it's easy. It's total WASTE of TIME.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 5 hours / week
+
+Review 40
+Georgia Tech StudentDecember 10, 2021fall 2021
+My background is in CS and I work as a full stack software engineer.
+The UML diagrams and the lectures were the worst. The group project is entirely dependent on your teammates and I lucked out so that was actually the highlight of the course for me. Heads up, you don't have to use a database, can just write data to JSON files if you think that's easier (we did). The Java part of the course was fairly easy given I use it daily. If you're thinking about taking this class as an easy A, just remember that you have to do 30 lecture quizzes repeatedly until you get 100%. Making the UML diagrams for the assignments can also be annoying. The lecture videos are not good at all, though Instructor Moss > Professor Rugaber (lecturer) so definitely reach out to Moss in office hours whenever you need anything, he's really helpful.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 7 hours / week
+
+Review 41
+Georgia Tech StudentDecember 7, 2021fall 2021
+Nothing in the class matters except the final project. Quizzes/assignments are all very easy and straightforward but your group project will make or break your grade.
+TAs are not responsive at all (you get one assigned for your group project), and are also very unhelpful when they do respond. Literally waited nearly a week for the TA to get back to my group and tell us "Uh yeah sure whatever".
+Don't go with a randomly assigned group, you will be unceremoniously crammed in with a bunch of people who don't know how to code. Had most of my team proceed to participate in meetings and claim tasks and then do nothing the entire semester (even up until due date). At least tell your team if you don't know how to do anything or won't be able to do your task.
+Not worth taking this class even if it's "easy".
+Rating: 1 / 5Difficulty: 2 / 5Workload: 2 hours / week
+
+Review 42
+Georgia Tech StudentDecember 4, 2021fall 2021
+Yes it is very SAD indeed. Got a bad group filled with non cs people ugh ended dropping grade to B. Avoid non cs people like the comment below said
+Rating: 1 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 43
+Georgia Tech StudentDecember 1, 2021fall 2021
+This is definitely not an easy class. They throw you into the loop to build an individual project expecting you to program a whole java applications satisfying 10-20 requirements --word for word in each print statement.
+If you dont have a good group. Good luck, half the class are non cs majors. Final project will make or break your grade. TAs take a month or two to grade so you dont know where you are in the class. All the easy reviewers are OMSCS students who are halfway through the program and already took much more advanced courses --so they are coasting this one.
+The lectures are also irrelevant and very dry.
+#1 Tip: Avoid non cs people at ALL cost ESPECIALLY if it's their FIRST semester at OMSCS. Ask them this before you let them join your group!
+It's not worth the risk taking a non-cs! It will determine your grade (group project is like 40%) !
+Rating: 1 / 5Difficulty: 5 / 5Workload: 15 hours / week
+
+Review 44
+Georgia Tech StudentAugust 13, 2021summer 2021
+Extremely boring and tedious class. Its like the creators deviced the perfect way to make a class thats both easy and annoying at the same time.
+The lectures are as boring as they get, and they go over so much unecessary detail that is completely outdated. I have worked in top-tier tech companies and people there use maybe 5% of the things explained in this class. Then there are lecture quizes which you will most likely brute-force because you have unlimited retries and its impossible to get perfect scores the first time, because they ask things like: "select all answers that apply", and then there are like 20 different checkboxes which you can select.
+The assignments are tedious as well. Make uml diagrams, make sequence diagrams, go back and fix other people uml diagrams. Then there is the individual and group project. The individual project wasnt bad, but the TAs graded them so poorly. The TAs, just like you, didnt care at all about this class, so they never answered any emails, took ages to answer anything in Ed discussion, and graded assignments by glancing at them and then giving it a score without paying any attention, so many students had to ask for regrades. Then the group project, where you are matched with 4 other students, who took this class just to get an easy A but who have horrible coding skills. Have fun fixing your teammates horrible code while dealing with unresponsive TAs.
+This class is pretty bad and its in grave need of a rework, but if you are looking for an A, then this may be one of your few options to take. But if you are willing to put some more effort and actually learn something, I'd recommend taking anything else. I was not, so I do not regret taking it, but i wish it wasnt as painful as it was.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 8 hours / week
+
+Review 45
+Georgia Tech StudentAugust 10, 2021summer 2021
+I learned the most from the group project of this course. And the peer reviews of my assignment are very insightful. In this class, you will probably learn more from your peers.
+The course videos are dry to watch. I found the textbook Applying UML and Patterns by Craig Larman is more entertaining.
+I did not know about Java before and learn that on the fly, it is manageable. I would recommend using Codecademy.
+Our final project builts on Java spring boot and mongo db, and demo using the Swagger UI . MVC and DAO pattern are used in our project as well. When working on unfamiliar technologies on the fly with others, I found UML diagrams are helpful for me to understand what attributes, operations and connections to take care of. It is almost impossible to remember the whole architecture in mind.
+On the downside, the TAs and instructors are not as responsive as other courses in the forum. The final project took us 21 days. But it is likely we will have no feedback. Nevertheless, it was a great experience to design and deliver a software engineering project.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 9 hours / week
+
+Review 46
+Georgia Tech StudentJuly 29, 2021summer 2021
+I have mixed feelings about this course. I was excited to take it because I thought I would get a chance to learn in depth about different design patterns, something that seems important but also an area where I don't have a lot of experience. Actually very little of this course was about patterns -- which in itself is more a demonstration of my own ignorance than a fault with the course. The subject of this course, overall, is the considerations that go into designing software systems from the initial requirements phase, to the analysis of those requirements and the production of models, to the implementation, and then to the incorporation of "non-functional" concerns like reliability, scalability, etc. The assignments mirror this structure: you'll start with a description of a system and be asked to produce a diagram of the system using UML, then you'll implement the system, finally you'll work with a team to extend the system to address additional concerns both pre-assigned and of your own choosing. Alongside the assignments are lectures that discuss different design considerations, different kinds of diagrams used for modeling software structure and behavior, and different ways of assessing design.
+First, on the difficulty: as others have said, I don't think it's fair to call this an "easy" course. There are no major challenges in terms of algorithms, it's true -- and you won't be cursing under your breath trying to synchronize threads or deal with double-pointers as in GIOS. But there is a good deal of work involved in doing things right, the assignments are, as is typical of this program, vague, and the group project introduces its own synchronization challenges which, if anything, can be more frustrating than synchronizing threads. I guess it's possible to half-ass the assignments and get by if you have a good familiarity with Java and a smattering of UML (or just common sense about drawing diagrams) -- but you can find yourself quite as stressed, if you are trying to do a good job on the assignments, as you would in any course. And the Summer schedule is compressed, so that adds to the overall load.
+I think the idea for this course is good, and the projects fit nicely into that idea. I guess the major issue is the execution. There are weekly office hours, but they become pile-ons for logistics and "what do I have to do to get a good grade on this assignment" (not to say that isn't a fair concern), so they don't do much to make the content engaging. Some TA's (this semester the heroic Pablo Gallastegui and also Eric Weinberg, along with some others) are present in Slack and will answer questions. But ... for a subject matter that could be very interesting -- how do you design good software systems, and how do you KNOW what makes a software system well designed -- I just feel like the intellectual engagement isn't there.
+Part of the problem here is in the supporting structure, as usual: the professor who created the original lectures is gone; those lectures are ... OK, if at times a bit hokey, but I don't feel like the professor is super enthusiastic in his delivery of the material -- often it seems like he's reading notes that are well organized but ultimately formulaic. There are sort of "theatrical" bits that come off like attempts to bring interest into material that should be interesting in itself. There are a lot of readings around the lectures, but I got lazy and skipped some of them -- even though the ones I skipped were not bad, one of them even seems quite good. That is because around this shell structure the new instructors and TA's have erected a series of reading quizzes. The readings for those quizzes are OK, and the quizzes themselves aren't hard, but it feels like they pull in a slightly different direction than the original lectures, and they are what is assessed. Yes, there are some "practice quizzes" tied to the original lectures and those are just...awful. You have to do them again and again to get 10/10 (well you really don't, but the syllabus at least says you're supposed to do that) -- and in the end you might have 10 attempts and just be praying not to have a single-word answer quiz come up that you can't divine what it wants. One of those quizzes I failed again and again until I realized I wasn't capitalizing the single-word answer. Not conducive to learning!
+So I think this course has some good ideas, some good projects, and a potentially interesting subject area. The problem is it really just is trying to do too much and is hanging on to an original structure it has outgrown. I would like -- in this course and in other OMSCS courses I've taken -- to go deeper into one area of the subject matter, to have some assignments that experiment with deeper student engagement, and to have less of a feeling in myself and other students as we go through the course, "What do I have to do to get full marks here?" There's potential in this course, but there are also a lot of frustrating aspects, and in the compressed Summer schedule, it will make you wonder a little bit why you're going back to the basement of your apartment to work through another reading quiz rather than sitting out with everyone else at the restaurants and bars and enjoying the summer evenings.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 15 hours / week
+
+Review 47
+Georgia Tech StudentJuly 28, 2021summer 2021
+This class is great for pairing with another course due to the highlighted simplicity noted below this review. Overall I actually thought the projects were pretty decent and liked the graded quiz structure. If you are ok with Java and object oriented programming you won't have any issue with them.
+The practice quizzes were a huge pain, however, and more led to a waste of time then a learning experience. The modules could additionally be compressed into about a third of the content as they are highly repetitive. Lastly, they need to speed up grading on the third project as it is related to the final.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 4 hours / week
+
+Review 48
+Georgia Tech StudentJuly 28, 2021summer 2021
+Took this with SDP and felt it was a fairly balanced workload for anyone taking 2 classes in the summer semester until the last few weeks.
+Ultimately, I actually enjoyed the assignments overall, but the course videos are drier than the Sahara with participation quizzes that go into the participation grade (10% overall). I actually enjoyed the individual/ group project and felt it was a decent look into OOP.
+Grading is incredibly slow. We had to do the group project without the previous two individual implementations actually graded. More than slightly frustrated closing out the course with almost 70% of the overall grade still not put in.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 8 hours / week
+
+Review 49
+Georgia Tech StudentJuly 27, 2021summer 2021
+DO NOT TAKE THIS CLASS. I can sum up this class in 4 words - "Plan before you code" . You will spend a ton of time doing UML diagrams and learning nothing useful whatsoever. Please save your time and take a better class.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 5 hours / week
+
+Review 50
+Georgia Tech StudentJuly 9, 2021summer 2021
+I know some out there are reading this thinking that it's an easy A course, how bad could it be. I went in with that mentality at least and ended up dropping because the material is more bland than reading an encyclopedia. I'm not sure how other companies handle software architecture but I find it hard to believe UML has widespread acceptance considering how many details are embedded into it just to understand the symbology of it all, or the monotony of creating diagrams. I had taken a similar course before that focused on creating a whole model package more than just focusing on certain kinds of diagrams.
+The participatory quizzes are tough to get through to get 100% your first time around so you just end up guessing after enough tries until you've wasted more time than they're worth.
+The overarching project concept shows potential to be interesting as it's gathering how you break down a multi-faceted real life problem but unfortunately the homework does not accurately reflect your ability to process this information and is caught up in UML symbology too much. I didn't think the grading makes any sense either. I received a mediocre grade on my first assignment because my diagrams were overly-complicated and yet I'm positive I reviewed others' work that looked like it could have been pencil-whipped in an hour who most likely received a better grade.
+By the 3rd assignment (the second is peer reviews) I just had no motivation to continue watching boring lectures, reading about material I apparently was not interested in, or continuing for what I think is little practical knowledge gain. I'm usually happy to take drier courses if I learn a little bit and they're not too intense, I should have taken the previous reviews on here more seriously.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 5 hours / week
+
+Review 51
+Georgia Tech StudentJune 16, 2021summer 2021
+This class is horrible. The lectures are so boring and really hard to get through. The quizzes make no sense half the time and just add to the frustration of the class. You have unlimited attempts, but it can take 5-6 times to get 100% which is a huge waste of time. I truly feel like I will never use anything I have "learned" in this class. I'm about halfway through the semester but I want to drop the class so bad. Overall, it's easy so I'm going to try to just push through, but honestly rethink taking this class if you are considering it. It may be an easy A but it is not worth it in my opinion.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 2 hours / week
+
+Review 52
+Georgia Tech StudentJune 14, 2021summer 2021
+What an absolutely miserable class. You may think to take this class for an easy A, but it does require some amount of brainless work - but it is work nonetheless.
+The lectures are incredibly repetitive and boring, and we're "required" to watch them all. I let them run in the background while I bruteforce the lecture quizzes (unlimited attempts, not for a grade but part of the participation points)
+I can't emphasize how useless this class is so far. I wish I had taken something that's just as easy but useful. I'm not sure who this class is directed towards, maybe folks working at legacy software shops that believe UML is the way to design software?
+In any case, avoid this class. It's truly not worth the time, money, or effort.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 1 hours / week
+
+Review 53
+Georgia Tech StudentJune 12, 2021summer 2021
+From the comments, I thought this class would be an easy A but I underestimated how much willpower it takes to do assignments, lectures and quizzes that are so pointless, and boring. I had 100% but I ended up dropping after 4 weeks because I couldn't take any more. I would rather have a W on my transcript and get to take another class before my degree is done.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 5 hours / week
+
+Review 54
+Georgia Tech StudentMay 19, 2021spring 2021
+This course is an example of how to waste your $800+ tuition. Useless lectures with boring quizzes and assignments. You won't learn anything useful.
+Super unorganized course, they decided to not use piazza and instead use Canvas Discussion which was a disaster. TAs not respond to questions just made it even worse.
+Very slow on grading assignments, the group assignment grade was released on the last day before grade was due, and don't expect to get any useful feedback from TA.
+Inefficient office hour, lots of useless information to listen through.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 10 hours / week
+
+Review 55
+Georgia Tech StudentMay 14, 2021spring 2021
+I see lot of "very easy", "boring" etc reviews about this course. However, I would like to emphasize that this course is not about your programming/coding skills or about the effort required to complete your assignment, but it is about making architectural decisions.
+With my almost 21 years of commercial experience of building software, I have to say that this course is a "summary of my personal style for the building software solutions from the scratch" based on my personal mistakes and challenges I have experienced in the past.
+So, if you are at the very beginning of your career, this course might set a vector/direction on your vision for how to architect software solution, and avoid very rough issues around that. If you a already have years of experience, it just will just help you to "polish/brush" your already existing knowledge.
+Again, the course is based on the material from the early 2000 and eralier time, when it just started to get a primary focus/shape of all "already known these days" methodologies and approaches on how to architect a software solution, so you will have an idea about the reasons why it is important to define, build and follow the process.
+This course definitely will not add any points to your "coding" skills, but it is very useful about the decisions you make when architect your software solutions.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 3 hours / week
+
+Review 56
+Georgia Tech StudentMay 10, 2021spring 2021
+Probably the most boring and useless class I will ever take but hey, as you can see from the reviews, its an easy A. All the assignments, minus the group project if you have group members that are dead, useless weight and wonder how they even got into this program in the first place, should take you no more than a day or two to complete. Lectures are the absolutely useless so dont waste time on them. You can take quizzes twice with the same questions, so it basically guarantees you get a 100 on all of them. Overall, find a good group in the beginning and plan to do a whopping total of 20 hours of work from the projects if you have previous Java and software engineering experience.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 1 hours / week
+
+Review 57
+Georgia Tech StudentMay 1, 2021spring 2021
+Pros:
+Very easy
+There are some interesting readings regarding architecture
+Cons:
+Lectures are terrible
+Since there's so little work, you aren't incentivized to learn much
+Barely goes into architecture
+You need to sift through a lot of pointless office hours / forum posts to get useful info
+Tips:
+Form your group ahead of time, otherwise you risk (guarantee?) getting a crappy team
+Rating: 3 / 5Difficulty: 1 / 5Workload: 8 hours / week
+
+Review 58
+Georgia Tech StudentApril 28, 2021spring 2021
+This course feels like it was written in 2005, and no one has thought about how the fields of computer science or software engineering have changed since then.
+Rating: 2 / 5Difficulty: 1 / 5Workload: 4 hours / week
+
+Review 59
+Georgia Tech StudentApril 27, 2021spring 2021
+Probably the most miserable class so far.
+This is my fourth class of the program.
+If you're looking for an easy A, then you've come to the right place. If you want to actually learn something, pick another class.
+it's literally ALL UML, no useful information to be found here.
+The 95% of the class is graded off of 6 quizzes and 7 assignments.
+Quizzes:
+The quizzes are stupid easy and you can do them twice, with the same questions. Do the math.
+Assignments:
+Of the 7 Assignments: 3 are done individually, 2 are as a group, and the other two are CATME surveys. They all tie into each other in making something, this semester was a streaming software business simulator.
+The first assignment is making a class diagram of the service. Doesn't need to be right, or even good.
+The second is peer reviewing other peoples. Again just need to add comments.
+This is probably the assignment that took the longest. You do an individual implementation. Assuming you know Java and OOP (this is a masters program) you can throw something together in one sitting.
+CATME Survey for forming your group
+A team diagram. Basically you'll take whoevers Assignment 1 you like the most, throw a few extra things on it and turn it back in
+A group implementation. All the group implementation is over the individual one is a few additions. The work is easily spread among your group and assuming you have a decent group ( I did ) it will be very easy
+Another CATME survey
+The Lectures
+The lecture in this class are just straight garbage. I don't like how the lecturer talks, and whenever he brings in his guests he acts like they're the dumbest people to have ever walked the earth. The content is disorganized and repetitive, at least the lectures have some decent production value. Each lecture has a quiz at the end which may or may not count for a lot of points. I generally let the lectures run in the background while doing something important.
+The lectures are 95% UML, despite expecting you to work in a group project, collaboration tools, and other development processes are barely mentioned.
+Also this is the first semester they decided to use the discussions tab inside of canvas instead of Piazza, and I never thought id say this, but Piazza is so much better and I wish more than anything that this class used Piazza. The Canvas discussions page has no organization and it was impossible to find any information about the class issued by the Gas
+Overall I say 1 hour a week because there were many weeks where I did nothing but let the lecture run in the background, its an extremely easy class to pair with something else, and if you're looking to grab an easy A, its the low hanging fruit.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 1 hours / week
+
+Review 60
+Georgia Tech StudentApril 26, 2021spring 2021
+Easy A class and helpful to do rewind of Java OOP.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 8 hours / week
+
+Review 61
+Georgia Tech StudentApril 25, 2021spring 2021
+4th/5th class (taken with GIOS)
+Rating: 2 / 5Difficulty: 1 / 5Workload: 100 hours / week
+
+Review 62
+Georgia Tech StudentFebruary 4, 2021fall 2020
+Overall this course, was a tedious and good intro class to the program.
+I would say the UML class diagram assignment, the individual implementation & group project were the more cumbersome parts of the semester. The quizzes and participation points were easy freebies.
+Although some weeks required more dedication due to granular things that you may want to improve when working on any assignment, it is a good class that teaches you to design code before implementing it, which can be somewhat helpful in the real world. It is a good starter course for those with little to no prior Java experience as well.
+Rating: 4 / 5Difficulty: 2 / 5Workload: 12 hours / week
+
+Review 63
+Georgia Tech StudentJanuary 27, 2021fall 2020
+This was the first course I took in the OMSCS program and I chose it because at this point I had 2 years of professional experience as an iOS developer, and figured it could be a nice introduction into the program.
+Course Content:
+The course went through many topics like UML, OCL, state transition tables, design patterns, etc. I think it was a relatively good overview to give you some familiarity with the kinds of things that are out there. The projects focused heavily on UML and Object-Oriented programming in Java.
+Course Content Delivery:
+The content was delivered in the form of 1 to 2 minute videos by the lecturer. They were a bit of a slog to get through, and I felt that creating a transcript would have been a more efficient method of getting information across.
+Overall Thoughts:
+This was definitely an easy class that did not take much time commitment. If you have a reasonable amount of experience in the software development field, I believe you will have an easy time of it. At the end of the day, what you get out of a course is what you put into it, and unfortunately I did not put as much into it as I would have liked. Perhaps this was exacerbated by the fact that the quizzes following each set of lecture videos could be taken multiple times, and that there were no exams. So the projects really only tested a subset of the course content.
+I also felt that it was too heavily focused on UML and Object-Oriented code. Firstly, I don't know anywhere that still uses UML - and the way we were expected to use UML in some of the projects (updating the UML as we went) showed me why. I understand using UML for up-front design and thinking through the architecture, but I can't imagine anyone still would want to update as they went - it gets out of date fast and very easily. As far as object-orientation, I use a functional approach at work and so wasn't very interested in learning OOP patterns, but maybe that's just me (and maybe I'm wrong in doing this).
+My dislike rating is more about not being as excited about the course content as I thought I would be. If you're interested in modern software architecture principles, I think you could do better than OOP / "Clean Code" / SOLID, etc.
+Rating: 2 / 5Difficulty: 1 / 5Workload: 5 hours / week
+
+Review 64
+Georgia Tech StudentDecember 21, 2020fall 2020
+If you are just looking for an easy A, and don't mind a group project, then this could be for you. Instructor and TA's are all great, but the video lectures are not helpful at all (with one or two exceptions). What could be the most interesting and useful information is crowded into the last few lectures with a quick mention and no testing or projects. No grade or feedback was provided for the final group project which is unacceptable.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 8 hours / week
+
+Review 65
+Georgia Tech StudentDecember 15, 2020fall 2020
+An easy class in the sense of grading and programming, but a relatively frustrating class in the project requirements. There are no exams, only quizzes, which are very easy given the reading material.
+Dr Moss is nice and fairly helpful in the office hours. He also cleared up some of the ambiguity in the project requirements between office hours and piazza, so make sure you are trawling those as needed. One TA was fairly rude across all communication channels, but the rest were fine.
+As a Hardware Engineer by trade, with an intermediate programming background, even I didn't learn much from this class. Definitely an easy A if you just put in the work (5 hours a week averaged over the semester), though be prepared to just "do your best" with the UML. Additionally, the lectures are the worst I've seen so far, though this is my third class and apparently the other two I've taken set the bar fairly high.
+Overall I'd recommend it as an easy A but slightly frustrating. Also you MIGHT learn some better design/architecture practices if you force yourself to use them, though you likely already employ this if you are a software engineer.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 5 hours / week
+
+Review 66
+Georgia Tech StudentDecember 12, 2020fall 2020
+This course was easy. As already mentioned in previous reviews, it relies heavily in UML, but I don't agree with that being wrong. UML gives a good framework and best practices to build upon.
+My biggest gripe with the course was really with the video lectures. They are not as well produced as others like HCI or SDP, in the sense that they are very short, they don't have include a hand or a pointer to what is being presented in the video to better reference what is being talked about, content disappears while you want to still look at it, and the inclusion of a "student" to make the videos more dynamic just turns into a waste of time. But more than that, the lectures are not very much related to the assignments and projects of the class, and it's like the lectures are going one way but Prof. Moss and the TAs are going another way. Most of the content of the lectures isn't even addressed or useful for the assignments, just the first two or three sections were relevant. I stopped watching after that because I didn't even feel like the content was going to be useful to me.
+The projects were the right amount of challenging and as long as you can do Java programming you'll be good. For the group project, I was glad that they were more flexible, and we could even choose another language or stack to work with (we did a Springboot backend in AWS along with an iOS app as frontend).
+As a whole, it was a good introduction/deep dive on UML, and good practice for creating software projects from scratch, but I didn't learn much more than what I didn't already know, being a software engineer for 5 years.
+I'd also have expected the course to also go into modern architectural topics, such as Clean Code and SOLID principles.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 10 hours / week
+
+Review 67
+Georgia Tech StudentDecember 9, 2020fall 2020
+This was my 8th course in the program and I took this class as an easy A to pair with another class.
+Overview:
+Well structured course about software architecture and general design principles of software systems.
+Assignments:
+7 total including one group project and group review. The indivudal assignments are very straight forward and take anywhere from 30 minutes to a few hours (for the initial project implementation - ~5-10 hours with strong java skills). The group project is a lot more substantial but can be done in ~20 hours assuming you start from a good code base (you pick one members individual project and work from there) and have a solid plan for how to implement new features. The biggest part that added time to the group project was actually working with other people. A single person could do all the work in half the time of the group but that's not how it works in the real world.
+Quizzes:
+Based on the lectures and reading. Very easy, no trick questions. You should probably do the reading before taking the quiz but its not always necessary.
+Lectures:
+Well structured and informative. Honestly only watched a few of them but they seemed good.
+Exams:
+None!
+Overall:
+You can get a lot out of this class if you've never worked in the industry. If you have, you will be bored. There is a TON of overlap with CS 6300 (software development process). You can easily get an A with no more than an hour or two per week but every so often you will be in the 10-20 hr range depending on your familiarity with java and how good your group is. Personally, I took this course as an easy A to pair with something else because I'm kind of burnt out after 2 semesters doubling up + summers. I don't feel like I really got anything out of the class that I didn't from CS6300, but I could have.
+Rating: 4 / 5Difficulty: 1 / 5Workload: 5 hours / week
+
+Review 68
+Georgia Tech StudentDecember 5, 2020fall 2020
+This is my first course in OMSCS.
+Assignments:
+A1.CatMe, ~10 minutes
+A2.UML class diagram, ~3 hrs
+A3.Peer review (for A2): ~2 hrs
+A4.Implementation (Solo) for the project: ~10 hrs
+A5.Group plan for project enhancement (Group Work): ~2 hrs
+A6.Group implementation (for A5): ~ 20 hrs
+A7. Peer review (for A5 and A6): ~ 30 minutes
+The workload overall is ~10 hrs/week for this course. It is perfect for the first course and I would highly recommend. Secondly, TA are super nice and responsive in Piazza. Office hour helps a lot for assignments.
+I would say this is a easy A course for everyone. Before taking OMSCS, I have no experience and knowledge about Java and OOP, but it doesn't stop me for finishing all the assignments.
+Advantage:
+1.Easy A / perfect match the 2nd course in the same semester.
+2.Learning solid OOP, Java basic and Spring Boot
+Disadvantage:
+1.lecture video aren't interesting
+2.Don't expected too much learning about Java.
+Rating: 5 / 5Difficulty: 1 / 5Workload: 5 hours / week
+
+Review 69
+Georgia Tech StudentNovember 23, 2020fall 2020
+One of the more enjoyable courses in my journey.
+This class has gotten a lot of positive and negative reviews over the years. Professor Moss is doing a great job with it right now.
+There are six assignments.
+A background survey
+UML Diagram
+Peer Review of the UML diagram
+Implementation of the program
+Group project enhancement write up
+Group Project delivery
+There are six quizzes. Lowest is dropped. Two attempts per. Mostly true/false.
+I put 6 hrs week workload. It was less than that for A1,2,3,5, but significantly more for A4 and A6. You can't really work ahead, but this would pair great with a class that you can work ahead in.
+The enjoyment in this class comes from the fact that there are so many ways to do things right in software design. (There are also a lot of ways to do it wrong.) You work on one project the whole way through, getting a six page list of requirements to start. You create a UML diagram outlining this project, then peer review three other students in the second assignment. I had two meaningful sets of feedback and one kid who either didn't know what was going on or didn't care. The individual implementation was more of a refactoring exercise. The staff presented us with a monolithic version of the program that we had to re-engineer into an object oriented program in java. If you don't know Java, there is plenty of time in the first couple of weeks to brush up. Plus, they hand you a working version of the program, you just have to move things around and make it OOP.
+There are a lot of complainers about too much UML. These people are missing the point. In software design, you have to document your system in much detail. There are several ways to do this. This course focuses on UML because the resources are readily available and it makes grading uniform and consistent.
+Word to the wise: find your group early in the semester. Other people who are go-getters will be doing the same. I had a great group of three and everyone contributed and even finished early.
+The final assignment was the bulk of the time spent in the semester. We implemented a database, gui and security. It did take a strong effort to get it all working together and working right, but we had the people to do it.
+TL;DR I remember a fella named Chuck Cottril on Google Plus who said this class was YAGNI (you aint gonna need it.) While you don't need it, it was a great exercise in java, teamwork, and software design. The new skills I learned were what we implemented in the group project, so choose your enhancements on what you want to learn.
+Rating: 5 / 5Difficulty: 2 / 5Workload: 6 hours / week
+
+Review 70
+Georgia Tech StudentAugust 18, 2020summer 2020
+As all the other reviews mention the class focuses way to much on UML and the rules of the language which is never enforced or focused on in a professional setting. I think UML is a good guideline of making diagrams for a business setting but the strict rules are useless and shouldn't be a focus.
+I would have preferred more focus on design patterns and things like studies into monolith structure to micro services and things of this nature, but none of this is ever addressed really. If you need an easy A then make sure to choose your group for the final project wisely and put in a decent effort.
+The TAs are pretty good and responsive, especially for the final project. I'm not sure if it was just the summer but we didn't know half of our grades until the class was over which I'm sure could cause problems for some.
+For some background I started as a CS undergrad and finished CIS, and I took a course similar to this there. I already had knowledge of UML and so this class was mostly useless for me, but if you have no experience in UML then it's a nice thing to know. It does require Java programming which I have almost no experience in, but you can google your way through that if you have any programming experience at all really.
+Rating: 3 / 5Difficulty: 1 / 5Workload: 6 hours / week
+
+Review 71
+Georgia Tech StudentAugust 11, 2020summer 2020
+This was a very easy class. I have experience in the software industry at both the enterprise and startup levels. I never used Java, but that was only really a minor inconvenience. Otherwise, super simple class that focuses way to much on UML.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 3 hours / week
+
+Review 72
+Georgia Tech StudentAugust 6, 2020summer 2020
+Overall this class is rather easy. I wouldn't say very easy only because of the amount of tedious UML creation involved. I was hoping it would have more substance around how to actually apply various software design patterns; it did not. I was also hoping it would cover how to not only design from a "green field" state, but also how to approach applying modern design to legacy code. It did not. There wasn't much substance to this course, just plenty of diagrams to draw. You do need to be able to actually write Java code to complete the project(s). In addition getting a good team together for the final project is important for success. The one positive I can say about the class is that I found the TA's very active on Slack and Piazza. They were pretty helpful overall and did want students to succeed.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 12 hours / week
+
+Review 73
+Georgia Tech StudentAugust 4, 2020summer 2020
+As others have said, this is an easy A with little instruction. Focuses waaaayyy too much on useless UML which is disappointing because there are a lot of really great concepts that could have been covered that will actually help you in your career. Lectures touch briefly on Object Oriented Design Patterns and fundamental concepts like coupling and cohesion and avoiding monolithic structures. All good but basic concepts that are 20+ years old. I was expecting a lot more from a graduate level course on Software Architecture from a top ten CS program like GaTech.
+You get what you put in, but it is an easy A even if you don't put in too much. The projects can be fun if you approach them that way. There is a major noticeable gap between experienced students and those without any professional software engineering experience so you'll probably learn more from other students than you will from the course itself if you are active and engaged.
+Rating: 3 / 5Difficulty: 1 / 5Workload: 6 hours / week
+
+Review 74
+Georgia Tech StudentAugust 3, 2020summer 2020
+The projects are simpler than 6300, so if you are new to Java this is a more fundamental choice. I found the assignment of editing existing code into classes is helpful. A lot of grade on drawing diagram and reviewing other people's work, so even if I took 6300 when I know nothing about programming I received much higher grade in 6300 than this one.
+Lectures are dull, however the latter part of lectures are fun to my surprise.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 4 hours / week
+
+Review 75
+Georgia Tech StudentJuly 28, 2020fall 2019
+This is a really good class for me (as a non CS undergrad). It gave a lot of good information, decent amount of reading, and fairly straight forward lab.
+Not my favorite class, but not my least favorite class.
+Labs are in Java.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 10 hours / week
+
+Review 76
+Georgia Tech StudentJuly 28, 2020summer 2020
+First course in the program, I have no software architecture experience before yet spent minimal effort to get an A in this course. This course is definitely not a graduate level course. The course is a huge waste of time and probably could be done just reading some posts on the internet. Take it if you want an easy A (but learn almost nothing), otherwise stay away
+Rating: 1 / 5Difficulty: 1 / 5Workload: 3 hours / week
+
+Review 77
+Georgia Tech StudentJuly 24, 2020fall 2019
+I took this as an easy class to pair with RL (going for the ML spec). Besides the final project implementation, this class is a joke and as such pretty boring and useless.
+I just quickly clicked on all the lectures, did every assignment in <1hr, and got an A.
+I did have a badass group for the final project though which matters a ton. I was the only one who knew front end, so I did all the visuals (ReactJS + Bootstrap). A good group is a must for an A, so find people asap.
+Rating: 3 / 5Difficulty: 1 / 5Workload: 5 hours / week
+
+Review 78
+Georgia Tech StudentJuly 23, 2020summer 2020
+As someone else mentioned, this class should not exist. SDP-6300 is a much better course in every sense of the word. This class focused far too much on UML throughout the entire semester. It was a giant waste of time but an easy A. If you want to learn about UML documentation or take a light class to get you closer to graduation, take this. If you want to learn something useful, STAY AWAY!!!!
+Rating: 1 / 5Difficulty: 1 / 5Workload: 4 hours / week
+
+Review 79
+Georgia Tech StudentJuly 21, 2020summer 2020
+This course should not exist. It was a waste of time, but it gets me one class closer to graduation. Take the final project seriously and impress the importance of professionalism on your teammates to get it done quickly.
+Rating: 3 / 5Difficulty: 1 / 5Workload: 6 hours / week
+
+Review 80
+Georgia Tech StudentMay 11, 2020spring 2020
+Probably one of the easiest courses in OMSCS. I have no rigorous software engineering experience and don't come from a CS background yet managed to get an easy A.
+Take this course only if you are burnt out or paring with another heavier course
+Rating: 4 / 5Difficulty: 1 / 5Workload: 2 hours / week
+
+Review 81
+Georgia Tech StudentMay 6, 2020spring 2020
+This a well structured course and very easy as well to get an A if you have a background of software development. No exam but a group project in the end. The quizzes are open book and pretty easy. The course focuses on UML, different architectural styles, design patterns which I found useful and I can apply this at my work place. If you submit all the assignment and quizzes on time, be sure to get an A.
+Rating: 4 / 5Difficulty: 2 / 5Workload: 4 hours / week
+
+Review 82
+Georgia Tech StudentMay 5, 2020spring 2020
+This is my first course in OMSCS. I think it focused too much on UML. Course content is not very useful. The only time consuming part is final project, which takes several evenings. Easy to get A.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 6 hours / week
+
+Review 83
+Georgia Tech StudentApril 29, 2020spring 2020
+General
+Skip this class if you have any software engineering experience. You won't learn much.
+Take this class if you are looking for an easy A.
+Great teaching team and well structured class!
+Professor Moss is very involved in office hours and personally responds to many Piazza posts.
+TAs are responsive on Piazza.
+No active slack group.
+There is a group project in this course (last 4 weeks of the class). You can pick your own team so going into the class with a team helps. Having someone with front end experience helps as the group project has a backend and front end (GUI/webpage/mobile app) component.
+Assignment instructions were very detailed and easy to understand. Very few clarifying questions required.
+The bulk of the coursework is with the group project (last ~4-5 weeks of the course). The rest of the semester is pretty light with assignments taking ~5-10 hours each) and quizzes taking ~1 hour per attempt (open book).
+No exams!!!!
+Quizzes
+6 quizzes, open book. Based on obscure knowledge from readings/papers. Open book, 4 attempts.
+2 CATME surveys - First one is for team formation (~15 min to fill out) and second one is for team member assessment (~30 min to fill out). Make sure to leave detailed comments about each team members contribution.
+Assignments
+Assignment 1: CATME survey
+Assignment 2: Course project design - The whole class is based on a designing a system. When I took it, the project was to design a star search simulation system. Create UML diagram and sequence diagram for A2. Time Required: ~10 hours. This is not difficult but it does take some time to read the instructions and come up with a good design.
+Assignment 3: Peer review - Review 3 students's designs and diagrams and leave feedback based on specific format specified in the instructions. Time Required: ~8 hours. This is not difficult but it does take some time to review other diagrams and provide useful feedback.
+Assignment 4: Initial implementation of the system: Java coding, starter code given. Have to change this from monolithic to OOP design. Time Required: ~10 hours. Assignment instructions state all the requirements. 10 test cases given, TAs will test with about 20 more. You aren't graded on the efficiency of your search algorithm though so a basic brute force ish algorithm is good enough.
+Assignment 5: Group Project Improvements; Write up a proposal with 3 system improvements. Time Required: ~5 hours (most of which will go into discussing and detailing improvements with your teammates).
+Assignment 6: Simulation Coding - Add 3 improvements on top of A4 code. Usually groups will just pick one team members code to go off. GUI was required in the past but was not required this term so it counted as one improvement. Sample improvements: Data persistence, rewind/forward actions, adding other objects in the search region, search region object fueling/fuel capacity. Time Required: ~30 hours (+/- depending on how well your group works together). We used github issues to track bugs and assign tasks.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 8 hours / week
+
+Review 84
+Georgia Tech StudentMarch 24, 2020spring 2020
+Contrary to most of the reviews here, I enjoy every bit that this course has to offer. I think the class is well designed to teach Objected Oriented Design and software architecture concepts. The class seems well-staffed with TAs this semester, with both the Prof and TAs working hard to ensure the class can continue despite difficult circumstances. Moreover, they are very active on Piazza and are patient with students' questions.
+The course materials teaches software engineering and architectural concepts that are relevant til today. The textbook teaches Object Oriented Design through UML, design pattern applications, and is written by Craig Larman, a computer scientist who contributed much to the computer science and agile community.
+The material was also supplemented with interesting readings on clean code, and design patterns such as the GoF. The Prof also makes a point to hold reading discussions to discuss the topics at length.
+The assignment is also designed to apply what you have learned. I think the assignment instructions could have been clearer to minimize repeated questions on the forums though.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 10 hours / week
+
+Review 85
+Georgia Tech StudentFebruary 12, 2020spring 2020
+Another software class similiar to CS6300. If you come from a CS or Software background this course would be a free A for you.
+Therefore, don't take it if you are working as a software engineer. You will be bored because this course teaches you nothing new.
+Rating: 3 / 5Difficulty: 1 / 5Workload: 2 hours / week
+
+Review 86
+Georgia Tech StudentJanuary 26, 2020fall 2018
+CS 6310 is a great class to take as your intro class to the program. Do not take CS 6340 as your first class - you will regret it.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 10 hours / week
+
+Review 87
+Georgia Tech StudentJanuary 2, 2020fall 2019
+Very easy A class. Too much focus on UML. Final group project is the biggest workload, make sure to form a good group.
+Rating: 3 / 5Difficulty: 1 / 5Workload: 5 hours / week
+
+Review 88
+Georgia Tech StudentDecember 23, 2019fall 2019
+Dull subject - almost similar to CS-6300. I would say this was not organized to an extent. Piazza posts would take ages for a TA to respond to. Project and course videos was dull as well. I would say to take this course only if you require an 'A' for your grades.
+Rating: 3 / 5Difficulty: 1 / 5Workload: 6 hours / week
+
+Review 89
+Georgia Tech StudentDecember 18, 2019fall 2019
+The course content was pretty meh, make sure you pick your group for the final project.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 7 hours / week
+
+Review 90
+Georgia Tech StudentDecember 17, 2019fall 2019
+The course is comprised of the following:
+8 Assignments
+2 - 7 focus and build iteratively on the lawn mower simulation, culminating in the group project to implement a GUI
+1 and 8 are CATME surveys
+6 Quizzes
+Participation
+Assignments
+1: Catme Survey
+2: Initial mower design - UML diagrams and Q/A
+3: Initial mower implementation - Coding
+4: Mower modifications - UML diagrams and Q/A
+5: Peer reviews of Assignment 4
+6: Software architecture paper
+7: Group mower implementation - Coding
+8: Catme Survey
+As seen above, there is a stark lack of programming in this course. It largely consists of reading dated literature and writing-based assignments. The first coding assignment wasn't until 6 weeks into the course, and the final was due nine weeks later -- that's all the code you'll write in this class.
+Quizzes
+There are 6 quizzes in the course, and they almost exclusively focus on Larman's Applying UML and Patterns book. This book was originally published in 1997, and it has not aged well. How someone managed to write 600 pages on UML practices and specification without losing their mind is astonishing.
+I was able to take each multiple-choice quiz without any preparation or studying, by simply ctrl+f'ing through the PDF while I took the quiz. You have 4 tries for each quiz, but you get no intermediate score or indication if you missed anything or got anything right. Ultimately, I retook each quiz and just switched answers for questions I wasn't able to find verbatim in the PDF.
+I would avoid using O'Reilly all together as their search function does not work well. You're better off finding the PDFs. Again, you'll occasionally need to read another paper, but I think each quiz had some non-trivial amount of questions from the Larman book.
+Final Project
+The group project is just another iteration of the mower simulation with some changed requirements. We all took the Catme survey at the start of the course, but group creation is a complete free-for-all. Either you have some buddies to group with, or you're choosing/joining groups at complete random. This led to a group with disparagingly wide range of skills and motivations. Unless you get really lucky, you'll likely end up doing the final in Java and some sort of GUI on top of that (Swing). You're limited by needing to package the final on a Linux VM, and the common denominator language of having done a lot of pre-work in Java in Assignment 3.
+You're technically allowed to do anything within the VM (web-based, etc.), but, again, this depends on your group competencies and motivation.
+This was ultimately a really poor experience in sloppily copying and pasting code from individual's assignments.
+Udacity
+The videos associated with this course are honestly embarrassing. They're extremely outdated, the quizzes are broken and non-engaging, and the production quality is really poor compared to some other courses.
+Overall
+This course was a huge disappointment. I got an A in the class, and I never did more work than a couple hours the day before an assignment was due. The final project took some coordination, but you're working with other remote students -- your luck will be hit or miss here. In retrospect, I'm truly shocked that this is a Master's-level course. I was expecting a deep-dive into hands-on design patterns and larger architectural implementations in various languages, cloud-based workflows and distributed design. Instead, you'll simply read dated books on UML specifications and horribly dated opinions on what it means to be a Software Architect.
+Honestly, skim through one of the required readings and Google each "expert's" name. Most of the people featured in this book can't even submit a proper, clear headshot of themselves, much less provide any meaningful opinion on software architecture -- this is just full of self-stroking egos.
+I suggest taking this course as an easy A and double it with something else to get ahead in the program.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 2 hours / week
+
+Review 91
+Georgia Tech StudentDecember 17, 2019fall 2018
+That was my first course in the program. Wasn't a bad course if you follow the lectures weekly and follow the discussion. After seeing other classes by far this class was my favorite. Most things were clear and easy to follow.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 92
+Georgia Tech StudentDecember 17, 2019fall 2019
+To start off this is a fantastic course. Great structure!
+You have two tracks. Hands-on work track and Reading/Quiz track.
+Assignments include
+Catme survey - Yes there is a weightage given. So please take this survey
+Initial analysis and design of the system
+Individual implementation of the system - skeletal monolith code is given. Make it more modular and add some algorithm. Algorithm effectiveness carries a good weightage
+Update the design based on new requirements and changes to design while coding
+Do a peer review of the design
+Do a group project with new requirements added
+Do one more catme survey
+The design of this is based on how software evolves in real world, with new requirements coming in all the time.
+There are 6 quizzes and best 5 out of 6 quizzes will be taken. Each have 4 attempts. Highly recommend reading the required readings and attending the office hours (or watching recordings) and getting clarity on the questions. There is a wealth of information in those sessions
+There is one position paper to be written based on the book 97 things every architect should know. You get what you put in. There is a lot to gain from this course if you are ready to engage.
+Only negative I see is with the time taken for grades to be turned around. At the course withdrawl date, there was about 35% of the grades turned around. It becomes a guesstimate to drop at that point. At the course end date, and the official grade submission deadline, about 60% of the individual grades were returned. 40% - group project, position paper and participation grades were not returned till the letter grade submission deadline. Students got their letter grades prior to the individual marks.
+Grading in this course is very very fair and thorough. So this is really understandable that instructors take a little longer to finish grading. Lot of posts on piazza at the end of the course was about the grades not being there in place.
+This is something that they should improve in the next term.
+Rating: 5 / 5Difficulty: 3 / 5Workload: 8 hours / week
+
+Review 93
+Georgia Tech StudentDecember 11, 2019fall 2019
+This was an interesting, if dry, class. The quizzes focus on reading from different books (primarily Larman's book Applying UML and Patterns) and answering questions in an open-book format. Lectures are of varying quality and I found myself drifting off. About halfway through I stopped watching the lectures and just focused on the readings.
+The assignments were more interesting. They involved creating documentation and implementing a Java app for a toy problem (search on youtube for some examples of previous semesters projects). One of my favorite assignments was writing a response papers to two articles from a book on software architecture problems.
+The group project is re-doing the individual assignment with some added requirements and complexity (primarily adding a GUI front-end, either through a browser or using Swing/FX). This will vary depending on your group but isn't too hard especially if you did well on the individual project(and my group was excellent)
+Overall this is a great class to take if you are interested in software engineering. Some of the topics may be dry but thinking through and critiquing designs will help improve your design skills. You will learn more UML than you need to but have a better idea of design-related challenges when writing software.
+Rating: 4 / 5Difficulty: 2 / 5Workload: 10 hours / week
+
+Review 94
+Georgia Tech StudentDecember 9, 2019fall 2019
+The class wasn’t too difficult, but the topics felt a bit bland. It felt more like a reading course than programming course. There was a lot of material/topics to read through, and you had to take quizzes on them. The quizzes are open-book, though, so fortunately, you don’t have to memorize hundreds of pages every week. It’s on a similar realm to the SDP course in that it touches on design diagrams, the programming projects are in Java, and there’s a final group project. I did not like this course as much as I did SDP, though. The lectures and readings went really deep into design in software architecture, and they felt a bit disjointed from each other. The course isn’t hard but does require a non-trivial amount of time and dedication to complete the lectures, reading, quizzes, and assignments.
+While I don’t particularly enjoy group projects, I think the group project is structured a bit better for this course than SDP. Most of the work for the group project is already completed in previous individual assignments, so for the group project, you’d be smart to just build on what you already had. For SDP, the group project was almost from scratch, so there was a lot of work to do.
+Overall, the main way to be successful in this course is to stay on top of the work every week and keep a good schedule.
+There were a few downsides to the course. Firstly, due to the sheer size of the class and the nature of the assignments (conceptual, as opposed to pure programming), the teaching staff had a really hard time keeping up with the grading. By the time grades were due for the semester, we were still missing grades from 3 (out of 8) of the assignments. Secondly, grading feels quite... subjective. I had a fantastic group that was goal-oriented and talented. We combed through the requirements with a fine-toothed comb and made sure we checked everything off. We had points deducted for parts of the assignment that did not have concrete specifications---the reason being that it wasn't "enough", and that things could've been "better." Overall, the final project grade was really excellent and our team members received A's for the class (i.e. there was no point in asking for a regrade), but it was a bit frustrating to see points taken off for seemingly subjective reasons. I personally did not feel like the structure of the class really offered ways to effectively enhance students' understanding of the material. Particularly, I didn't really feel like I became a better software architect as a result of this course. All in all, I would say that if you're looking for a relatively "easy" class to get an A and to tick off a foundational course, this is one of those.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 15 hours / week
+
+Review 95
+Georgia Tech StudentNovember 6, 2019spring 2018
+It was a good first-class. Be careful taking it though, if you haven't decided on a track yet.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 96
+Georgia Tech StudentSeptember 23, 2019fall 2018
+I would recommend this course to anybody. It was informative and brings value.
+I didn't have tests.
+Rating: 5 / 5Difficulty: 2 / 5Workload: 9 hours / week
+
+Review 97
+Georgia Tech StudentAugust 18, 2019summer 2018
+I did not like this class. It was more a class on how to write UML which I have never seen used in a company setting ever other than very basic uses. So the lectures feel a little outdated. Additionally, the lecturer, who is now retired I believe so they have others running the class now, is very dry and not fun to watch. He has a student with him in many lectures that he asks questions to but he is always correcting the kid and making him look stupid. I just felt bad for the kid most of the time and felt like the lecturer was being overly critical.
+The group assignment was unpleasant, especially because only half of us really wanted to get the assignment done well and on time. Two of us stayed up until 3 AM pulling it together because other people dropped the ball. The assignment was interesting enough, but the design of the code we were given was really strange and hard to work with. You'd think a class about good architecture would try to be a good example and give you a solid code base to work with...
+Overall I disliked it. The assignments were incredibly tedious and mostly about doing UML graphs, not in coming up with good designs. I took 6300 which is very similar and I felt like I learned most of the same stuff (sans UML, thank goodness) and with a way better lecturer. I recommend you take that class instead.
+Thankfully I did learn about TDD for the last assignment and that I did use later.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 5 hours / week
+
+Review 98
+Georgia Tech StudentAugust 9, 2019spring 2019
+After having taken SDP and this course, I would take SDP and skip this. This course covers OOA in depth. SDP touched on the entire development process which is useful anywhere but many environments would never delve into UML like you do in this course. You will spend a lot of time creating and reviewing UML documents. The main project was interesting but too much time was spent covering the semantics of the project and not on the material the of the course. Agile development was a topic but was not covered as well as I expected I think because of the focus on project requirements. It's a useful course that may be good for you to organize and document your concepts, but its not my favorite.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 12 hours / week
+
+Review 99
+Georgia Tech StudentAugust 6, 2019fall 2017
+I feel that this course is just too easy. But probably a very good choice as the first course.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 4 hours / week
+
+Review 100
+Georgia Tech StudentAugust 2, 2019spring 2019
+This was a terrible course with antiquated and useless material being taught. Hardly the stuff of an MSc program. I more or less skipped watching any of the videos, which presented mind-numblingly useless details from outdated textbooks or concepts that have largely been superseded by newer techniques/methodologies for coordinating technical design & architecture.
+The tests were super-easy, as were the assignments. If you've done any coding or architecture in your life (i.e. you've written code for more than 2 years), you should totally skip this course and get your money's & time's worth elsewhere. GATech, you need to replace this course.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 2 hours / week

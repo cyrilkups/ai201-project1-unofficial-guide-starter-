@@ -1,0 +1,23 @@
+For a Master of Science in Computer Science, Specialization in Machine Learning (15 hours), students must select from the following:
+
+*The following is a complete look at the courses that may be selected to fulfill the Machine Learning specialization, regardless of campus; only courses listed with bold titles are offered through the online program.
+
+CS 6505 Computability, Algorithms, and Complexity
+
+CS 6515 Introduction to Graduate Algorithms
+
+CS 6550 Design and Analysis of Algorithms
+
+CSE 6140 Computational Science and Engineering Algorithms
+
+CSE 6740 Computational Data Analysis: Learning, Mining, and Computation
+
+Elective ML courses must have at least 1/3 of their graded content based on Machine Learning.
+
+CS 7642 Reinforcement Learning and Decision Making(Formerly CS 8803-O03)
+
+CS 8803 Special Topics: Probabilistic Graph Models
+
+CSE 6250 Big Data for Health(Formerly CSE 8803)
+
+Free electives may be any courses offered through the OMSCS program. You can find the list of current OMSCS courses here.

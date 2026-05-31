@@ -1,0 +1,49 @@
+Sample 1
+Chunk ID: 04-introduction-to-graduate-algorithms-reviews-chunk-146
+Source: Introduction to Graduate Algorithms reviews
+Characters: 486
+And then there’s the support—or more accurately, the lack. The instructors seem more like distant overseers rather than engaged mentors. You’re expected to fend for yourself, which is fine if you thrive in isolation, but most of us need real help. The TAs? They’re not much better. Their guidance is minimal at best, often worst. Instead of feeling like you’re part of a team working together, you’re forced into a battle against a system that seems determined to ignore your struggles.
+
+--------------------------------------------------------------------------------
+
+Sample 2
+Chunk ID: 12-ai-ethics-and-society-reviews-chunk-182
+Source: AI Ethics and Society reviews
+Characters: 471
+Review 71
+qhtsmcSkq6ExLX9JfXE9cQ==January 12, 2023fall 2022
+Requires an active social media account. They suggest Facebook. If you don't have one, then the suggestion is to sign up for social media and use it until you have at least 50 data points of targeted advertisements. Ironic that an ethics class would require students to sign up for a toxic social media account specifically to divulge personal information.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 1 hours / week
+
+--------------------------------------------------------------------------------
+
+Sample 3
+Chunk ID: 06-machine-learning-reviews-chunk-358
+Source: Machine Learning reviews
+Characters: 543
+This post aims to voice the concerns of over 200 students regarding CS7641. It is based on recent discussions in EdDiscussion, where the growing tension and frustration in the course are evident. Since the departure of the original instructor, Prof. Isbell, this class has transformed into an environment dominated by an authoritarian approach. Students are feeling increasingly disillusioned and helpless. The course has become closed-minded, one-sided, and plagued by ongoing drama, creating a highly stressful atmosphere for those enrolled.
+
+--------------------------------------------------------------------------------
+
+Sample 4
+Chunk ID: 08-software-development-process-reviews-chunk-113
+Source: Software Development Process reviews
+Characters: 200
+Review 43
+f5LbeClAhhqYmXvJMHwplw==March 4, 2024spring 2023
+Amazing course if you are already a software engineer
+Super easy A
+No exams or quizzes
+Rating: 5 / 5Difficulty: 1 / 5Workload: 1 hours / week
+
+--------------------------------------------------------------------------------
+
+Sample 5
+Chunk ID: 04-introduction-to-graduate-algorithms-reviews-chunk-002
+Source: Introduction to Graduate Algorithms reviews
+Characters: 244
+Review 1
+vKZss4f98jPc2E1Wl2a0Cg==May 15, 2026spring 2026
+TL/DR: This course has a reputation of graduation gatekeeping, and while it can be difficult, it is very doable if you are diligent and detail oriented when following course expectations.
+
+--------------------------------------------------------------------------------

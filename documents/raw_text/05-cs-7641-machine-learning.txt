@@ -1,0 +1,29 @@
+This is a graduate Machine Learning Series, initially created by Charles Isbell (Chancellor, University of Illinois Urbana-Champaign) and Michael Littman (Associate Provost, Brown University) where the lectures are Socratic discussions. The course is led by Theodore LaGrow (Georgia Tech) and has been updated with current examples, tooling, and assessments.
+
+Who this is for: graduate students and working professionals who want principled, hands-on mastery of modern ML. You should be comfortable with Python, linear algebra, probability, and basic calculus.
+
+How the pieces connect: We progress from prediction with labeled data (Supervised Learning) to discovering structure in unlabeled data (Unsupervised Learning), then to sequential decision-making under uncertainty (Reinforcement Learning). Artifacts from each unit feed the next.
+
+Format and tools: Video lectures are delivered in Canvas. Reports are written in LaTeX on Overleaf, and code lives in private Georgia Tech GitHub repos. Course communication runs through Canvas announcements and Ed Discussions. Each week also includes supplemental recordings on advanced topics aligned to the module.
+
+Outcomes: You’ll leave with a portfolio of defensible analyses, models, and policies with the judgment to explain when and why to use them. Over the term you’ll complete four reports (~30 pages) spanning supervised learning, optimization and uncertainty in learning, unsupervised learning, and reinforcement learning.
+
+Fall 2025 syllabus (PDF)
+Summer 2025 syllabus (PDF)
+Spring 2025 syllabus (PDF)
+
+Note: Sample syllabi are provided for informational purposes only. For the most up-to-date information, consult the official course documentation.
+
+To access the public version of this course's content, click here, then log into your Ed Lessons account. If you have not already created an Ed Lessons account, enter your name and email address, then click the activation link sent to your email, then revisit that link.
+
+An introductory course in artificial intelligence is recommended but not required. To discover whether you are ready to take CS 7641: Machine Learning, please review our Course Preparedness Questions, to determine whether another introductory course may be necessary prior to registration.
+
+Browser and connection speed: An up-to-date version of Chrome or Firefox is strongly recommended. We also support Internet Explorer 9 and the desktop versions of Internet Explorer 10 and above (not the metro versions). 2+ Mbps is recommended; the minimum requirement is 0.768 Mbps download speed.
+
+PC: Windows XP or higher with latest updates installed
+
+Mac: OS X 10.6 or higher with latest updates installed
+
+Linux: any recent distribution that has the supported browsers installed
+
+All Georgia Tech students are expected to uphold the Georgia Tech Academic Honor Code. This course may impose additional academic integrity stipulations; consult the official course documentation for more information.

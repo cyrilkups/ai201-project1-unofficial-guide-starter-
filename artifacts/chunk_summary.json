@@ -1,0 +1,30 @@
+{
+  "chunk_size": 650,
+  "chunk_overlap": 120,
+  "max_omscentral_reviews_per_page": 100,
+  "loaded_source_count": 11,
+  "skipped_source_count": 1,
+  "total_chunk_count": 1812,
+  "loaded_sources": [
+    "OMSCS Machine Learning specialization page",
+    "CS 6515 Intro to Graduate Algorithms",
+    "Introduction to Graduate Algorithms reviews",
+    "CS 7641 Machine Learning",
+    "Machine Learning reviews",
+    "CS 6300 Software Development Process",
+    "Software Development Process reviews",
+    "CS 6310 Software Architecture and Design",
+    "Software Architecture and Design reviews",
+    "CS 6603 AI Ethics and Society",
+    "AI Ethics and Society reviews"
+  ],
+  "skipped_sources": [
+    {
+      "source_id": "2",
+      "title": "r/OMSCS Specializations and Courses Megathread",
+      "url": "https://www.reddit.com/r/OMSCS/comments/1pyef5z/course_specs_megathread_selection_choices/",
+      "reason": "Reddit blocks this environment; use a manual text export if needed."
+    }
+  ],
+  "random_seed": 201
+}

@@ -16,5 +16,8 @@ env/
 chroma_db/
 chroma/
 
+# Pipeline fetch cache
+artifacts/raw_html/
+
 # macOS
 .DS_Store

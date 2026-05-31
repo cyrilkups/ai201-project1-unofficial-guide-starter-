@@ -1,0 +1,1110 @@
+Introduction to Graduate Algorithms
+Name
+Listed As
+CS-6515
+Credit Hours
+3
+Available to
+CS students
+Description
+Design and analysis of algorithms on a graduate level, including dynamic programming, divide and conquer, FFT, graph and flow algorithms, RSA, linear programming, and NP-completedness.
+Syllabus
+Textbooks
+Algorithms, 1st Edition
+Algorithm Design, 1st Edition
+
+Review 1
+vKZss4f98jPc2E1Wl2a0Cg==May 15, 2026spring 2026
+TL/DR: This course has a reputation of graduation gatekeeping, and while it can be difficult, it is very doable if you are diligent and detail oriented when following course expectations.
+People will be unkind this course, but I enjoyed it and have some thoughts. Keep in mind that OMSCS is a massive program and thus the acceptance rate is much higher than other masters programs. In my experience, there are a lot of students that think earning a masters is a simply a matter of paying for the courses. A masters degree is difficult and requires work outside of areas you are completely comfortable with. This was a somewhat frustrating course, but there are some interesting course lessons to learn along the way. Anyways, my thoughts:
+Throughout the course, you are given common blackbox algorithms like a DFS or graph search algorithm. You are expected to take these building blocks and design new algorithms to solve problems in efficient runtimes (similar to proofs). While solving open ended problems can be stressful to study for since you never really know what you know until you try and solve the problem, it is kind of fun and I found the course engaging. The discussion board was robust, and collaboration on homeworks is encouraged.
+Is the grading frustrating: yes. It is very easy to understand the material and still get a lower score than expected due to the amalgamation of trivial little mistakes that don't matter a lot. However, the exact expected format and guidelines for answering problems is presented clearly in advance, and the allowed tools to use in your algorithm design are outlines clearly. Homework solutions and feedback are robust. And it was astounding to me how many solutions I saw on the discussion board even after exam 3 that still were lacking compared to the posted format expectations. Just be diligent and understand what TAs want and you can do fine.
+Were the exams difficult: yes. But most longer problems match at least one homework or textbook problem. Make sure you do them and understand the feedback.
+Last, make sure you read through EdDiscussion and look at other students solutions/feedback. This tells you exactly what will lose you points on the exam.
+If you read the texbook, do the problems, understand the feedback on your homeworks, and understand the feedback on other students homeworks, you will be ok.
+Format: 3 exams, a couple open note quizzes, ungraded homeworks.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 6 hours / week
+
+Review 2
+Ud9D8IKvThPDvsV91CC6iQ==May 13, 2026spring 2026
+Overall, GA was probably my least favorite class that might be due to me narrowly missing an A (my only B). But that was mostly due to me misreading parts of the first exam and not taking the quizzes seriously at the beginning. I ended up doing very well on Exams 2 and 3.
+Personally, I think the class grades too harshly. I saw many students lose nearly all points on free-response questions for relatively small mistakes on Exams 1, 2 and 3. The grading consistency between TAs also didn’t always feel the same. For example, I saw some students lose 5% on a free-response question while others lost 10% for essentially the same runtime mistake, depending on who graded it.
+That said, I don’t think most of the questions themselves were unfair or excessively difficult, aside from the Divide & Conquer free-response on Exam 1. In general, the material tested was reasonable. My bigger issue was with how strict the grading criteria could be, especially since some questions were easy to misinterpret under exam pressure. I think adding clear examples would help a lot of students.
+It also doesn’t help that homework is basically the only meaningful source of feedback throughout the course. Definitely take the homework seriously because it gives you the best sense of what the TAs are looking for in free-response answers.
+One thing I will give the course a lot of credit for is the teaching staff’s availability. The TAs were consistently quick to respond, and I appreciated Professor Brito holding office hours almost every week. The accessibility and support from the staff were honestly better than in almost any class I’ve taken.
+For context, I came into the class with some informal algorithms background, but not a ton. The biggest thing I gained from the course was learning how to quickly recognize which algorithmic approach applies to a problem. I’m much better at that now. LeetCode problems, even many of the hard ones, feel significantly more manageable after taking this class. I also improved a lot with dynamic programming and graph/tree algorithms.
+This class wasn’t the hardest class I’ve taken by any means, but it was still difficult and definitely time-consuming. A big part of the challenge was learning both the material itself and understanding what the teaching staff expected in free-response answers. The exams also occasionally threw curveballs that tested whether you could adapt concepts rather than just memorize patterns.
+My personal ranking of course difficulty based on the classes I’ve taken would probably be:
+IIS < ML4T < GIOS < AI < ML < GA < DL < HPC < RL < DC
+Of course, difficulty is subjective and depends heavily on your background. If you already have strong algorithms experience, GA will probably feel much easier than it did for many students.
+If you don’t have a strong math or logic background, it may be a good idea to brush up beforehand.
+The class itself isn’t impossibly hard, but it’s very easy to make small mistakes that can cost a significant number of points because of how strict the grading can be. I think that’s a large part of why many students end up with Cs and have to retake the class
+Rating: 3 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 3
++6daAPKfecHcJhiA7Axm4Q==May 12, 2026spring 2026
+I scored a solid B in my second time taking the course. I have a non-CS engineering background and this was my last class having taken GIOS, ML, ML4T, DL, HPC, HPCA and a couple others with all A's. I am very proud of my B in this course.
+I also have very mixed feelings. I will start with positives. Dr. Brito and the TAs are beyond dedicated and truly want you to succeed. I felt lucky to have taken the class before with Joves. Tim is excellent as well and explains things very clearly. The TAs are very responsive and the chat in OH is hilarious at times. I will miss that aspect of the course. Exam grading was very fair provided you study hard beforehand.
+The trouble with this course is that the 90% weighting of exams introduces an extreme amount of stress and anxiety into the course. This is very unfortunate because the material is excellent. I will admit my mental health suffered with this course since I work full time. You are not a failure if you do poorly here, since there are so many reasons an exam may not go your way which will impact your final grade significantly. It is very sad to hear smart classmates taking the course for the 3rd or 4th time.
+My tips for success, even though I did not get an A:
+Do the homework. No excuses. Study practice problems and do them until you understand them. I did not put effort into HW in my first try and it showed. Second time, I submitted every single one.
+Stay disciplined. Do at least a couple problems every day. Study for exams in time restricted setting, and find all of your mistakes when grading yourself. Watch David Goggins videos if you feel like slacking off.
+Join a study group and share good solutions and bad solutions. You need to know what NOT to do on the exams to succeed. My 'war buddies' were brilliant people, and I am grateful to have met them here.
+Be cognizant of your mental state before and during exams. Taking PTO to study is helpful to really focus if you can. A full nights rest and a good meal beforehand makes a world of difference. Read exam problems slowly so you do not end up in a position where you know the material but misread a question.
+Lastly, did I mention to do the homework? Do not take the HW feedback personally, just remember the TAs want you to succeed.
+I completely understand if some students do not find it worth it to take this course. I am just here to say if you want to conquer this course you can with lots of hours and hard work. I had ~30 for E1, and 55+ for E3. Perhaps the stress is not worth it, but the sense of accomplishment you get when the concepts start to click and your exam scores reflect your effort is priceless.
+Rating: 3 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 4
+JCepempSegT5hHM0GED9lA==May 11, 2026spring 2026
+GA was my 9th class. Before taking it, I read a lot of nightmare reviews and complaints about this class, so I was extremely wary when finally taking this class. In hindsight, it was not that bad. I ended up with an 84%, one percentage away from an A.
+For some background context, I am a full time software engineer with 6 years of experience. I majored in computer science in undergrad and took an algorithms course then, albeit way easier than GA. I also did Leetcode from 2021 to 2023. With that being said, Leetcode only helped with exam 1 and even then, I still got stuck on the free response problems and got by far my lowest exam score.
+I attempted every single homework problem. Around half the homework were coding problems, I did not actually code those but treated them just like a written homework. I believe doing the homework is absolutely imperative for success in the course. The free response questions were basically a variation of the homework. I did not have a study group to go through the problems. Instead I refined my approach to the homework problem with AI and looked at the discussion threads. There is a wealth of information in those threads and people will post their solutions which got full marks. Be sure to look at those.
+The TAs also release additional practice problems. I did just about all of them for exam 1 but realized they are not entirely necessary. For a select few of those additional problems, they will release a solution or video walkthrough. Only do those problems because their solutions are guaranteed to get full marks on an exam. The other practice problems do not have a solution and thus not worth doing.
+As for lectures, I watched every lecture once and then the specific parts I did not understand, I would rewatch a week later. And that's the thing about this class, the content can't be crammed in a weekend. It took time for me to understand. This was especially the case for exam 3 content (NP proofs) because I had zero experience with this.
+Initially I watched the office hours but I came to realize that out of the 1-1.5 hour long office hours, only 15-20 minutes actually had useful content. Instead, I began putting the office hour transcripts into AI and letting it generate a summary. This was way better use of my time. The office hours were useful because the TAs would provide good exam tips and some of their questions would be very similar to the actual exam multiple choice.
+On a normal weekend I would spend 5-10 hours a week watching lectures and doing the homework. When the exam week rolled around, I would spend 15-20 hours studying. In all, it was not a very time consuming class compared to some of the harder classes I've taken. However, this was by far the most anxiety inducing class I've taken. Glad I got it over with. In the end, it was a rewarding course. I will probably do Leetcode again this summer to interview prep and this course gave me a renewed sense of confidence to tackle tough algorithm problems.
+Rating: 3 / 5Difficulty: 4 / 5Workload: 10 hours / week
+
+Review 5
+z9NQv9C9iU8cniecUaWM/Q==May 8, 2026spring 2026
+I did not pass this class despite dedicating approximately 20 hours per week to coursework throughout the term. For context, I'm a senior software engineer with over five years in the program and a pre-med academic background who has taken the MCAT, so I'm no stranger to rigorous coursework or high-stakes exams.
+The bar to pass feels unreasonably high. Exams are the primary pain point — they're extremely high-pressure, heavily punitive over minor mistakes, and don't do a great job of actually measuring whether you understand the material. You can grasp the core concepts and still fail because of a small slip-up that gets disproportionately penalized. That's not rigorous assessment; it's just stressful.
+The grade distribution data on LITE tells the story clearly — there's been a noticeable drop in As and Bs and a rise in Cs over the last two years, coinciding with the shift to an all-exam format with no graded homework. I understand the reasoning: AI tools made homework unreliable as an assessment. That's a fair concern. But the response was to make the hardest, most stressful part of the class carry all the weight, without taking any meaningful steps to accommodate that change. No adjusted curves, no alternative assessments, no safety net. Just higher stakes on an already punishing format.
+I've taken difficult classes before, both in engineering and in the sciences, and this one stands out as the most frustrating. The issue isn't the difficulty of the content — it's that the evaluation structure sets students up to fail on technicalities rather than measuring actual understanding. If you're considering this class, be prepared to invest serious time and know that the grading structure leaves almost no room for error.
+Rating: 2 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 6
+EnHKKZsjlhSu1jjwKRzqGA==May 6, 2026spring 2026
+The concepts in this class are interesting and I found the problems fun to approach. I also want to give the teaching staff credit - they are extremely active and genuinely invested in students' success. The resources they provide are extensive and helpful (though written solutions to all practice and suggested problems would be great).
+That being said, the exam format is atrocious. 6 FRQ to determine a grade is obviously stressful, compounded by the fact that the grading seems inconsistent at best and arbitrary in point deductions (based on a hidden rubric) at worst. Small mistakes that have nothing to do with your understanding of the core algorithms are penalized as heavily or more so than actual flaws in algorithmic reasoning, with repeated penalties applied downstream for the same error ("double jeopardy"). There was a question on Exam 1 this semester, in particular, where the "trick" to solve it had nothing to do with any material presented to students, yet not discovering the trick would result in deductions of at least half of the points for that question.
+I'm really not one to complain about classes but this one was a nightmare. I managed to pull off an A but it felt pretty tenuous and arbitrary... absolutely not the learning experience I would hope to have, especially when the material is fundamentally interesting and the teaching staff is obviously well-qualified. I sincerely hope they take student feedback into account and strive to improve this course for future semesters.
+Rating: 2 / 5Difficulty: 4 / 5Workload: 16 hours / week
+
+Review 7
+7OvYves5/WsT4ZXX0MJMbg==May 6, 2026spring 2026
+This is a standard algorithms course. In fact, it is absolutely one of the fairest classes out there in terms of expectations and content. I say this as a non-CS undergrad degree holder (zero prior experience in any algorithms, never took a DS or algo class) that got an A in this class even while working full time and with a newborn + other kids. I did not consider it much/any harder than any other class I took in this program (this is class 9 out of 10 for me), I have gotten B's and even C's in other OMSCS classes.
+There has been an absolute endless storm of complaints on ED this go-around that is exhausting. I really do not understand. This class is 100% fair. If you cannot figure out how to write a few algorithms within the 3 hour (very generous) test window, you should really ask yourself if a demanding CS career is in the cards for you. I was absolutely bewildered to hear that there are people that are taking this class the 3rd and 4th times, and while I applaud the tenacity, I would have serious doubts about said person's capabilities as a software engineer. I am sorry if that sounds harsh, but there is nothing excessively difficult about this class, you should expect to have to do some self study with the cost of this program and staff to student ratio. The ED posts practically spoon feed you the EXACT FORMAT and common pitfalls. It is all right there for you to copy like a monkey if you just put in a bit of work to understand what you are doing. I am not sure how other algorithm classes do it, but the fact that there was a clearly defined format for all of these problems leaves nothing up to chance or interpretation; you have straight up, black and white boilerplate for all your answers. The exam questions were the most minor twists on literal practice problems provided in the course. If you simply take all that information and process it, you can get an easy A, full stop.
+To be fair, a lot of people had a hard time, especially this semester: I can only guess that this is because GA Tech has a policy of letting almost anyone in the door, and the quality of said students is mixed. I was an average student in my Mechanical Engineering undergraduate, and as I mentioned, got an A. It really seems to be a student quality issue rather than a teaching team issue. I thought the TAs were active and quick to help on everything, but I maybe posted on the forum 3-5 times this whole semester; that is because EVERYTHING IS RIGHT THERE, there is no need to ask questions if you just search for the information in ED or ask AI, which knows a lot about algorithms, unsurprisingly. If you are used to using AI to slop out your assignments and scrape by on exams, you will obviously fail hard in this class - where the points are primarily in exams.
+That said, there are some complaints I genuinely agree with. There is one TA, in particular, that seems to be chronically incapable of giving a straight answer with no sarcasm. That said, he is often helpful and one of the first to respond; that much is appreciated.
+The exam window is 3 hours long, that is brutally long for no bathroom break. I suggest breaking it into 2 sections with an allowed bathroom break for the future.
+Another fun thing was that Brito admitted to being inebriated during one of the office hours, it is literally documented in the office hours transcripts... Not a good look as he is already too fast of a talker and somewhat scatter-brained. His office hours were actually pretty useless and I only watched one or two, Tim's were good though.
+My advice to future takers: Feed the TA guidelines for answers, your allowed black boxes, all relevant information for solving a particular problem type into your favorite LLM and ask it to quiz you. This is what I did for 80% of my studying, in addition to watching office hours. I will be honest, it is a lot of information and a lot of minutia to learn. But if you don't, it is your fault and your fault only. I slept through the lectures, didn't understand them, and couldn't be bothered to; I did this because I recognized that it was only marginally related to what was tested in the course, as made clear by the homeworks and ED posts. I did not read the book besides looking up practice problems. If I could do it, anyone who is a legitimate, qualified software engineer can do it with enough elbow grease. Use your resources (which are vast) and focus on the practice/suggest problems and you will do fine. Don't listen to the entitled whiners, this class is absolutely fair and their failures are not a result of the teaching staff's incompetence.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 8
++7/ZfFJhDf5j6t1KtfV8zg==April 22, 2026spring 2026
+You will do it and you will do it well. If you don't, then you will know soon. Do the homework practice problems and at least attempt half of the extra suggested problems in addition to absorbing the lecture content. Do every homework and if your strategy was a CPU cache L1 L2 L3, I would put homework in L1 know them all well and fast. Practice problems and office hours fall in @ L2, i liked to re-watch the lectures on 2x speed too. Then last but not least absorb every bit of feedback you get on graded homework.
+Rating: 5 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 9
+lFdQqcLTijtwqSmAbUM/aw==April 15, 2026spring 2026
+The worst thing about this course is the TA this semester, believe or not, one of the TAs publicly mock bad answers from students in Ed discussion.
+Rating: 4 / 5Difficulty: 4 / 5Workload: 16 hours / week
+
+Review 10
+6v6NWG6Kl/hPv2eJJuS8gA==December 31, 2025fall 2025
+I took GA as my last class, but having done that, I would recommend trying to take it a couple of semesters before you intend to graduate as I'm sure that would make it feel way less stressful. The levels of anxiety that GA can generate are really pretty nuts, so please take this advice seriously.
+It sounds strange, but other than the stress, I don’t really have a ton of complaints about GA. Brito and the TAs seem like genuinely nice and caring people, and I can’t really fault them for any of the negative aspects of GA. They seem to have experimented a lot over the years with how the class is run. They have incorporated student feedback, while still keeping the class rigorous and substantial. I believe they are doing their best.
+The exams felt mostly fair, and the grading was even generous at times. The only real issue I had was that it wasn’t always obvious what kinds of mistakes would result in massive point deductions and which would be treated more leniently, so I recommend getting as much clarification as possible about that from the TAs. Generally though, if I finished a test feeling pretty good about how it went, that was reflected in the grades, and if I felt like something went wrong, the grades reflected that too.
+I recommend attempting every single homework and practice problem that is assigned or mentioned in a post by the TAs, including the coding problems, and the extra practice problems. Doing that along with watching Vigoda's lectures and reading DPV should be sufficient to prepare for the exams.
+Before GA, I had previously taken ML4T, RAIT, ML, DL, CN, GIOS, HPC, HPCA, and Netsci, and I earned A’s in all of those classes. GA was my first B, and I missed an A by less than half of 1%. But I’m grateful that I got through it in one try and graduated OMSCS without having to repeat it.
+Rating: 4 / 5Difficulty: 5 / 5Workload: 24 hours / week
+
+Review 11
+UxM4W8UQJZ4uBeXkBIQvBQ==December 23, 2025fall 2025
+This was my least favorite course so far although I do understand the importance. Many of the algorithms are not practical but help establish a mindset on how to simplify.
+Students will learn how to assess the time complexity of an algorithm, some common approaches to simplifying and solving problems and how to deal with problems that may not have clear solutions. This I liked. I also liked the lectures, although they were all recycled from a former instructor.
+The homework assignments are graded but have zero weight on the final grade. Exams have the heaviest weight. The multiple choice problems are tricky and the grading is subjective and probably dependent on who graded your work and how they were feeling when they did it. It was hard to review exam results. You are not given direct feedback on multiple choice questions and for the proofs the feedback is obscure. I didn’t really care to try to interpret it once I had a B.
+There is minimal coding in the course. Most of the coursework involves solving problems in words, similar to writing proofs.
+There is a textbook for the course, Algorithms by Dasgupta. This and the recorded lectures are assigned in a disjointed order throughout the course, which disrupts the flow. The textbook is also concise and often requires the reader to fill in some ideas themselves, which required me to do a lot of rereading
+In conclusion, I found that the course useful, I mostly disliked the work (quizzes, exams and homework), the grading was harsh and subjective and the textbook was difficult to follow.
+Rating: 3 / 5Difficulty: 4 / 5Workload: 8 hours / week
+
+Review 12
+8/lglYFHPFGhVYhCsoaRaw==December 17, 2025spring 2025
+This class is very exam heavy, so go in knowing exactly what you’re signing up for. Exams are 90% of the grade, while the formatting/logistics/content quizzes are pretty easy and make up the remaining 10%.
+Even if the homeworks are optional, do them. They’re one of the best ways to understand how the exams are structured and what level of precision is expected. Also, attend office hours. They help way more than you’d think.
+If you believe you were graded incorrectly, submit a regrade request. A lot of students don’t do this out of laziness. Just be aware that the entire question gets re-reviewed, so if they find an additional mistake you might lose points too. Still, if you’re confident, it’s worth it.
+You genuinely need to study hard for this class. You can’t rely on Chat GPT or shortcuts to pass cause this course really tests understanding. Proctoring is also very strict, so follow every instruction carefully or you’ll risk unnecessary penalties.
+This class is doable, but it requires serious effort. No slacking. It honestly feels like the ultimate boss of OMSCS.
+For reference, I got 35/60 on the first exam, 49/60 on the second, and 42/60 on the third. If you do poorly on the first exam, don’t get discouraged-it’s very possible to recover if you adjust and study harder.
+One final warning: formatting and wording matter a LOT. The TAs expect answers in a very specific format, and being even slightly unclear can cost you points. One wrong word can mean deductions, so be extremely precise and explicit in your exam responses.
+Overall: tough class, high workload, but passable if you hustle and put in the work.
+-NP
+Rating: 3 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 13
+PoQ3UPp0U2AnwzOB/7IwRw==December 17, 2025summer 2025
+I ended the course with a B on my first try. The material of this course is fantastic and I think it's a shame that students are discouraged to take this course out of fear for their grades and getting caught in a course retake doom loop. The course has good bones and philosophy but I think it should continue to innovate and incorporate more automated learning because there's only so much manually grading TAs can do for a class of 1000. More automated practice problems with explanations would go far in preparing students for the MCQ section of the exam. Also, releasing some example problem videos for some FRQs during week 1 would help students better understand the material so that they do better on the homeworks and get more valuable feedback. As someone encountering the course for the first time, I often felt I didn't have the scaffolding of knowledge to tackle free-response style questions for a unit until I had seen an example or two solved in office hours which they withheld from us until after 2 weeks into the unit. From a course design standpoint, this seems like an obviously poor decision as most students are floundering around until then and then have to cram in the remaining two weeks of the unit. I am fine falling to a 3.9 from a 4.0 in the program for graduation and have no regrets about taking this course as opposed to the easy SDP course as an Interactive Intelligence specialist who didn't have to take it. Be prepared for extremely hard work and developing an optimal exam strategy if you're going to take this course, however. This course is great technical interview prep and its grading is basically a reflection of the reality of technical interviews. You either gets the problem completely correct when you compete against 1000s of others and move to the next stage or you're discarded. you can hate that - but it's just reality. After this course, you'll eat technical interview questions for breakfast.
+As a baseline, you need to watch all the lectures, take notes, watch all office hours, read all additonal readings provided by the course staff, and review all of your classmates' homework feedback. I loved the textbook and it's an awesome read, but unfortunately, I don't think a lot of its concepts are covered on the exams - so if you're crunched for time don't prioritize it. After that, what really makes the difference is exam taking strategy. This is why students' experiences vary so much from "This course was pretty easy and I worked reasonbly hard, but nothing crazy. What's everyone complaining about?" to "I've taken this course 4 times, work my ass off every time, and don't know what I'm doing wrong, and can't graduate."
+FRQ Section Advice. These are my 3 tips that will help you greatly:
+1.) Getting "Aha" Moments: Acing every FRQ is actually quite simple but I didn't realize the ideal strategy until exam 3 - in which I aced every FRQ. They will say "Do all the problems and you will do well on the exam." That's not the whole truth. There is actually a large group of students who do all the problems and still struggle on the high-stress, high-stakes exams and I think there should be more exposure of the ideal exam-taking strategy to help their scores reflect their knowledge because the optimal strategy can't help you if you don't have the knowledge to begin with. It really sucks when you know the material but can't demonstrate that because you're not understanding the artificial exam environment they've set for you. The exams are a very artificial environment. Every question requires an "aha" moment. If you were approaching these problems in the wild it would be extremely difficult to ace them - however, you're approaching them in the context of this course. I'll explain how you use that to your advantage. From my observation, 6/7 of the FRQ questions were extremely similar to homework problems. All HW, practice, and additional suggested problems are fair game, however. The way to consistently get the "aha" moments necessary is to classify EVERY problem you've ever done for this course by type and list the tricks used for each problem type. You then limit your search of "aha" tricks to these observed finite number of tricks after identifying the problem type on the FRQ section of the exam. There was one exam question which was not directly related to any question we did - it was sort of a hybrid of concepts from 2 problems and was phrased like no other problem. However, approaching that problem with this strategy would work because once you find its problem type and brute force apply the limited number of observed tricks you've used you'll be on your way to the answer.
+2.) Review everyone's homework feedback - not just your own. Now that you're getting the core "aha" moments you need to lose as few points as possible as you get the correct answer. Encourage your classmates to post their homework feedback on Ed Discussion. Review everyone's feedback so that you understand where potential penalties lie so you know how to avoid them. 2-4 points here and there make massive differences overall.
+3.) Never ever brute force a question: Something that is not explained well is that brute forcing a question is graded as if the question is incorrect. I got 4/20 points for answering an free response question with a solution that was correct while others got 8-16 points for answers that were wrong, but more efficient. In this course it is better to be woefully incorrect, but efficient by using the optimal runtime algorithm than it is to be correct but inefficient. I wish they would include a basic rubric alongside each question on the exam to clarify these things when you're having to make these kinds of quick decisions of how best to solve a problem under pressure - but in a way they did because you can learn what the penalties are by reviewing all of your classmates' homework feedback. That was not explained clearly at the time, however.
+In hindsight, if I had known these optimal exam strategies from the get-go, I actually think this course would be an easy A. I would like to see the course expose these strategies because I'm convinced they would rather easily improve student performance and then the course could spend less time with students struggling unnecessarily on the exams and add more content. This course's lectures, teaching staff, and textbook are fantastic. With some innovation - specifically demystifying the optimal exam strategies and adding more auto-graded practice problems for students' practice benefit - I think it could become the best course in the program. I think after implementing the improvements I listed above, it should actually be required in every specialization. The knowledge gained in this course is awesome.
+Bonus tip in hindsight: For Unit 1, if you want additional problems do the Leetcode Dynamic Programming problems and practice writing them in the course format then convert them to code to verify your solutuion.
+Rating: 4 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 14
+d27Y/joY1HRdqNilhWvq1w==December 15, 2025summer 2025
+Ok, I'll show results first:
+Final grade: A
+Exam 1: 36/60 (C)
+Exam 2: 58/60 (A)
+Exam 3: 58/60 (A)
+Logistics quizzes: 100%
+Format quizzes: 100%
+Content Quizzes: 80%
+Homeworks: 40%
+Review:
+This class was difficult because I at first didn't know how best to approach it. As this was my last class, I wanted to coast into the sunset. I kind of assumed that if i gave a low-A effort i would end up with a low A. That is not the case. A low-A effort gives you a C or D and you will repeat this class. In order to succeed you must master the material and that means you must absolutely give it 100%. This class is not for the faint of heart, and it is difficult if you have a full-time job and other commitments/ a family.
+Overall i truly enjoyed the material in this class, and because it was so harshly graded, it forced me to fully understand it to make it through.
+Tips:
+The exams are like the homework. They are not easier than the homework - do not fall into the trap of thinking exams are easier than the homework. So if you do not know exactly how to do the homework you were given, as well as the proper format of the answer, you will fail. You MUST be able to do all assigned problems from the text, as well as the homework problems, with your eyes closed. I don't care how many times you have to manually solve and write out the answer, but do it until you get it.
+Use flashcards. I downloaded Anki (and paid for the iPhone app) after my disastrous first exam. i was super upset with my grade and thought it was harshly graded, which it was. but while it was harsh, it was fair. Create a flashcard for every concept and algorithm you will use, and study them almost every day. reinforce the material until you can write out all algorithms, their runtimes, the rubric for answering a question, etc. by memory.
+go to all office hours. This is a huge time commitment, since Joves's office hours are like 5 hours long. They are incredibly helpful (thank you Joves, you truly go way above and beyond)
+Before an exam, know in your heart that you have internalized and memorized the questions you have been assigned (book + homework), and that you know from memory all the concepts joves mentioned in his office hours
+Do the homework. you will likely fail each and every one of them. They do this so that you learn, don't take it personally
+Embrace the suck and keep going. This class is stressful, so don't beat yourself up.
+Things that could be improved about the class:
+The lecture videos don't begin to prepare you for the exam. Dr. Vigoda's lectures are amazing, but they're not enough. That means Dr. Brito and the TAs have to do a bunch of extra lifting, which they do.
+Joves office hours are amazing, but it's crazy to think what would happen to this course without him. This is a huge risk.
+The coding homework has hidden gradescope tests. it would be cool if you could see them beforehand. i want to learn the material and how to best implement an algorithm, not spend hours and hours of time building unit tests for edge cases, especially when this course already takes so many hours.
+Bottom line:
+-The material in this course is fantastic
+-Dr. Brito is great, and I really appreciated his weekly office hours. Thank you, Dr. Brito.
+-Joves's office hours go way above and beyond. Thank you Joves.
+-All TAs in general were amazing. They were all over Ed, helping students the entire semester. Thank you TA team.
+-This is a brutal class, especially if you don't have a ton of time and if you haven't taken an algorithms course before. Don't think you can cruise your way through this class.
+LASTLY
+-You can recover from a bad exam. I got a C in my first exam, and ended up with an A overall, so I'm proof of this. Don't think that you're dumb and lose faith in yourself. Brush yourself off and keep going. Don't drop for any reason, because you will have to retake it anyway - if you drop you will lose out on material post the drop date.
+Good luck...
+and with that, I'm out! 5 years of OMSCS - what a ride.
+Rating: 4 / 5Difficulty: 4 / 5Workload: 25 hours / week
+
+Review 15
+o6S8rstKct8Vt6oBmGAUKA==December 11, 2025spring 2025
+Not a difficult class conceptually, but made artificially difficult due to needless bureaucracy, inconsistent grading, poor communication, and punitive grading. You better say exactly what the rubric is looking for, and there's no way to know ahead of time what that is. TAs and staff should take more accountability for the amount of people complaining. I say all of this as someone who is familiar with the material already.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 10 hours / week
+
+Review 16
+TreSFIHcK2mIcsyPqYBCsw==November 22, 2025spring 2025
+I’m writing a review for Spring but I retook this course in Fall and might have to take it a 3rd time. I’m not a bad student. I was summa cum laude in my undergrad and have kept a consistent A throughout OMSCS. This course is just the worst in terms of how it is executed.
+The material is great and I’ve learned a lot. But the 3 exams are 90% of the grade and the TAs will basically grade you depending on their mood. Life is already hard as it is, and I really hope the OMSCS facilitators for once look at the reviews of this course and have some mercy on the hard working students.
+In my recent exam I literally got a 4/20 in one of the essay questions because even though my solution was correct, I didn’t type it in exactly how the grader wanted. After spending hours of my life studying when I see the comments from the TAs, every moment just feels worthless. This course has given me true depression. I really really want to graduate and this is required for the Computer Systems specialization.
+If you’re early on in your OMSCS journey, just pick a different specialization. Don’t kill yourself mentally by taking this course.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 10 hours / week
+
+Review 17
+o6S8rstKct8Vt6oBmGAUKA==October 30, 2025summer 2025
+I agree with the previous review in that the a single FRQ on the exam is weighted far too much. I feel that I have a strong command of the material, especially for the most recent graph exam. One of the FRQ was trivial to solve, the other was challenging for most students including me. Of course, it will ultimately be the burden of the students when a sizeable chunk fail. I believe that I could have likely solved another FRQ with ease, but instead will likely have to retake the class, wasting my time and money, because I could not solve this question in time and kept doubting that I was covering all edge cases. In short, find a better way to evaluate students than a handful of FRQ. At least the TAs seem to care, and I applaud Joves and Brito for holding regular office hours.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 10 hours / week
+
+Review 18
+SvXQpVY+HCF5y5XhAw2RHw==October 28, 2025summer 2025
+I just hate the exam format, the pressure is really intense, and can make you freeze up. I don't think it really determines your knowledge of the class. Good material, but horrible execution. Such bad execution of the exams that if I could give it a negative rating I would.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 25 hours / week
+
+Review 19
+yS5aZpZ4oKps04hQR6K/lw==August 25, 2025summer 2025
+I took this class over summer full time and it was brutal, I passed with a B, but it was not an easy B and there were a lot of times during the entire semester I was worried I wouldn't make it and considered dropping but I refused because I needed this course to graduate unfortunately.
+The difficulty in this course doesn't come from the material but in the structure of the class and how it is run. I actually really like algorithms but this class was more like a writing class on how to write pseudo-code as prose.
+Homeworks are supposed to provide guidance for exams but the homework feedback is provided ultra late like a few days before each exam when you turned it in weeks before. This wouldn't be so bad if the exams were curved or not worth the entire grade, but yea that's just how this class is structured to be high stakes and stressful for no reason in my opinion.
+Oh yea, and the notes are all closed notes and closed book, again adding artificial difficulty like giving a really hard math problem to solve by hand and saying no calculators. Yea, it's hard especially when you need to learn how to solve so many different cases in such a short period of time but it's also not really valuable or useful.
+I can't really provide much advice other than to focus on completing the lectures, do the practice problems, and focus especially on the homework problems because you're very likely to get a variation of a homework problem or lecture problem for your exam moreso than a practice problem (Although they do still show up and that's why it's such a huge time sink, you will cover around 20 different problems, but only get asked 2-3 on every exam for the free response which is worth more than half the exam).
+The TA office hours (Jove Luo) were really helpful. I feel bad for the cohort that has to take the class if he decides to take a break because the OH provided me so much help when I felt lost.
+He covers the practice problems and gives numerous examples of the desired answer format, it was very helpful to me, but really the most frustrating thing about this class is that you really don't get enough opportunity to practice your own solution writing and getting feedback until basically the day the test arrives so that's why so many people bomb the exam, it's not hard, but it is when you have had 0 time to actually practice by getting feedback from the staff and not living on an island.
+The worst part is that they're very strict with the point removal, but also make a lot of mistakes. I made 2 regrade requests and won both, 1 regrade removed 20% of my entire exam grade for a mistake the TA made and then they returned it back 100% admitting the error, but that entire process of seeing my bombed test score, then reviewing the notes, having to write for feedback, then write a regrade request was just all unnecessary work that was caused twice for me.
+Sadly, this is a required course for a lot of specializations so there's no avoiding it, but hopefully this info is somewhat useful for where to focus and a strategy to pass because it would have saved me a lot of time, instead I spent so much time trying to cover everything and it really was an unnecessarily stressful experience to an otherwise well-run program for professionals.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 40 hours / week
+
+Review 20
+4rk4PJ3PGaGuqNEnhVBcMw==August 8, 2025summer 2025
+This class is tough, as others have mentioned. I believe it’s designed this way so that earning the degree truly feels like an achievement. Having all exams for grading makes it even more stressful especially since, for many of us, this is the final course before graduation.
+Don’t lose hope if you score low on one exam as you can still recover. In my opinion, Exam 2 is the easiest, while Exam 1 is the toughest as getting that optimal solution is most. Think through every possible variation of the homework problems for exam preparation, and review all the materials and announcements posted by the course staff.
+This is one of the most organized courses I’ve taken, and the Head TAs are extremely dedicated working days and nights to help us. I even got a reply at 1 a.m (Thanks Jamie). after Exam 2 grades were released. Also, thanks to all TAs who worked hard for getting HW and exam graded out in short summer period.
+Rating: 5 / 5Difficulty: 5 / 5Workload: 23 hours / week
+
+Review 21
+4rk4PJ3PGaGuqNEnhVBcMw==August 4, 2025summer 2025
+This course is not easy, and all the reviews are justifiable. Start working hard from day one there should be no rest days for this course. Make sure you understand Dynamic Programming, Binary Search, and Graph Algorithms in depth if you are planning to take this course. If you're new to these topics, learning them will significantly help you in Exam 1 and Exam 2.
+Think through every variation of the homework problems. The exam questions will be similar to the homework. Also, note that you won’t be writing code. Instead, you'll be describing algorithms in detail. This can be tricky, as you might lose points even if you think your answer is correct small details matter.
+This is the class where 90% of the grade comes from exams: each exam has two long answer questions worth 20 points each, plus 20 points of multiple-choice questions = 60 points. Grade heavily depends on the long-answer questions. Lastly, in my opinion, don’t drop the course if you think you can get at least C it will help if you need to retake. Don't let negative comments demotivate you. Ofc, it will be tough what else you expect because this is the final class before graduation
+Rating: 5 / 5Difficulty: 5 / 5Workload: 35 hours / week
+
+Review 22
+8l3KuswRrb/OgeowBu/tDA==August 4, 2025summer 2025
+Summer 2025, got an A. (92%).
+I really enjoyed this course... it challenged me more than I think most other courses in the program (last one!), but I sincerely feel that if you put in the work, you will do really well! The staff is constantly trying to improve the course to make it better. They now have more seats available for people to take earlier in their grad. career.
+My advice:
+Do every homework problem, and do the "recommended homework problems". Then go to Jove's office hours and check your work.
+Go to every office hour!
+Before every exam, look at your stack of homework problems and try to notice the similarities, patterns, and differences between them.
+I listened to a podcast about this course that said it well:
+Do every suggested problem and homework problem, go to office hours, and you will not be surprised by anything on the exam!
+I spent so much time worrying about this class, but it is honestly very fair if you put in the effort.
+WIth that... I'm done with OMSCS!!
+Rating: 5 / 5Difficulty: 4 / 5Workload: 25 hours / week
+
+Review 23
+Y0p+1lfk2jRxT+Y8MpA7lA==August 2, 2025summer 2025
+This is essentially a proof writing under stressed situation course. You will be trained to write proofs in a specific way and will get ample opportunities to practice proof writing through practice problems and homework. However, if you panic in the exams (like I did in Exam 2) or make some mistakes/misinterpret the question (like I did in Exam 3) you may fall short (like I did) which would be a very painful experience. This was my 10th course and I missed graduation by 1.5 marks which really hurts. I have 9 As so far and then this C...lol. Having said that, the content of the course is very good and any graduate student of a computer science program must build good familiarity with the covered topics and there was no way I was going to miss this course (Especially since OMSCS is my first computer science program). However, I am seriously considering taking AI and changing my specialization to II (Now AI) as I don't think I can relive the pain of taking multiple 3 hour long conventional exams again and then giving some random faceless TA the power to lecture me in the feedback.
+In all, a useful course but designed to inflict maximum pain on the students which sucks out every ounce of fun from this course. You are always on the edge and can not afford to let your guard down (at least in the summer semester). The course format of 3 exams with 2 long form questions worth 20 marks each and some MCQs worth 20 marks took me back to my country's pedantic school education system where the prime objective of education is to make students prepare for the exams.
+Rating: 2 / 5Difficulty: 5 / 5Workload: 25 hours / week
+
+Review 24
+VgBZ5q2cK2PdyQCErWPMmA==August 2, 2025summer 2025
+I am writing this review as a student taking this course for the third time, with my first attempt being in the summer of 2024. It has been a long journey, but I've learned an immense amount and feel I have a valuable perspective on the course's evolution and what it takes to succeed.
+First, I want to commend the teaching staff for the continuous improvements to this course. I truly appreciate its current centralized and parsimonious state. The efficiency of well-organized, consolidated materials is a massive service to the student body. If the materials save an average of 10 hours for one student, that's a collective saving of 10,000 hours for a batch of 1000 students. This is a phenomenal contribution. Moreover, centralized material makes maintenance far easier and significantly increases the likelihood of keeping the algo content high-quality and up-to-date.
+Most importantly, it is mandatory for an algorithms course to keep the bar high; otherwise, the OMSCS degree risks meaning nothing in the competitive market. I sincerely hope that a course with this level of rigor eventually becomes mandatory for all specializations.
+For Future Students:
+To give some context, I have designed and proved the optimality of new algorithms in peer-reviewed computer science publications, yet I failed this course twice. I didn't spend much time this semester but I spent tons in the first. You have to follow the specific instructions to pass.
+IF YOUR TIME IS LIMITED:
+DON'T prioritize the textbook.
+DO watch all the course videos.
+DO READ ED DISCUSSION POSTS CAREFULLY. This is not optional. Read every announcement and clarification. Ask questions if you have them—the TAs provide essential guidance here.
+DO WATCH THE OFFICE HOUR (OH) VIDEOS FROM JOVES.
+DO ALL LISTED QUESTIONS ON ED. Complete every practice problem provided by the teaching staff.
+==TAKE THIS COURSE IN SUMMER IF YOU CAN==.
+Homework: I cannot comment on assignments for the current semester, as I did not redo them this time around. However, based on my previous attempts, I was already familiar with the rough structure of the solutions and the required approach.
+Rating: 5 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 25
+1Pg6oH9Oh6M3xfCDcnfaFA==May 21, 2025spring 2025
+This course has 3 exams with 1 extra exam (5 bonus points). The homework no longer counts for the grades. So 90% on 3 exams and 10% on the quizzes.
+Exam 1: I did the worst grade on exam 1 (37/60). But I cannot drop this course because it is the required as core course for my track. I did some calculation for my exam2 and exam3 which has to get higher score to recover my loss on exam1.
+Exam 2: Much better (47/60). I think because of average grade for exam 1 was too bad. So the exam 2 was much easier. All the questions were same/similar to the homework.
+Exam 3: Best score (50.5). Pretty much familiar with format that TAs prefer.
+Quizzes: I did not do great on content quizzes (avg 80/100). But i did get full score for the format quizzes.
+Final grade: B. I don't really need A to graduate so I am happy with this grade.
+Now it comes to the learning process....
+Textbook: Yes. I spent a lot of time to read and understand textbook. Around 2-4 hrs per week.
+Course videos: Sometimes I even need to watch a lesson multiple times to understand it. Around 2hrs on course videos.
+Ed discussion: I spent around 2hrs per week to catch up the discussions and posts.
+OH: Joves has 2-3 hrs weekly OH. Dr. Brito has 1-2 hrs weekly OH. So it could take up to 5hrs on OH. Joves OH is very helpful. Highly recommended to take it to see how to solve the practice problems and learn how TA grades homework.
+Practice questions: I use chatgpt to provide some thoughts and learning guides on practice solutions. It takes around 4 hrs per week.
+Homework: Normally takes me 2hrs. But please do the homework. It is way more important than you think. The reason why I can get higher and higher score in exam 2 and exam 3 is I invested lots of time to understand the homework and similar questions.
+It is very time consuming to finish this course because I have a fulltime job. Basically all my after work hrs were learning. 60% of my weekends time on learning. I don't recommend taking this course when you are at the busy stage of your life (changing to a new job, moving, .....etc)
+Good luck.
+Rating: 3 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 26
+FjfClbiNLXzP1to+iFwvXg==May 5, 2025spring 2025
+This was my 10th and final course in the program. I wanted to share my experience to try to provide a more balanced perspective than many of the reviews on this site. This was the first semester that exam grades counted for 90% of the final grade (30% each), with the remaining 10% from open-book quizzes that should mostly be free points. What this means is that it is very easy to fall into the temptation of not attempting or submitting the unweighted homework, which is a recipe for failure
+During the semester: watch the lectures early. Engage with the material - don’t just passively consume. Err on the side of reading the corresponding sections in DPV (textbook). Homework is unweighted, but that doesn’t mean optional. You should always, always make an honest attempt at the homework, not only because it’s an opportunity to actively engage with the material, but also it’s a stakes-free way to get feedback on how your submission would be graded in the exam setting. Don’t just blindly paste the prompt into AI and copy its solution, because that’s a total waste of time. The coding homework is fine if you have time for it, but not critical IMO. Watch Joves’ weekly OH and attempt the problems he goes over before watching the solution. Brito’s OH is a nice supplement but less crucial IMO. He mainly covers the previous week’s homework and the material more generally.
+Before exams: watch Joves’ exam review OH. Do all the ungraded homework problems if you haven’t already, as well as the suggested exam prep problems. You can skip the ones marked as more difficult. In this semester, every free response question was a slight variant of a problem seen in lecture or the homework (graded or ungraded), so if you understood those well, you’d be off to a great start. The MCQ were a mix of concepts covered in lecture and the Joves OH and were fair overall.
+Lectures: wonderful. Dr. Vigoda is a very talented lecturer and it shows in how he’s able to explain difficult concepts clearly.
+TAs: maybe the most responsive teaching staff I’ve seen in the program, both on Ed and Ed Chat. The TAs have gotten flak in the past for being snarky or whatever, but I didn’t see any unprofessional behavior. The most “edgy” response I would see from them is “What does the post above say about [question that was already answered and yet clearly not read by the question asker]”. I think it’s perfectly responsible to ask students to actually read official Ed posts, etc. before expecting the staff to spoon feed them the answers. We’re adults here.
+Brito: disgruntled students might also complain that Brito is unfair or uncaring, but that couldn’t be farther from the truth. He held weekly OHs and was genuinely open to good faith feedback. All of the exams were reasonable with respect to the material covered, but there could be some adjustment pain after the first exam because this class is unlike most in OMSCS. If you didn’t do the homework or understanding the grading expectations, and then did poorly on the exams, it’s on you to adjust for future exams.
+Grading: yes, with 90% exams, each question on an exam is high stakes. That’s unfortunate for students who prefer homework or projects, but there’s nothing inherently unfair about the exams. Nothing on them is a surprise if you’ve watched the lectures/OHs and made an honest attempt at the homework. A lot of students complain about the grading scheme, but the expectations about required components of a solution are made perfectly clear up front and reiterated over and over in OHs. You have ample opportunity to get feedback on your solutions if you submit homework. As said before, nothing on the exams is really a surprise. It’s such a confined time window, so there can't be anything truly novel on the exams or students would get wrecked. Dr. Brito even says over and over again that he’s not trying to trick students, so don’t twist yourself into a pretzel coming up with some unusual interpretation of an exam question. KISS.
+Rating: 5 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 27
+B9ODZY/BT5HrZA2E/KF9WQ==May 2, 2025spring 2025
+I have an undergrad in CS and have taken very difficult classes, including an undergraduate algorithms class from an IIT (Indian equivalent of MIT) grad. Out of all the classes I've taken, I've never dropped one no matter how difficult it was. Until now.
+As the 10th class in the curriculum for the ML concentration, I wanted to finish this degree pretty bad, but like all the other reviews said, this class is quite different. It truly feels like an unnecessary exercise in torture and pain for no real gain other than "I got through it". I've gotten through so many of these classes and honestly I was just fed up with it as my faith in Brito was absent. Why?
+Brito admits no wrongdoing for designing a bad course and only shames students for any poor performance, despite 75% of the class being below a B after the first exam. If 75% of the class won't graduate, it's the teacher's fault full stop.
+Brito does not cultivate trust in his exams and assignments. As a student, the teacher should create goal posts where a student, given they are sufficiently smart and hard working, can work hard enough to attain the goal posts the teacher sets. Brtio, despite very poor performance on the exam, did not say he would curve the class and that is how it would be. How can a student trust him to issue a better exam if he already screwed up on the first and will not hint at anything more doable?
+I dropped this class before the second exam because they won't even release any grades before the drop deadline. As other posts say, you can lose massive points on very small things (seems more punitive than academic), I was not willing to gamble being stuck in this class in a "death spiral" (student who takes this class and gets below a B, then must take it again in hopes to replace the grade and performs poorly again).
+As a seasoned student and engineer, I would just take the II track, as this class and professor are truly unreasonable. The class is more or a hazing class than a useful class to know and I've taken ML and felt it was hazing but very academically beneficial. Do yourself a favor and if you're on the fence, don't stress about getting sick before an exam and losing a percentage point of your overall grade because you marked a single multiple choice answer wrong on an exam.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 28
+cvUKRHrSDa+Z2dn5TUe48Q==April 30, 2025spring 2025
+🧠 Overview:
+CS6515 is the core algorithms course in OMSCS — it covers foundational algorithmic techniques and is required for many specialization tracks. The course is broken into 3 main exam blocks:
+Exam 1: Divide & Conquer + Dynamic Programming
+Exam 2: Graph Algorithms + Network Flow
+Exam 3: NP-Completeness + Linear Programming
+You’re graded primarily through three timed, proctored exams — no coding assignments, but a large bank of practice problems, homeworks, and TA-guided office hours.
+🧪 Exam Breakdown & Tips:
+✍️ Exam 1 (D&C + DP):
+Content is conceptually straightforward, but students often lose points due to formatting.
+🔑 Listen to the TAs, especially about answer formatting for recursive runtime proofs and pseudocode.
+LeetCode only helps for DP (do Mediums from Big Tech lists).
+Pro Tip: Do all practice problems; skim solutions for the very hard ones.
+🗣️ "If you mess up Exam 1, DO NOT DROP. Many recover in Exams 2 and 3."
+✍️ Exam 2 (Graphs + Network Flow):
+Most content-heavy, but ironically the easiest exam if prepared well.
+Rewatch lectures and focus on understanding proofs — these directly help with MCQs.
+Practice how to write reductions and flow arguments in the expected format.
+Reading Ed discussions really helps here.
+✍️ Exam 3 (NP-Complete + LP):
+Conceptually easiest, but trickiest due to the “Eureka” moment often needed for the reduction-style free response.
+Misreading questions can hurt (as it did for me).
+Focus heavily on the homework and practice problems.
+Read questions carefully; the trick is often in the phrasing.
+📊 My Scores:
+Exam 1: 40.5 (Suboptimal D&C solution)
+Exam 2: 57 (Best one)
+Exam 3: 42 (Misread Q1)
+➡️ Final Grade: High B
+I would've gotten an A if not for a brainfade moment in Exam 3. But grading wasn’t too harsh, and recovery was possible.
+💬 Additional Notes:
+This class has arguably the most active TA presence on Ed across OMSCS — tons of clarifications, walkthroughs, and formatting guidance.
+No autograders or trick grading — it’s just a matter of being disciplined with the format and practicing.
+It’s not a course where TAs “set you up to fail” — it’s just the reality of running a high-stakes grad algorithms course for 800+ students.
+Joves's office hours are especially helpful — highly recommend attending or watching recordings.
+📌 Final Thoughts:
+This isn’t a terrible class. It’s intense, and the exam format can be rigid, but it's fair and recoverable even if you bomb one exam.
+If you listen to the TAs, practice a lot, and don’t give up after Exam 1, you’ll likely pass and even enjoy the challenge.
+⭐ Overall Recommendation:
+Take it early in your OMSCS journey if you’re in a theory or systems track.
+Don’t cram; spread out your study and follow TA office hours and formatting advice.
+Recommended for those aiming for Big Tech or PhD-level algorithmic rigor.
+Rating: 5 / 5Difficulty: 4 / 5Workload: 16 hours / week
+
+Review 29
+33K58q4npZUKZBJpmYgqLg==April 29, 2025spring 2025
+I hated this class. Maybe for someone else who was taking this as a refresher it would be okay but this was the first time I was learning the material as I come from a non CS major background. Official grades havent released yet but i know i got full points for the coding portions of my grade. it took forever to put together all the moving parts of the code they gave us. The exams arent too difficult if you study for a while but theres so much information to absorb i found it quite boring. I was dreading studying for this class i think because of the lecture videos. They were slow and odd. I think the style just wasnt for me. i hate staring at a video of a hand using a pen to point to handwritten words editted into the background? I found myself rewatching a 2 min videos five times. hated using piazza. This is my 9th class and ive taken harder like AI and deep learning - have gotten As in all my classes. This might be my first B all because i cant stand this material. didnt interact with the TAs much. i asked a simple question about ability to use a library in one of the files and they passed it down to the classmates to answer, which they didnt. once your post gets some submission from a classmate who doesnt understand, no one looks at it anymore. This class is alright, i just personally hated it the most because the content/lecture style bores me.
+Rating: 2 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 30
++UMqjwpcrrdTSn8jni3j/A==April 29, 2025spring 2025
+This class is good! You can survive by just repeatly solving the HWs and practice problems until you have an intuition of how the algorithms work and what tricks you can use to solve problems. Spend time interacting with others and have conversations about the course content and also spend a lot time on practice problems. Do not simply watch others solve problems or spend tons of time in places that are not directly related to the course. Literally all you need is provided in lectures, HWs, suggested practice problems, and the TA's guidance post/OHs. If you don't understand how something works talk to your classmates, TAs or revist the lectures/OHs.
+Joves OHs are great (do not skip them) and the TAs are helpful. Be humble and meek and realize they are humans too.
+Don't let a bad score on Exam 1 scare you, I got about a 62% on it and managed to come back and get an A in the course.
+Rating: 5 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 31
+Ig1xGFYweoczXgmVKGpFtg==April 26, 2025spring 2025
+Waste of time. I knew it was going to be hard going in but this class is quite pointlessly hard. Frankly, I was looking forward to this course as I thought it would prepare me better for leetcode style interviews. Instead, it felt more like a combination of a math theory and writing class. You have to memorize how to write solutions the way THEY want them to be written. TA's claim to be supportive but quite literally if they would just program a bot to write "Practice more" over and over again, it would do 90% of their job. I will never be taking this class again and it leaves me with a really bad taste of the overall OMSCS program as none of the other classes are like this.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 32
+RmtkRFZ5jWHpkrvFcaPW6w==April 25, 2025spring 2025
+You will cry hard; you will feel like you’re being set up to fail. If you’re not absolutely sure you’re ready for a brutal academic assault, don’t even think about CS6515. And if you are considering it, think again—this course is practically engineered to break you. Here’s my personal view, others may think differently:
+From the moment you sign up, you’re thrown into an environment that seems to exist solely to drain hope and energy from you. The exams are designed with no mercy—one tiny mistake and you lose big points. Even if you manage to grasp the core concept, every minor detail is held against you. It feels like the grading system is not about measuring progress, but about finding any reason to dock points.
+Exams are another nightmare. They’re weighted so heavily that one disaster of an exam can crush your overall grade, no matter how hard you tried in all the assignments. The exams are a cluster of tricky questions that test not just your understanding but your ability to guess what the graders want to see. It’s not about learning algorithms—it’s about surviving the punishing tests.
+The course structure itself leaves you feeling abandoned. There’s no autograder to offer the instant feedback that could help you learn from your mistakes. Instead, you’re left waiting, for a grading process that feels more like an afterthought. The delay and opacity of feedback leave you questioning your entire approach.
+And then there’s the support—or more accurately, the lack. The instructors seem more like distant overseers rather than engaged mentors. You’re expected to fend for yourself, which is fine if you thrive in isolation, but most of us need real help. The TAs? They’re not much better. Their guidance is minimal at best, often worst. Instead of feeling like you’re part of a team working together, you’re forced into a battle against a system that seems determined to ignore your struggles.
+The overall vibe of the course is as if it were designed to discourage you from ever pursuing further challenges. Every component—from the homework assignments to the relentless exams—feels intentionally crafted to wear down your confidence. The course is about exhausting every bit of enthusiasm you have. You might even start to feel like you’re not smart enough or capable enough because theynever give you a break.
+Every week brings a fresh wave of disappointment. The assignments often seem like they’re written in a language of their.
+If you manage to scrape through one assignment, be prepared to receive a grade that seems to have nothing to do with the actual quality of your work. It doesn’t matter how many hours you’ve spent perfecting your solutions—whatever mistakes they find, no matter how minor, will result in harsh penalties.
+This course is not about growth; it’s about testing your limits until you have nothing left.
+In the end, you end up with an overwhelming sense that this course was more about creating a high-pressure, no-win situation than about actual teaching.
+If you value your mental health, your self-esteem, and even your desire to learn, steer clear of CS6515.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 45 hours / week
+
+Review 33
+w+BVGxdf9QhUa2bE7QInpw==April 21, 2025spring 2025
+My background:
+Full time software engineer. I had a Data Science undergrad and this is my 5th OMSCS course. My semester has the 90% exam weight and 0% HW weight. I should be getting a low A in this class (41 exam 1, 53 exam 2, 57 exam 3 - all out of 60, and the final will push me to an A).
+Thoughts on exam weight:
+I went into this course very anxious because of all the previous negative sentiment I had read about this class. I found that while it's true the course is pretty difficult, it's still very doable! I originally thought the 90% exam weight would be terrible because I hate studying for exams. However, I found that paired with the 0% HW score, this format did not add to my stress at all. If anything, it made the class less stressful on a day-to-day. I didn’t have pressure to submit the HW and could do them on my own pace and then check the answers in the OH hour recording. This made me feel like I had more time to study the way I wanted to. That said, don’t let yourself slack off till the last minute! To do good in this class you CANNOT cram, you have to learn the material and practice it enough that you really feel like you understand it.
+Tips:
+Watch the lectures on schedule to keep yourself on track. It look me ~3 hours to watch and take notes on each lecture module.
+DPV book readings: Goes over mostly the same material so it helped solidified some concepts. I would read but not take notes. The lecture notes were enough.
+Watch ALL the OH recordings! The first half of Joves OH goes over tips and strategies that are quite helpful for doing practice problems. I didn’t attend any in person but still watched them all at 1.5x speed.
+Spend a good amount of time understanding the content quiz questions, they are open book so I would look at a question and go over all materials for that question until I understood it. The exam MC questions are similar so make sure you understand what you got wrong and WHY. Quiz took me ~3 hours.
+Do all the suggested practice problems and the HW problem. Don’t stress too much about getting it right, but absolutely make sure you understand solution that Joves/Brito go over OH. I skipped all the questions they marked challenging to save time and I thought this was the right decision.
+I looked at but didn’t do the coding HW. I don’t think they are necessary.
+Try to submit some of the HW for feedback (submitting ALL is ideal of course, but I only submitted the first 4 assignments). If you don’t, at least read over the HW regrade threads to see other student’s format and what got taken off.
+IMPORTANT: Even if you don’t do the HW on time, still try to write out the long form responses in the format that they want. I see a lot of people complaining about the format, but honestly I thought it was a helpful format. Before starting my answer I just write the headings of what they want (usually Algorithm, Correctness Justification, Runtime) and then fill in my answer.
+I spent ~20 hours studying for an exam (watching OH and doing practice problems)
+Study group: I personally didn’t join one even though it was recommended and was fine, so to each their own on this.
+Overall:
+I enjoyed the material and learned more than any other OMSCS class so I’ve taken so far. It is definitely a harder class, so be prepared to put in work. I think it’s a reasonably-hard class and still very much doable. Hopefully the tips above can help!
+Rating: 5 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 34
+CacRAMd01Blp//30O1Y1+w==April 21, 2025spring 2025
+I took this course in Spring 2025, where exams made up 90% of the final grade. I do not have an engineering background, and this was the final course for ML specialization - and holy moly this was the most stressful and hardest class I've taken.
+TL;DR - The material is not hard and the questions are not impossible, but the evaluation structure of the class makes it very tough to reinforce your learning.
+To earn a B or higher, you need to: (1) Understand the material. (2) Learn the specific way questions are presented. (3) Learn the required format and terminology expected in answers. Points 2 and 3 are just as critical as understanding the content.
+*What worked for me:
+Attending office hours regularly to review and understand the solutions for all practice, suggested, homework, and quiz problems.
+Creating Quizlets for all the questions and the various algorithm assumptions and constraints.
+Practicing each problem from scratch in the required format at least five times, often to the point of memorization.
+*What I wish I did differently
+Submit more homework assignments. Even if you’re unsure of the material, attempt the problems for at least 15 minutes. If you’re stuck, search for a solution (using Google or ChatGPT), then rewrite it using the correct format. This is valuable for learning the phrasing and structure expected on exams. For example, there was a subtle distinction in using “iterate” versus “scan through edges” for Graph problems.
+*My Results:
+Scored 35/60 on Exam 1 before refining my study approach.
+Improved to 48+/60 on Exams 2 and 3 after adjusting strategies.
+Finishing with a solid B in the course.
+*Concerns
+Even with preparation, performance can depend on whether you get a familiar question or have an “aha” moment during the exam. If not, the grading penalties are steep. For example, each free response is 20 points. If you completely blank out, the best you can do is 4/20 which already puts you at a 73% for a 60 point test and 70% is the cutoff for a B for the class.
+Suggested problems are released just one week before the exams, which creates a stressful, last minute rush. Despite student feedback, the release schedule did not change.
+My biggest complaint. It's impossible to figure out if you're on the right track. Only a subset of problems have posted solutions, and many are not formatted to match format requirements. You often have to search through discussion threads to determine if your attempt would be acceptable.
+Exam 1 was longer than previous semesters, with three free-response questions (20/10/10 points) instead of the usual two, but no additional time was provided. I couldn't even attempt the third question due to running out of time. Risky experiment to try out in a semester where exams are 90% of your grade. They also admitted to the exam being longer than they intended.
+*Positives
+I do really like the 0% weight homework submissions. It's a tiny beam of feedback light in a class where it's so hard to know if you are on the right track.
+Joves OH. I would have absolutely failed this class without Joves. No question.
+Rating: 3 / 5Difficulty: 5 / 5Workload: 25 hours / week
+
+Review 35
+qJj/R7WgUIM3sqBDTm9k7g==April 21, 2025spring 2025
+I finished the most notorious classes in omscs with a final grade of 86%, a low A. Full-time software engineer, I learned some of the content during my undergrad, but forgot most of it. I try to give some advice to people with similar backgrounds, this class is a paper tiger.
+I like the changes they made this semester, which means you don't have to waste time on any homework, and basically my study strategy revolves around three exams that account for 90%. On the weekend before the exam, I will spend about 15 hours studying for three weeks of content for the exam and complete a quiz. On weekday nights during the exam week, I will watch all the joves office hours, which takes about 12 hours. On Saturdays, I will read all the relevant posts on ed and take the exam on Sunday. The rest of the time I don't care the content of this class at all. I just read the transcripts of the lectures, which they did a great job of inserting ppts, and randomly do gpts or find some Indian lectures on Youtube for things I don't understand. I completely watched the lengthy videos and textbooks. In addition, they set a lot of difficult content as optional content, so you don't need to pay attention to it.
+The first exam was about divide and conquer algorithms and dynamic programming, and I only scored 40/60. I lost all the marks on a big question because the **** TA thought my algorithm was not divide and conquer. The lecture content of this part is simplest and easiest to understand in this course, but the exam is also the most difficult and varied. I encourage you to read some leetcode related content when you have time, and don't spend time thinking, just look at the questions and explanations. Because if you don't know it in advance, it's hard to deduce a dp formula on the spot during the exam. This will also help you in your coding interview.
+The second and third exams focused on graph theory, network flow, and NP reasoning. I scored 55+ in both exams. The lectures in this part are very difficult. I still can't remember the proof of Kruskal and Prim's algorithm, the proof of maximum flow and minimum cut, or how to convert 3-SAT into subset problems through some fancy changes. The good thing is that 6515 is very shallow in this aspect. They just give you the classic algorithm as a blackbox to apply in the exam. The difficulty of the conversion of the questions is lower than office hour. Very intuitive, and only requires formatting of proofs, without any depth or formalization (compared to my undergraduate course). Basically, the questions are like this:
+Lecture - Give you an algorithm for multiplying two-digit numbers by two-digit numbers, and the proof is very complicated.
+Exam - Design an algorithm for multiplying two-digit numbers by three-digit numbers.
+So what you have to do is very simple, split the three-digit number into the sum of two-digit numbers, then pass it into the algorithm, and then write some nonsense to say that this is right, and some time complexity analysis, and that's it. There is no need to read any extracurricular content here, they are outside the scope.
+Summary: Be sure to read Joves's office hour carefully, although it is about 3 hours long every week, but this is the only thing you need to pass this course. In addition, the multiple-choice questions in the exam are also just a simple variation of the quiz.
+PS: I don't like the TAs in this course, some of them are arrogant and can't provide help.
+Rating: 3 / 5Difficulty: 2 / 5Workload: 10 hours / week
+
+Review 36
+zA0Ke1rizjDLAp7rWflBNQ==March 27, 2025spring 2024
+So, I'm in this first 90% Exam grade semester. I have less than 5 points penalty combined for the first two exams so far.
+IMO, this class is hard but it's definately conquerable, for folks with some LC experience. There are levels to the effort you can put in.
+Tier 0: If you don't do these, you can be a genius and still fail the class. You'll be surprised how many people don't even do these stuff and complaining after exam.
+Lectures
+Homeworks
+All quizs
+Pinned Ed post by TA
+Tier 1: To get an A, you almost have to do these, unless you're a genius who learn so much from just the basic.
+DPV chapters
+Practice problems (w/ solutions)
+Brito OH
+Joves OH
+Tier 2: It will be great to do these, but if you're not heading for an A and very busy, it's skip-able.
+Practice problems (without official solutions)
+Joves OH (in exam week, to cover the above)
+Tier 3: Do it if you're interested, but rest assure that it will have minimum effect on your grade.
+Practice problems (those marked as hard)
+Ed posts that are not pinned
+Stick to the course guideline, especially the HW, you'll find exam being predictable.
+Rating: 5 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 37
+kf4N7lXN6FpstLcQ4mhSWQ==March 22, 2025fall 2024
+This is an excellent course and probably the best course I have taken in the program. I have completed 8 courses so far. I received a well deserved B, which I worked very hard for.
+I found the TAs to be incredibly helpful throughout the semester and I was able to pass because of listening to their advice particularly when studying for exams. The TAs received a lot of criticism from students in the Fall 2024 semester and in the OMSCS subreddit. The criticisms were mostly related to false positives for cheating. This is a fair point but I wouldn't let this scare you off from the course as it seemed to be a smaller number of students posting frequently about it. I say this because these comments made me often unnecessarily stressed.
+My biggest recommendation is to gamify the course. Focus on the topics you are good at and minimize the damage in what you are bad at. I did badly in (and knew I would do badly) on the dynamic programming section. So I put a lot of effort into getting every single mark during the graphing algorithms section because I enjoy and am better at these. You can do it - best of luck!
+Rating: 5 / 5Difficulty: 5 / 5Workload: 15 hours / week
+
+Review 38
+KbSHBUPvkycTfVvkOrxq9g==March 1, 2025fall 2024
+They found a way to ruin an interesting topic. Grading is so pedantic if you miss a word (that should be inferred) it's -4 points for you! This class is all about playing their game and finding the exact solution they are looking for. I'm sure if you do every practice problem ad nauseum to the point of memorization and regurgitate that on a test you'll be fine, but that's not learning. Again - great topic, extremely poor execution!
+Rating: 1 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 39
+ogYnv0WCevu0qgQEWJsDEA==February 26, 2025fall 2024
+Absolutely horrible course for a graduate program. This may sound extreme but unfortunately, the course has got childish TAs who think they need to gatekeep the students from doing well. The professor exists just for name sake. The course does not centre around teaching people. I strongly advise people to take it before hand by talking to their advisor instead of saving it as the last course. The homework was a failed experiment and lots of students were impacted for the fault of instructional staffs. They know what they did was wrong but never admit it openly.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 20 hours / week
+
+Review 40
+sLaWhsPRieq/5Ge4vSSc7w==January 13, 2025fall 2024
+I have a Masters in Chemical Engineering from a top school, and I can tell that this is one of the hardest courses I have ever done.
+Coming from a non CS background and working in chemical engineering domain, I have to admit I did not prepare for the course and all the topics covered was very new for me. This could be the reason why the course was very difficult for me.
+The worst part of the course was the anxiety it used to give me.
+I would say the TA's are very helpful, and they are the reason why I could get though this course with no prior background.
+If I had to the course again. These are the things I would do differently:
+Find a good group to discuss questions and understand the problems more clearly. Preferably a group with a second timer, as one of the challenge is understanding how the answer should be written, and an experienced person should know this well.
+I would watch office hours as soon as its released.
+I would attempt the HW and practice problem before office hour - I tried this, but the issue was that I could ever finish the portions before weekend. Going through the material before course starts would help with this.
+The expectation by TA's on how the answers have to be provided makes it harder than just learning the concepts well.
+All the best ! You will learn a lot.
+Rating: 4 / 5Difficulty: 5 / 5Workload: 22 hours / week
+
+Review 41
+QaHiGrgd+Pjfq59R17SqTA==January 6, 2025fall 2024
+I took GA in Fall 2022. At that point in time there were Joves' Notes. I am sure at that point in time people could agree with me it was a god-saving grace. Looking back, I could see that it was my own doing that I got a C in GA back then.
+I knew that mentally, I was exhausted, and wasn't prepared for the rigor. With my mentally refreshed, I retook GA 2 years later, in Fall 2024.
+I am not sure how did Joves turned from an angel to a devil, but here we are. I am sure many reviews were written from an OSI perspective, but I realised that his extended prolonged TA office hours were actually, his notes, copied verbatim with minimal refresh from the past.
+Thank god I avoided the OSI drama, and escaped with a low A. I mean, only 18% of the registrants managed to get an A this semester so I do count myself lucky - but surely this class does stain the reputation of OMSCS as a whole.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 28 hours / week
+
+Review 42
+bGrTd1RykmEka9MOijIDCw==January 6, 2025summer 2024
+I was one of the students flagged for cheating in this course. Let me start by saying that I’ve been fully cleared of all allegations by OSI, which found no evidence of cheating. However, the entire experience was incredibly stressful, especially as I was dealing with major life events at the time. The accusation and the process surrounding it caused so much distress that I decided to withdraw from the class to focus on preparing my defense.
+The issue of false cheating allegations in this course is rampant. For a single homework assignment out of ten, nearly 100 out of 1,100 students—almost 10%—were flagged for cheating. The TA had essentially copied a question verbatim from a 20-year-old textbook or a well-known LeetCode problem with over six million submissions. They then cross-checked everyone’s code against these sources and flagged anyone with similarities. When I was accused, I asked for evidence but was denied. It wasn’t until two months later, just two days before my OSI meeting, that I was allowed to see the so-called evidence. You can imagine the emotional toll this process took.
+When I finally reviewed the evidence, I was shocked. The homework in question required a small amount of code to solve using a divide-and-conquer approach. My solution was around 60 lines in total, of which only 25 lines were flagged as “similar” to another student’s work. I had never met this student in my life. Even worse, a significant portion of the flagged lines were rewritten from the class resources provided in the homework package—resources we were explicitly allowed to reference.
+Of course, many people in the course would say that the small 10% of us flagged are making a big fuss about this and that there are definitely cheaters among us. I agree—there will always be cheaters. But I believe the TAs should at least do their part to minimize the possibility of false positives. If they expect a completely original solution from every student, then maybe they shouldn’t lift problems directly from a popular LeetCode or textbook source. The onus is on the course staff to ensure fairness and create assignments that don’t set students up for situations like this.
+The course is run by TAs who clearly don’t care about the students. They treat us like numbers and penalize us without any empathy. With 1,100 students, it feels like we’re just data points to them. If you’re flagged by their software, you’re immediately accused and thrown into a grueling process where you have to prove your innocence, while they continue on unaffected. There’s no human connection or understanding—just an impersonal system that accuses first and asks questions later.
+Overall the content and teaching on algorithm is great, I enjoyed the content but the TAs are some of the worst egomaniac i have seen.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 15 hours / week
+
+Review 43
+tAd6zOtRsghrK+AP/Scvcw==December 27, 2024fall 2024
+I had a liberal arts undergrad and finished this with a comfortable A (93%) on my first attempt. It's very doable with a bit of prep and regular, dedicated practice. The course comes off as harder than it actually is because it's (typically) the last course before graduation, and it's more mathy (though not rigorously so) on average than other courses.
+Notable issues:
+False positives in cheat detection. It's hard to evaluate how bad this actually is since we don't know how many people were accused total, but I'll just say it feels somewhat bad based on publicly available complaints. I wasn't flagged so I can't speak to the specifics of what they went through, but more than a handful of students were falsely accused and had to defend themselves when it went to OSI.
+Grading on homework and exams is a bit slow. I don't know if this is really anyone's fault considering how few graders there are compared to students, but it's pretty stressful when you can't sanity check your understanding of the material until weeks after you submit your homework, or when it's unclear where you stand after a big exam.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 14 hours / week
+
+Review 44
+9ogxycE8ap7RfQkuFQQU4g==December 23, 2024fall 2024
+This was the most difficult class I have taken in the program; however, it was the most rewarding experience I have had with OMSCS.
+All the course content is available online -- study early beforehand, read the books, and frequently try to hunt information for the more difficult concepts. Practice the problems from the text often and run your solutions through your classmates to get a second opinion. Above all else, attend office hours or watch the recordings, as that's where model solutions and helpful tips are provided. I'd say I spent 2 hours a day on average because the concepts did take quite a bit of effort and drilling for me to get comfortable with. I do not have a solid background in data structures and algorithms, so it took effort on my part. I passed on my first attempt with a solid B.
+This class was difficult for two types of people: those who did not put in effort to read/watch the materials and those who struggle with a language barrier. If you rely on natural giftedness in logic to explain a proof, you'll wind up asking the silliest questions that I guarantee are already answered elsewhere that you'll stick out at office hours. Similarly, and sadly, if you are not a native English speaker you may struggle with some key words and phrases that are essential for some points, and may suffer when trying to write out a proof. However, the TAs are good about regrade requests and as long as you can justify your writing, you will be listened to.
+I would say that even though this course was very difficult and niche in that it was (obviously) mostly about algorithms, the class teaches a way of thinking that is different from all the other "watch some lectures and write some code in a team of X students" courses. There is code writing, but it is certainly not the focus of this class. I am able to apply the thought processes I learned from algorithm analysis to my daily life, personal and professional, in a way that is extremely worthwhile to me.
+Years from now when I've forgotten how to code in Python and lose the technical expertise built up in this program, this course will be the one with the most lasting impact and that I actually remember.
+Rating: 5 / 5Difficulty: 4 / 5Workload: 14 hours / week
+
+Review 45
+np7uj9nBlztU9Hnh8hlDjg==December 20, 2024fall 2024
+I was able to get an A without any regrade request. I also didn't attend any office hours. So I think this course isn't very difficult if you have strong background in data structures and algorithms.
+You need to spend some (probably a lot) time scouring ed post (and its comments) to understand the nuance of the rules.
+There will be inconsistencies in grading. Personally I could get a lot of points back if I ask for regrade every time, I just didn't care for it. If you want all your points, regrade is a fact of life in this class.
+That's ok for me and not why I gave 1/5, here's the reason I gave 1/5 (long story warning):
+on HW4, they gave a common problem, with some solutions available online. There are a few approaches to this problem, but all reasonable approaches for this problem can be implemented in about 20 lines. The correct (expected) solution is based on the textbook, but not all students know about this.
+About 100 students including myself were flagged for plagiarism by Joves Luo, one of the head TA.
+By the end of the term, about 16 students (at least / confirmed) were acquitted (that I know of).
+During students' investigation and defense preparation, it became apparent that evidences submitted by Joves were faulty, reasons below:
+First of all, you can't really accuse a student for cheating, just because there's 20-50% similarity on a 20 lines coding assignment that uses the same template, no matter how you believe you're a genius in checking homework for plagiarism. Just 10 same lines would result in 50% similarity. How many of those lines are constructs that are commonly used and / or share similar structure? (eg. for loops, merge sort recursion, binary search loop)? With this limitation, how can a reasonable human be so sure? Even if they say they manually checked it, no argument was given regarding what makes them so sure, the similarity score is the only evidence we were given. What sort of quality or metrics are they looking at?
+Given the apparently very low threshold set by Joves to decide that a student cheats, it's raises the question, "what about students who submitted a perfect solution (textbook solution)?". How come those students are not marked for plagiarism even though they all implement the same approach? And if some of them did get accused for plagiarism, is it fair to get marked for plagiarism for implementing textbook solution? Coming from Joves himself here https://omscs-study.slack.com/archives/CE0UH7MMK/p1727878983157329?thread_ts=1727877530.657439&cid=CE0UH7MMK (screenshot here https://imgur.com/a/NCAyWlP), Joves intentionally excludes perfect solution, such that only "outliers solutions" are detected as "cheaters", which is of course a faulty process (If you don't believe 20% - 50% similarity means cheating in a perfect solution, why would you believe it means cheating in other solutions?)
+To look deeper into this issue, a student had asked for MOSS statistics in Slack https://omscs-study.slack.com/archives/CE0UH7MMK/p1728960426333399, but it was declined by TAs. Not good for transparency.
+As I wasn't satisfied, I tried asking chatGPT to implement my solution without changing the meaning. The result is, after a few (~5), it ends up with something very similar with one another, and some implementations are unusable because it uses features that are not allowed in the course. Note that there were more than a thousand students. (If we don't like ChatGPT example here, TAs can try come up with 100 possible implementations of my solution that isn't detected for plagiarism)
+In almost every homework, there are students marked for plagiarism (according to TAs). However, only in this homework that many students reported in Ed discussion itself that they're falsely charged. This fact was of course largely ignored by TAs.
+Despite all these facts and the number of students acquitted, Joves never acknowledged that his evidences were faulty and persisted that he believes those students cheated. At the time I submitted this, no proper explanation is yet given behind the rationale of his confidence.
+This fiasco was a huge mental stress for us. A lot of time was spent for our defense preparation, more than I spent on assignment. That plus the fact that instructors team never acknowledged their mistake is really annoying. 20% of all students charged turned out to be innocent is a lot. There are students who just accepted FCR because they don't want to handle the stress. There are students who got guilty verdict even though they're actually innocent.
+During this whole time, Gerandy Brito was never involved. Some of us reported they sent him an email but was ignored.
+I'd like Joves Luo (and TAs in general) to own his mistakes, makes public acknowledgement that his evidences were faulty and make proper apology to all students impacted by this. Note that, students had asked numerous times in Slack about those faulty evidences but TAs refused to say anything about it.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 46
+Pt624gWSwvF/+r6xT9guOQ==December 20, 2024fall 2024
+Would not recommend.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 47
+v6eHZZMTu38FaTapOM0BkA==December 18, 2024fall 2024
+The fear is real. It's not an easy course but the learning is rewarding. You need to lock in for the whole semester like your life depends on it. TA's do their best to help but few of their sarcastic comments get on your nerves when you are already in deep pain. I can't blame them completely since most of the students keep asking the same questions without a simple search on Ed.
+I with drew this course 2 times prior and this time I did stick through. I will keep it simple with just my recommendations since other reviews covers the needed information such as syllabus, course structure etc,.
+[1] At times you will feel like you want to quit. Reject that thought and push it through.
+[2] With the latest course structure, you can do moderate on one exam but still pass with B.
+[3] Read through all/most of the Ed comments for each of the homework (even if you are done with your HW). By reading other students thoughts and questions, you get a deeper understanding of the problem. Since exam questions are modeled after HW questions, it gets easier.
+[4] Prepare flash cards on the material and practice regularly. This helped me to retain information longer.
+[5] Do all the recommended practice problems. It will drain you out but doing it twice or thrice helps your brain to recognize the patterns. The material, problems and the reasoning gets easier only when you do them or practice them for more than 3 times.
+[6] Attend all the office hours and re-watch how Rocko is reasoning while solving the HW problems in real time.
+[7] For Jove's OH, I only watched the recordings instead of attending live. I always pause the video after he post's the question and try to solve it prior to watching the solution.
+[8] While prepping for the exam, practice writing the solutions in paper or text editor with time limits. This helps a lot in real exam.
+[9] Read all the comments on the exam peer feedback requests in Ed. This gives you the blue print of what TA's are actually looking for while grading.
+[10] One of the student started an Ed thread to post all the answers which got perfect (full) score. This helped to model my solutions against such perfect answers.
+[11] Join more than one study group initially since few of them turns out to be dud.
+[12] Finish watching the suggested next week's videos on the prior weekend itself. This is important since you need the whole week to do practice problems, Homework problem, OH, prior week's HW review and read through Ed. (Re-watch during the week with 1.5x or 2x).
+Rating: 5 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 48
+EU0V2hBOSQlHoOuW62L5vg==December 15, 2024fall 2024
+I got an A but this is a needlessly stressful course, the material is actually very straightforward and the exam questions are on the easy side but the grading makes them hard. Grading on free responses is for maximum pain, you never get the benefit of the doubt, and TAs always err to wrong. Had to do 6 regrades, got back points for 5 of them, mostly it was the type of thing where the grader didn't read the whole sentence.
+Multiple quiz questions had typos in them making it so they had no correct answer; they were either corrected while the quiz was ongoing or sometimes everyone got points. That said for every question that made it to the level of correction there were a couple that never got addressed but were still very ambiguous. I think to avoid using quiz questions from past semesters they make new ones but don't put much effort into it.
+Fear of plagiarism accusation is real. It's hard to know what you are actually allowed to talk about with your study group because for each homework there are different rules. In general this is a class with so many rules, many of them aimed at stopping cheating. While I think that's noble they've also really decreased the student experience (i.e. showing your wrists during room scans ugh).
+Overall, I think the issue is the class structure doesn't transfer to an online format. Yes, in theory you can grow the class by adding graders, but the way this class is structured most of the grading isn't automated, so having good quality graders and staff is key. The problem is the graders need to reside in the U.S., be good at algorithms and be willing to work for $17.50 an hour. That last requirement is tough, because we are talking about people who can easily get paid $75 an hour. For those few people who decided to grade how much effort do you think they are really putting in to the thankless job of being on the staff of GA?
+Rating: 2 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 49
+0VarVHQOP+Gjd1Cz61euWg==December 13, 2024fall 2024
+Background: Bachelor’s in Mathematics with a minor in Data Science. This was my ninth course in the program, and I received an A.
+Overall: First of all, this was one of my favorite courses in the program. Before taking the course, I had only completed a MOOC on algorithms, but by the end, I felt competent in algorithms. The course covers dynamic programming, divide and conquer, graph theory, max flow, RSA, NP-complete problems, and linear programming. While a lot of material is covered, the TAs provide so much additional guidance and resources that the topics feel manageable.
+Each week, some type of assignment is due, but the workload varies depending on the topic. Here is how I would rate the topics in the course, from most to least difficult:
+NP-Complete
+Dynamic Programming
+Max Flow
+Divide and Conquer
+Graph Theory
+Linear Programming
+RSA
+RSA and linear programming were the easiest sections for me because I took courses on number theory and optimization while completing my bachelor’s degree.
+Dynamic programming and divide and conquer are covered in the first portion of the course, and I spent the most time on these topics—around 20 hours per week. Graph theory, max flow, and RSA were covered in the second portion of the course. These topics were easier for me, and I spent around 15 hours per week on them. NP-complete problems and linear programming were covered in the final portion of the course. I spent about 10–15 hours per week on this section, even though NP-complete problems were the most difficult topic for me. These problems are challenging because they are more abstract and difficult to visualize, but they were also my favorite part of the course. It was incredibly satisfying to find reductions that worked.
+Homework: Homework assignments accounted for 25% of the final grade. Overall, the homework wasn’t too difficult, but it forced me to understand the course concepts in great detail. Completing the assignments and learning from my mistakes helped me prepare for the exams. Additionally, the regrade threads were invaluable. In these threads, students shared solutions, which helped me understand different approaches to problems and solidified my understanding of the material.
+Quizzes: I generally don’t like quizzes or exams, but I appreciated these quizzes. They weren’t tricky; instead, they tested how well students understood the material. If I struggled on a quiz, it was a clear sign that I needed to rewatch lectures or work on more practice problems.
+Exams: I’m not a great test taker, but I did fairly well on the exams, earning an A on the second exam and Bs on Exams 1 and 3. Surprisingly, I enjoyed the exams. The questions were fair and interesting, and I felt like my grades reflected my understanding of the material. Solving the problems on the exams was satisfying. Here’s what I did to prep for each exam:
+• Exam 1: I started studying about two weeks in advance by reviewing lectures, attending Joves’ office hours, revisiting homework assignments, and practicing problems. This strategy worked, but I wish I had completed more practice problems and spent more time memorizing lecture material.
+• Exam 2: I started studying for the exam about 10 days before the exam. I used the same strategy as Exam 1 but added flashcards and focused more on practice problems. I did very well on this exam, but I could have done better if I memorized a bit more material.
+• Exam 3: I spent about 10 days studying for this exam. I built on my Exam 2 strategy by creating more flashcards and doing additional practice problems. Unfortunately, this was my worst exam. Anxiety and spending too much time on one question cost me valuable time. I learned an important lesson: take exams when I am feeling well and don’t spend too much time on one question.
+Teaching Staff: The teaching staff was exceptional—easily the best I’ve encountered.
+• Jamie did a great job managing the course forum. Questions were typically answered within a day, and often within an hour.
+• Rocko’s office hours were phenomenal. He explained concepts differently from Dr. Vigoda, which often clarified any confusion I had. There were multiple TAs answering questions in the chat during office hours, so it was very easy to get a question answered.
+• Joves’ exam prep office hours are fantastic. He goes over many practice problems from the textbook. Just seeing how he goes about solving problems is invaluable. He also gives exam tips and encouragement.
+• Aja and Emily provide a lot of supplemental posts. They broke down many of the mathematical concepts and made them easy to understand. Emily did an excellent job answering some of the tougher questions on the forum. Aja created an exam guidance post that was invaluable. I followed all the advice in her post, and it helped me perform well on the exams. Aja was also incredibly supportive to students who didn’t do well on an assignment. She really motivated students and worked very hard to keep the forums positive.
+In addition to all the front-facing working, the TAs were working hard to return grades quickly. Most grades were returned within 7-10 days.
+Summary: For all these reasons, I highly recommend this course, if you’re interested in the topics. While the material is challenging, I learned so much. NP-complete problems and dynamic programming were particularly fascinating, and the teaching staff was outstanding.
+Rating: 5 / 5Difficulty: 4 / 5Workload: 18 hours / week
+
+Review 50
+lcRgQ691+cj/4X+0mrA4aw==December 13, 2024fall 2024
+Course Review
+The course material, videos, homework assignments, quizzes, and exams were excellent.
+The main issue was with homework grading. You could receive a zero simply for not rounding your final answers correctly. For programming assignments, they only provided 3 basic test cases, but your code would be evaluated against many hidden test cases during grading. This made it impossible to know if your code was actually correct before receiving your grade.
+How to Get an A:
+I started rough with scores of 7/20 and 11/20 on my first homework assignments, but still managed to finish with a 91.5 (A) as my final grade.
+Homework Tips:
+When they release practice problems, study the provided answers and follow their exact format when writing your solutions
+Join a discussion group - be active, share your thoughts, and learn from others
+Always read the comments and questions under homework posts - they often contain valuable hints and help identify edge cases you might miss
+Exam Tips:
+Review your personal notes
+Watch Joves' exam office hours (he holds them before each exam)
+Solve all practice problems and work through everything Joves covers in exam office hours by yourself​​​​​​​​​​​​​​​​
+Rating: 4 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 51
+tv/GKYOiAJhkdJMobFMm2Q==December 10, 2024fall 2024
+Overall the content of the class is good and I enjoyed it but the way the class is run itself could be improved. Finished with an A with an engineering background and this was my 9th class.
+Staff
+The professor is rarely seen except on a few responses on Ed time to time but the vast majority of the course is run by the various TA. Many people complain about the TA responses which in some cases could be true but the volume of posts in this course is pretty high both on Ed and the amount of activity on the slack channel compared to other courses and I found most of the comments to be sarcastic rather than rude but it can be hard for people to tell on an online forum. Also to be frank many students just don't simply read the instructions -- you can see on any Ed post for an assignment people asking questions that are very clearly explained in the instructions and when you have many posts like this I would probably respond the same way. There was a lot of discourse online that the TA staff needs to be replaced etc. but I don't really see many people lining up to TA this course considering every single mistake by a TA turns into a hate thread on Reddit.
+Homework
+The homework is split up into (written, coding, written+coding). I preferred the written but ending up doing the same on average on all types. The written homeworks are pretty straightforward there are some rules announced in an Ed post for each category (DP, Graphs, NP etc.). The coding assignments created the most amount of problems due either:
+Not having sufficient testing available and receiving a low grade afterwards or using banned Python structures
+Possibly being flagged for cheating.
+For 1 it can be frustrating thinking the code is working and then receiving 2/20 on gradescope so the only suggestion is to learn how to write a good unit test in Python. The actual code itself is usually pretty straightforward so there is always enough time to test thoroughly I found. There's also a performance element which can be pretty strict so time spent optimizing is good and also looking on Ed where people sometimes post Gradescope runtimes. The class provides wrapper classed for Python data structures like lists etc. probably for the performance case. I really don't see the point of this because other courses like HPC measured performance without enforcing these kinds of requirements. Just be careful to follow the instructions to avoid penalties.
+For 2 there were a lot of threads on Reddit/Slack about people being unfairly accused of cheating. There were 12? or so cases of this being true and being overturned in OSI. This is a pretty difficult topic to fix on both sides and I think the problematic assignment which there was just 1 should just be removed or re-worked. I recommend against joining a study group to avoid accidentally copying each others work but it can also be beneficial.
+Quizzes
+The logistics quizzes are free points
+2 attempts per quiz with some showing the answers (format) and some hiding the answer (content). The format quizzes are free points just read them slowly. The content quizzes are harder but also not unfair.
+Some advice is to do them near the due date. They are untimed so open the first attempt while watching the lecture and fill it in as you go. I found this way to actually make me stay focused on the lecture. Also read the Ed post for each quiz as TA/people may say something that can clarify a tricky question.
+Exams
+The written portion follows a pretty good pattern. 1 written question is literally a homework question with a slight change. 1 written question will most likely be related to a textbook problem from the assigned problems. For these problems I found the best strategy is to study both the HW and the textbook problems over and over again. Do some other problems but make sure you can fully understand these problems.
+The multiple choice are pretty fair. You need to read them carefully but they don't really try to trick you that much. For multiple selection only guess what you are 100% sure on.
+Rating: 4 / 5Difficulty: 5 / 5Workload: 15 hours / week
+
+Review 52
+RuW3kVPIXMNseTxU8DcUoQ==December 10, 2024fall 2024
+I thought this class was fine and the constant criticism was overblown, though not totally wrong. I don't have a CS background and I got an A.
+This was the stressiest class I took in OMSCS. It really should be more available earlier in the programme. The biggest stress was that you never entirely felt like you knew what they were looking for. Grading is done by taking points off for mistakes, rather than by giving credit for getting things right.
+However, that feeling got easier as the semester went on. If you watch the office hours, and pay attention to the model solutions and feedback threads, you see that what you need to do is more straightforward than you initially think. Complex solutions are a sign that you're going down the wrong path. I tanked the first homework, and didn't do amazing on some homework or quizzes, but it's really the exams that matter.
+I didn't do any of the practice questions or have a study group, but I did take the time to understand why and how I got things wrong. Office hours are particularly helpful because they give a chance to see the patterns in the problems they present. They're all looking for something. And to be honest, the exams were slightly easier than the homework. There are also some topics that will only come up in multiple choice questions and you can assess where you want to put your study efforts.
+The first two thirds of the course are about finding algorithms to solve problems, where efficiency matters. It starts with dynamic programming, which was the hardest to get your head around. Graphs were generally a bit more straightforward. The final third is about reductions and using one problem to prove to the hardness of another problem.
+Don't think of this is a leetcode class. It really isn't. It's a proofs class. They want to see logical arguments and being pedantic pays off. You can't just assert things, you have to say why they're true given the details of your solution.
+Rating: 3 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 53
+sLaWhsPRieq/5Ge4vSSc7w==December 10, 2024fall 2024
+The overall course material is good, and there is genuine effort from the instruction staff to help students learn. This was my first experience with GA (non CS undergrad), and found every week challenging. There is an assignment due every week, and 3 exams overall.
+The worst part of this course, and which stops me from wanting to take it again, is the way evaluation is done on assignments and exams. Unless you match the exact approach used by the TA's, the chances of getting marks is very slim. Though they do say that anything that works is good with them, I have felt the evaluation becomes very harsh as soon a you deviate from the expectation.
+Since most of the assignment/exam is written problems/derivations, there is always a possibility of an error or typo for which you will be punished.
+One take away is to stick to the problems in HW and practice problems. Exams will have similar problems with a slight twist. Joves goes over other very challenging problems, which was never asked during the exam.
+Unlike other courses I have done in this program, nothing is definite. You will only know your marks, once you get it and will keep you in a state of constant anxiety.
+Overall I learned a lot from this course, will offer no shortcuts to genuine hard work. I was lucky enough to clear it in first attempt, but it was a close one !
+Rating: 3 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 54
+xO0j62hv5u6kNyLgUFuw5w==December 9, 2024fall 2024
+TL;DR: The content of this course was fascinating. It is ultimately marred by bullshit grading and constant drama on Reddit due to the course staff and some angry folks, but it's fascinating nonetheless.
+The Good:
+The course staff (the heads, anyway) make a good attempt at teaching the material live (via office hours) as well as holding Office Hours for exam prep. I want to shout out Joves for going the extra mile and willing to accommodate students -- his name was drug through the mud this semester, which is unfortunate, but this shouldn't cause us to ignore the effort he puts into his office hours.
+The Bad:
+Too much of the weight is on the exams, and the exams are held in a setting that is quite frankly unrealistic for aspiring computer scientists who set out to develop algorithms. In the real world, not the fantasy contrived nonsensical world of GA, you'd be able to reference material about prior algorithms and black boxes in your work. If you don't feel you can assess the understanding of a student in a way that isn't draconian, write better questions and tests. It is ultimately reflective of the course staff if they resort to "enhanced Gradelock measures" that go well beyond the measures that an already privacy-invasive proctoring setup does.
+The Ugly:
+A good chunk of this course is describing your algorithms in detail -- not coding (although those caused some heartburn for other souls who had to take the course.) Of course, this means that human TAs will have to interpret your algorithm implementations come grade time. And more often than not, the TAs will err on the side of only accepting algorithm solutions that match the model solution to a T, which is unfortunate. While I understand why (there are only so many TAs compared to the mountainous amount of homework to grade) I do not think this is a positive model for learning to say the least. Given this experience, it's laudable that the course staff complains on Slack about how being TAs for this course is an unappreciated and thankless job. If nobody is thanking you for the job you do and that is how you feel, maybe there is a root cause?
+Rating: 2 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 55
+XD/oW6fEzRWbZM6AQpKFNw==December 9, 2024fall 2024
+Introduction to Graduate Algorithms is a tough but incredibly rewarding course. To do well, you really need to prepare thoroughly and go deep into the concepts of algorithms. This isn't a course where surface-level understanding will cut it—spending time on dynamic programming, graph algorithms, divide-and-conquer strategies, and especially NP-completeness proofs is crucial. The NP-proof section, in particular, can be challenging, but it’s also one of the most intellectually satisfying parts of the class if you put in the effort to understand it.
+Office hours are a lifesaver, and I highly recommend attending them regularly. The instructional team provides valuable insights that can help clarify tricky concepts or homework problems. Even if you feel like you’re doing okay, going to office hours can give you a deeper understanding and sometimes even tips that aren’t obvious from the lectures or materials.
+Homework is another key part of the course. While not every problem is graded, it’s important to work through all of them and then review the evaluation threads where other students share their approaches. Seeing how others tackle problems can give you new perspectives and help solidify your understanding. If you think your homework or exam was graded unfairly, don’t hesitate to ask for a regrade. I found that as long as I articulated my reasoning clearly, my regrades were always justly awarded.
+The workload is heavy—it’s not uncommon to spend 15–20 hours a week on this course between homework, reviewing materials, and preparing for exams. But the effort is worth it because you come out with a much stronger grasp of algorithms and problem-solving skills. It’s definitely a challenging experience, but if you stay consistent and use all the resources available to you, it’s manageable and very rewarding in the end.
+Rating: 4 / 5Difficulty: 5 / 5Workload: 15 hours / week
+
+Review 56
+KbSHBUPvkycTfVvkOrxq9g==December 8, 2024fall 2024
+Conceptually, I wouldn't say the material is easy, but it's also not that difficult if some time is put in. It had been a while since I took an algorithms class and I definitely learned quite a bit in this class.
+That said, there are some serious, class-breaking flaws in how grading works. Primarily, the TAs stress that the order of importance for the HWs/Exams when developing an algorithm are 1. Correctness 2. Efficiency/Speed. Makes complete sense, but unfortunately, this is not how grading works. For future students - you are given a collection of black-box algorithms that are fair game to use for a HW or Exam problem - and you MUST find the most efficient of those if you want to get anywhere near a passing grade. If you pick a black-box algorithm that solves the problem and you design an overall algorithm with it, even though it is correct, they won't even grade or provide feedback - it's just an automatic 4 out 20 points for the problem even though the algorithm you designed is correct. This creates a ton of stress, especially on the Exams when time is in short supply to evaluate black-boxes. Getting a 4 out of 20 on a HW is recoverable. Getting a 4 out of 20 on an exam is a back breaker. Again, you MUST find the solution the Instructor/TAs want for the problem...not just a correct solution.
+Oh, and they removed the optional final this semester that replaces a low exam score in case you make a simple chose-the-wrong-black-box error. They say the data doesn't reflect any difference in outcomes...that's total BS. There are numerous students this semester that would have passed if the optional final was still available.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 18 hours / week
+
+Review 57
+/AO2b9uFNEUxLlYJ/EqCfQ==December 8, 2024fall 2024
+tldr: this is a somewhat difficult class but not that hard if you come from an analytical background and put some effort into studying. The grading can be pretty unforgiving so be careful. I thought the material was interesting. TA's can be short with people but are mostly helpful.
+I come from a statistics background with a few years experience as a data scientist. Imo the material was challenging but not insane. Watch the lectures, take notes etc. and you will be fine. I can imagine if you are coming from a completely non-cs/non-analytical background it could be very difficult. The material is pretty interesting if you are into very clever things people have done with algorithms and has a lot of satisfying ah-hah moments.
+There are some complaints about the grading and I can confirm it is often pretty harsh. E.g. a single typo can knock 40% of your grade off of a homework (or worse, on a section of one of the exams). If you think they will give you the benefit of the doubt, think again. On some level I understand this, it is an algorithms class part of which includes being very careful about defining how things work and catching corner cases. Finish the homeworks early (imo they were not that difficult) and double check your work before the deadline. The exams did not throw massive curveballs at us, put effort into understanding the homeworks/lectures and you will have a good shot on the tests.
+Drama with the TA's is I think somewhat warranted. If you consider that they have to answer questions from thousands of students, grade (and REGRADE) their homeworks/exams, explain to them that no they are not changing the rules for them etc., then it may be easier to understand why they might be a bit short in their interactions. Could they also put some more effort into making their responses a bit more bubbly? Maybe. Or maybe this just invites students to continue to argue losing/unreasonable positions, I dunno. I had no experience with any of the OSI stuff so can't speak to that.
+Rating: 4 / 5Difficulty: 3 / 5Workload: 8 hours / week
+
+Review 58
+TGQXTlmX1ZqBYjLy6i626g==December 7, 2024fall 2024
+Get a nice study group or be hella intelligent to afford to lose marks on the assignments. Learning from other's mistakes has been a crucial part of me at least getting a passing percentage.
+Check out EdStem constantly for advice, try to connect with different students for help, and attend the study hours no matter how cranky Rocko might be. It is a good revision. Do not poke the bear.
+The best part of the course is the help from Aja, Emily, Joves, Tim, Christian and David. Some of their efforts go unnoticed but I can see that they truly care for us. Their posts and comments on EdStem have been helpful so far.
+Beware of Jamie, he is a double-edged sword. He helped me get through the first assignment but was a sarcastic prick on the rest of them. Try to overlook the remarks he makes and focus on the few times he has generously helped. I guess when you have so many helpful TAs, one or two of them get frustrated and vent out their frustration on us.
+I used to get overwhelmed and scared by how some students used to answer questions. You will be compelled to compare yourself and develop an inferiority complex. I have developed one but it is slowly going away after working hard. I am still not as smart as them. Some of them are helpful enough to share practice problem solutions and give advice. Learn from them, take their advice, look at their strategy, game the system, and work twice as hard.
+This might not guarantee you a B but it has been working out for me. If I don't pass the course, it is still fine, It has instilled some confidence in me to solve problems.
+I have been able to solve the assignments on my own after putting in 10-15 hrs a week on it apart from the extra 5-10 hrs I spend on learning the material. I am not the best but hard work helps.
+Rating: 3 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 59
+QaHiGrgd+Pjfq59R17SqTA==December 7, 2024fall 2024
+Got a 68%, so C in Summer 2024. I was really frustrated.
+Then I realised how tame the exams in Fall 2024 are. Got 90+% this time around while coasting and reading Ed posts. Gonna activate my grade substitution so that I can get a 4.0 GPA.
+Ignore Slack and Reddit drama. Many of them are just self-pwns. Just focus on yourself and only on yourself.
+Thank you for making this exam incredibly easy for everyone.
+Rating: 1 / 5Difficulty: 1 / 5Workload: 6 hours / week
+
+Review 60
+bGMsiYUbTvuCh+jf02bt7w==December 7, 2024fall 2024
+I've gotten an A in this course, scoring 89.9%: the cutoff for an A is 85%.
+I thought the material was interesting and useful and the lectures and book were great. The TAs were professional and showed none of the snarkiness that has been reported in the past. Most of the homework was not too difficult: my homework average was 98.5%.
+The main difficulty of the course is in its structure of having 72% of the grade determined by quizzes and exams. This poorly reflects the way in which students will be called upon to use the material in their careers and so exams and quizzes are poor pedagogical instruments.
+The TAs are also somewhat poor at writing exam and quiz questions, often excluding important assumptions, or varying from definitions provided in the book and lectures. Some other questions have the character of an IQ test and so don't gauge learning as much as intelligence: does the student have the capacity to think through some novel complex relationship? Despite the fact that there are regularly a 1000 people in the class so that there is ample opportunity to do trial runs of many questions, the TAs seem not to do this, but instead distribute brand new, unvetted and often poorly written questions leading to significant controversy. The poorly written exams and the fact that exams form the majority of the grade contributes to a high degree of grade randomness creating a high stress environment that is very unpleasant and sometimes overtly harmful to the students.
+The randomness of the exam outcomes leads many students to try to reduce randomness by studying for each exam for several days, many students taking days off work. I took an entire week off to study for the last exam. This worked for me this time: I scored way above the upper quartile. However, for many students, massive study does not seem to reduce the randomness of exam outcomes. Again, this contributes to an immensely high stress course that most students justifiably loath.
+Rating: 2 / 5Difficulty: 5 / 5Workload: 25 hours / week
+
+Review 61
+Hwb1l3h3QDyr4faWANAkBA==December 6, 2024fall 2024
+Finished this class on my first attempt, with a 88.26% which is an A. (You need an 85% to make an A in this class). Graduating from OMSCS, ML Track in Fall 2024!
+This class is no doubt the toughest class in the ML track. I wanted to distill the steps I took to make an A in this class, despite its difficulty level.
+Go through all the lectures and make your own notes, writing every word down to the T. This helped me solidify the concepts and helped a ton with revisions.
+For the coding homeworks, make sure you test your algorithm by generating randomized test cases which have been verified by your offline brute force solution. For example, if your algorithm uses a O(n) solution, write out the brute force solution also which may be O(n^2). Generate randomized test cases and get their answers from the brute force solution. Use these test cases to test your algorithm. This is important because gradescope does not provide all the test cases, when you submit your solution.
+For exam preparations, practice ALL the provided "practice problems" (solutions to these are provided in class) AND the "suggested problems" (you are expected to work on these with your peers for exam prep. Solutions will not be provided). Practice all the homework and quiz problems too. No need to do problems outside of these. Just do these over and over again.
+Attend all the weekly office hours!
+Attend all the 3 exam prep office hours. A lot of hints on how to solve the suggested problems can be obtained from these. These were a life saver!
+Make sure you stick to the suggested format of the theoretical questions! This is very important. There are 3 exams. Each will have 2 free form questions and 1 set of multiple choice questions. The format of the solution of the free form questions need to conform with the rules provided in class.
+Homeworks are 25%, Quizzes are 12%, Logistics quizzes are 3% and Exams are 60% (3 exams, so 20% each). There are 10 homeworks, it won't hurt you too much if you do poorly on 2-3 homeworks. Exam screw ups hurt a lot. So make sure, that you internalize the lessons you learn from homeworks and not repeat them in exams.
+A lot of people have bad-mouthed the TAs, but the TAs are actually very knowledgeable. People are frustrated by the difficulty level of the class and the harsh grading. If you stick to the rules, you will be fine. They have regrade requests which I have found to be quite reasonable.
+Be prepared to put in 25-30 hours per week. I'd advise against taking another class in the same semester when you take GA. I personally took Global Enterpreneurship in the same semester. Along with a full time job and a part time e-commerce arbitrage business, it was too much. I had to put one thing on the back-burner so wound down my ecommerce business to focus on GA. So give GA the time it deserves.
+Overall, this class needs a mindset shift to be successful in. If you choose to sit around complaining about the harsh grading, you will not succeed. Your mindset should be : test the F out of homework codes, follow format rules for the free form exam questions, internalize the practice problems + suggested problems + homework problems + quizzes, and crush the exams! You can do this!
+Rating: 5 / 5Difficulty: 5 / 5Workload: 25 hours / week
+
+Review 62
+dkGbJ/23fOo1dX+pe6J8Qg==December 6, 2024fall 2024
+Coming from an Engineering background, I lacked some prerequisites but found the material manageable. I actually quite enjoyed this class, but I had to be resourceful to really learn the material. The lecture materials are poor, and much of the difficulty feels manmade, and most of the TAs are aids combined with cancer. However, considering how cheap this program is there is no real reason to complain. It is important to just be resourceful.
+To do well on exams, keep your answers concise. Writing less reduces opportunities for point deductions, which is often how the rubrics are structured.
+In terms of resources, I definitely think George's Notes were very helpful, as well as some other texts such as Tim RoughGarden's Algorithms Illuminated. These really helped me solidify concepts for Exams 1 and 3.
+Rating: 3 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 63
+xgSCz+dIfejoD8mJ5gT+GQ==December 5, 2024fall 2024
+I'd like to show some love to the TAs and the course itself.
+I personally think it is a good course. I learned exactly as what I was expecting for a introduction level graduate course. On the contrary to many, I think the instruction for assignments/exams is pretty clear and easy to follow. TAs did a great job hosting office hours, explaining concepts, and providing supplementary materials. Rocko and Joves office hours are extremely helpful!
+Homework/exams are not too hard - Although it covers lot of topics but it does not go very deep on every each of them. Getting a B is pretty easy if the instructions are followed, office hours are attended and all homework as well as feedbacks are fully understood.
+Yes its demanding and I barely feel any break throughout the semester since every week there was something to due and learn. But it's not too bad compared to other courses that have much more workload (like AI/ML). I spent 10-15 hours for homework weeks and 20-25 hours on Exam weeks. I can easily cut off another 5 hours per week if I just aim for a B.
+I gave it a 4 only because some students were falsely accused of academia violation on HW4 (which later turned out to be not guilty) - I feel bad for them. That's must be frustrating.
+Overall it is not as bad/scary.
+Rating: 4 / 5Difficulty: 4 / 5Workload: 17 hours / week
+
+Review 64
+v9NUIlfgPsIu3SbY1R9d3A==November 16, 2024summer 2024
+P.S. I took this course in Fall 2024, but as of the moment I'm writing this review there is no option for Fall 2024
+I will start this review by saying that I am not a student who is a slacker, does not like to study, is irresponsible and does not take accountability for his results in a course. I was a head TA for my alma mater's DS & Algorithms course at one point in my undergrad studies for 3 years until I graduated. I am a CSE major and I took courses like Undergrad Algorithms, Automata & Complexity Theory, Discrete Mathematics, Probability & Statistics for Engineers, as well as Linear Algebra & Differential Equations. I have more than the background that is recommended to take this course and I got A's in ALL of these courses in undergrad.
+This course is run by so many incompetent people it's insane the this course needs to be a core course in almost every OMSCS specialization except for HCI and II. The course horror stories are true, it's a horrible course to pass, but it's not because of the course content. The course content is relatively similar to a mix of most of the courses I mentioned in the former paragraph. The reason why this course is so unbelievably horrible is because of three things:
+The insane amount of fear the TA's have for academic dishonesty: This makes every single evaluation a pain in the ass to even attempt. Exams have so many proctoring requirements that they are a chore to even set up (cover/flip all monitors except one, wrist scan, show laptop screen with mirror, show all sheets of paper, no one can be seen behind you, among many other ridiculous things they ask). Homeworks & Quizzes have so many retarded collaboration policies that to some degree they don't even make sense (e.g. not sharing any test cases nor discussing any with other classmates). They claim it is so that you learn more but that's bullshit. You DON'T, period. You also got TA's going crazy that they mass report students to OSI for no reason and with ZERO evidence. You should NEVER do something like that unless you have FULL proof of a student that is actually cheating. Anyways, at the end of the day those who cheat are shooting themselves in the foot.
+The sacrilegious grading of homework and quizzes: This is something that pisses me off on so many levels because the grading in cutthroat, subjective and opinionative to a level that I've NEVER seen. It's one of those things that you have to basically BEG for points in regrade attempts because they make it impossible to give you points on a regrade (they ask for you to post on Ed for feedback first but in reality it's to refute everything with some dumbass logic that doesn't even make any sense. If the feedback "merits" a regrade according to them it is submitted for regrade and it's not even a guarantee). The subjectivity of each TA is horrible, they take the wording if your answer however the fuck they want to take it and they get pissed off if you refute it, cuz YOU are wrong, they are NEVER wrong.
+The no-show act from Dr. Brito from this course entirely, as well as the arrogance and prepotence from the TA staff towards their students: I think this one is self explanatory as it's written. The professor is a complete no-show other than the first OH given in the start of the semester. Other than that, it's Rocko giving the weekly OH by himself basically, Joves giving the pre-exam OH, and the TA's answering nearly everything on Ed. And here is my main issue, the way they conduct these 3 things are so bad it's unbearable to even watch/read. You got TA's (I'm talking to you Jaime) that straight up mock, joke and ridicule students for not understanding something. There are other TA's that go on rampages of OSI reports (HW4 fiasco, go read about it on Reddit) with ZERO evidence that they cheated and they take an arrogant, thick-minded and stubborn postures towards this. There are others that, as stated before, will die on the hill that they're cutthroat grading is the only source of truth and will not even bother to try and understand you. There are others that are not even present at all. The common factor is that there is not a SINGLE TA that is willing to help out students, as well as teach them in a professional and positive manner. The main issue here is not them though, it's the fact that THIS COURSE SHOUL NOT BE TAUGHT NOR RUN EXCLUSIVELY BY TA's. Dr. Brito CANNOT allow this to happen or this course will continue to be the horrible mess it already is.
+Overall, if you are in any of the specs that needs this course, just prepare well to the format they force you to take this course in. The idea is to survive their gauntlet. The learning is little to none because how this course is ran, so I wish everyone the best of luck in their future endeavors with this course, you will need it.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 65
+QaHiGrgd+Pjfq59R17SqTA==November 10, 2024summer 2024
+There's something sus about Prof Brito...
+Why is he putting up posters on a student who's well known in OMSCS Slack that holds extreme views on Israel?
+I think it's best for him to avoid such actions that could cause disrepute to GaTech, especially when he's got the effective power to deny student graduation since CS 6515 is required on most specs.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 66
+cM6IxUjgv7FL6H8HbxeMZw==November 8, 2024summer 2024
+Ovoid at all cost. Such a bs course.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 25 hours / week
+
+Review 67
+4kluWNzA+TUcEksL17C2JA==November 5, 2024spring 2024
+Having taken classes like RL, DL, HDDA, NLP etc this class was certainly my least favorite and an unfortunate way to end the program. I came into the class really not wanting to believe the bad press it had but now that I'm almost done with the course (with likely an A) I can understand alot of the frustration with the course. The most ridiculous thing to happen were the multiple instances where quizzes had questions with either no correct multiple choice answer or did not give the student enough information to derive an answer. And when the staff was presented with multiple students asking if said questions were actually answerable some of the TAs replied with "there is a correct answer" only to later retract said statements when the questions were shown to indeed not be well formed. This indicates that the staff didn't even review the quizzes before giving them to students which is pretty unacceptable. I will say however that the reduction in the weight of exams and removal of the final was a good choice. Aja and Emily were great TAs along with Rocko, Joves and Jamie. I think the class will improve in the coming semesters, I'm just glad I'm almost done with it.
+Rating: 3 / 5Difficulty: 5 / 5Workload: 13 hours / week
+
+Review 68
+Thq7rk1t5/+A7LMbsU3vHg==October 22, 2024fall 2023
+This course is probably the worst class I have taken throughout my undergrad + grad at GT. The grading is extremely pedantic and does not actually help with the comprehension of class material. Although some TAs are very helpful and considerate, there are others that are rude, entitled, and extremely inconsiderate to the students. Whenever there is an opportunity to be reasonable towards students, they find a way to make unreasonable demands. For example, taking points off of a final exam score for incorrectly showing the surroundings for an exam is ridiculous, this merely warrants a notification. Another example is extremely vague language in the instructions of homeworks that upon asking for clarification, no additional information is provided. Inevitably, many students will fail to live up to their extremely pedantic and pointlessly exact grading requirements which leads to low scores and a general sense of frustration in the class. The grading is also not properly explained often times, with inconsistencies being present from student to student in how assignments are graded. Potentially, the worst thing about this course is that the course staff hides their laziness by making unreasonable demands from students. I have been in classes where course staff laziness is met with leniency (at least) when submitting assignments, but this is not the case here. To hide their own inability to properly create the right incentive structure in the class (by creating pedantic assignments, taking off points for things outside the exam content, banning certain exam review content, grading inconsistently), they make pointless rules and regulations that dock points for seemingly no reason and force you to ride it out in hopes of completing a degree. This course should and needs to be changed in order to give students a proper educational experience for this extremely fundamental course in completion of a Master's degree.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 69
+VgBZ5q2cK2PdyQCErWPMmA==October 14, 2024summer 2024
+Yes, half people got less than B which means fail. Contents are easy (TBH even covered less than ordinary graduate algo would), the difficulties are man-made:
+TAs have plenty of proprietary rules to grade. yes in quizzes there are questions like "Which of the following gets the highest grade in this course?" though all answers are correct.
+Yeah I'm in this fall again and it's even more legendary.
+People got OSI due to knowing the solution for a problem in the summer, which they reused for this Fall.
+Hope this gets "standardized" soon...maybe by fully MCQ( https://www.reddit.com/r/OMSCS/comments/1fuijex/why_6515_ga_assignments_are_not_mostly_composed/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+Rating: 1 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 70
+dLcW+Gd8NYobOQsgrbFgZg==October 10, 2024summer 2024
+This was probably the hardest class I took in OMSCS (this was my ninth class). What another reviewer wrote about Jamie (he only posts memes taunting students asking for help) is sort of true. There were a couple of other things that made me think the TAs were not up to teaching this class. This was definitely the most stress I went through in any OMSCS class (needed a B to graduate).
+Don't listen to the people claiming that tons of people have to retake it. It's true that some people retake it, but your odds of getting an A or a B on your first try are about the same as any other class (I made a Monte Carlo simulation based on that publicly available Lite data demonstrating this). Also, it's true that many students just do not grasp the material, so they complain too much unjustifiably. You can tell many people have no idea what is going on by reading the regrade threads.
+The grading on homeworks was far harder than the grading for the tests, IME, but that may have only seemed to be the case because I learned from my mistakes on the homeworks and applied them to the tests. Anyway I did much better on tests than on homeworks.
+This was my ninth class and until my grades stabilized and I knew I was going to get an A or a B I wondered whether I would continue with the program and try again or just quit. I'm 37 years old and I don't really need this degree. It was kind of depressing. Luckily I got the B.
+Rating: 5 / 5Difficulty: 4 / 5Workload: 20 hours / week
+
+Review 71
+0w+Llg76gamuEtxFQAS/Gg==October 5, 2024summer 2024
+I come from a mechanical engineering background so this was my first algorithms course. I'm of average intellect at best and finished with over 96%.
+Struggle through the homeworks trying to figure them out yourself rather than looking online and you'll be fine, both in the sense of learning and avoiding cheating.
+I suspect the whining about this course is from those who never learned to solve problems from first principles and instead use Google/llms at the first feeling of adversity.
+Rating: 5 / 5Difficulty: 3 / 5Workload: 15 hours / week
+
+Review 72
+z6RtzfxHcCnFa5KMd920Ag==October 1, 2024fall 2023
+This is one of the worst courses I have taken. Grading is not clear, Instructions are just scattered everywhere through Ed. TAs are unhelpful and not skilled enough to teach such an important for graduation course. Also there's basically no option but to pass it in most of the specializations and by passing I mean more than a B since it's a core subject. I am repeating it for the third time just because it's the only blocker between me and graduation. MOST AWEFUL EXPERIENCE!
+Rating: 1 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 73
+fqEC+EKjdsF3KG0KXcy/2Q==September 29, 2024spring 2024
+If you're considering Georgia Tech's OMSCS program, specifically CS 6515 (Graduate Algorithms), take a moment to rethink. Despite the material not being inherently difficult, the course's structure, grading, and teaching staff create a frustrating and toxic learning environment.
+The teaching assistants (TAs) are, to put it bluntly, unhelpful. Many of them seem to lack the competency or willingness to guide students effectively. Communication is poor, feedback is delayed, and the overall support system feels like it’s set up to watch students struggle rather than succeed. Jamie R. McPeek, in particular, has been a negative presence. This individual should not be allowed on any teaching staff due to their contributions to the toxic culture of the course. Instead of fostering a collaborative and supportive space, they and the rest of the team seem to exacerbate stress and confusion.
+One of the most infuriating aspects is the lack of an autograder for immediate feedback, especially considering that nearly every other course in the program offers this. You’re left in the dark after submitting assignments, forced to wait until grades come back – which often feels arbitrary and inconsistent. It's astonishing that a program that prides itself on tech innovation can't implement something so basic for such a crucial course.
+Another glaring issue: the course is structured so that most students take it as one of their final courses. By this point, you’ve likely invested a significant amount of time and money into the program, which leaves you feeling trapped. It plays into the sunk cost fallacy, making students feel like they have to see it through despite the frustrations. Many end up taking the course multiple times – a setup that feels like a cash grab rather than a genuine educational experience.
+For prospective students, if you're eyeing OMSCS, I'd strongly recommend looking into the Interactive Intelligence specialization. It allows you to bypass this course entirely, preserving both your sanity and your wallet.
+In summary, CS 6515 is a masterclass in poor management and toxic educational environments. I cannot, in good conscience, recommend this course or any class associated with these professors and TAs. Proceed with caution.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 15 hours / week
+
+Review 74
+OCFIzxthJxP6v2FNM4k2vQ==September 26, 2024summer 2024
+This course adds too much unnecessary pressure to students – for example, the staff told us that the grade has been released, but we may still be charged some penalty. When will we know? Within the next a few days. The cutting throat feeling just does not make sense, especially during the exam period. Not to mention the course workload is challenging itself.
+The Ed Discussion is like a battlefield every day and I can't avoid reading these intense messages because of the coursework, which has really a negative impact on my mental health. I really want to help my peer students or seek help on my own regarding the course topics, but my posts are just that easy to be deleted, judged as plagiarism or receive no responses. I feel helpless. My family starts to worry about me and suggests me to pause, so be it.
+If you must take this course to graduate, I strongly advise you to hold off until the last one, as it will affect your confidence for the remainder of the program – like what I am experiencing now, despite I have an A in my current grade and done all the coursework as suggested – I still feel that I have been subjected to a lot of unnecessary stress that has caused me problems in my life. Not worth it. Please, please improve this course. We are here to learn and not to be bullied or tricked. Some memes are just not funny but rude.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 75
+rh2jpC5aK05qOGhRKUqa3A==September 24, 2024summer 2024
+This is one of the best examples of a course that's intentionally made more difficult than its supposed to be through grading and expectations sent through 10,000 chicken scratch ed discussion posts. You have to read all 10,000 after work and keep track of everything.
+Everything, from the condescending TAs to the unrealistic expectations makes this one of the poorly designed mandatory courses.
+Using the world class Graduate Algorithms grading to rate this scores as below:
+PROFESSIONALISM: 5/20 (5 being for the few that actually help)
+COURSE MATERIAL: 2/20 (2 for linking ed discussion threads, everything else is an incoherent chicken stratch for notes)
+GRADING: 10/20 (-10 for expecting answers matching model solutions through a discussion amongst TAs rather than defined answers from a verified source)
+OVERALL: 5/20 (Rounded down to match the gold standard rating)
+PASS/FAIL: FAIL
+We recommend retrying with 1 million attempts at syllabus changes but the grading standards will not change. For a student they can expect similar scores as above in exams and HWs.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 76
+qe9J9yTwZwnGmriFvM46Bg==September 17, 2024summer 2024
+I feel like the TAs try to trick students and bully those who are in the CS track, there is the hundred way incentive student learn Algorithm, but they choose that toughest approach. You have to guess the purpose of the homework or quiz because it's not about helping students understand algorithms.
+Rating: 2 / 5Difficulty: 5 / 5Workload: 25 hours / week
+
+Review 77
+dkGbJ/23fOo1dX+pe6J8Qg==September 15, 2024spring 2024
+Class isn't difficult, but the way it is taught and the TA's who are head of instruction are honestly what make this class painful. However, i do understand given the size of this course there is no other way to handle it, but I do wish the TA's were a bit more professional. From my experiences in undergrad, I've honestly never had such a poor experience before, but I guess you get what you pay for out of this program
+Rating: 1 / 5Difficulty: 3 / 5Workload: 12 hours / week
+
+Review 78
+DRhNRbP80f8K8JAh8aMKfQ==August 23, 2024summer 2024
+Sell your soul. Realize GT is one of top universities. Its not easy yes bear the crown.
+USE AI to help you study. if you don't really have time to study that much.
+this is not just leetcode easy or medium problem you saw from tech interview. nor IQ test from some startup companies.
+For exam. you have to absorb everything from lecture. your thought process have to be same with what lecture says to write solution.
+the reason why exam problems are confusing is. they want to keep it in black box. like unknown coding test problem.
+but still hard to believe since omscs program is designed for full time worker.
+Happy to pass this class. just wanna take a rest for years
+Rating: 4 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 79
+vjTAghAYVf8qQ3jSGLg+fA==August 20, 2024spring 2024
+I don't recommend this course, the grading is too strict & inconsistent.
+Solutions are not gone through properly & fully, do post more post-homework/exam solutions so that students can learn better
+Some exam questions were poorly worded causing confusion, and it's such a big percentage of the grade as well
+Rating: 1 / 5Difficulty: 1 / 5Workload: 20 hours / week
+
+Review 80
+QaHiGrgd+Pjfq59R17SqTA==August 19, 2024summer 2024
+I would gladly take it, but I would consider not taking it if I knew Jamie was going to be a TA.
+That would be a personal attack too like how you critiqued another reviewer on Brito's heritage.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 40 hours / week
+
+Review 81
+kcvYBtHvCTn3hwUoaXi/Fw==August 17, 2024summer 2024
+First, I want to address the reviews that mention Dr. Brito's heritage/nationality. That's bullshit, irrelevant, and undermines the rest of your review.
+There are very real things to criticize him for, like lack of involvement in Ed discussion, even when prompted by the TAs.
+I don't like the pacing of the course. Assignments were released one at a time every week, so it was impossible to get ahead of schedule in the class if you needed that kind of flexibility. I didn't need that this semester, but at other times it would have been frustrating.
+Jamie McPeek needs to stop being a TA. I can't remember a single time where one of his answers actually provided useful information. It was mostly memes and taunting of students that missed something while reading a course post or syllabus. The rest of the TAs were quite professional and helpful. If I knew they were TAs on another course I would gladly take it, but I would consider not taking it if I knew Jamie was going to be a TA.
+The grading was inconsistent and sometimes overly harsh. My homework scores barely seemed to correlate to my test scores, and all of my scores varied greatly. I got 100% on a test in one section and then about 65% on another section, and I don't think my understanding of the material was that different between the two sections. As further proof of the inconsistent grading, there are posts for every assignment where students are expected to discuss whether deductions on their assignments were valid, or if they should request the TAs try to grade them again. I passed this class on the first try -- I can't imagine the frustration of having to take it twice, knowing it was probably due to who graded your homework and how much coffee they had on the morning they graded it.
+A lot of students complain about the writing, but I don't think that's the problem with this class. The homeworks are basically writing proofs for some approach to solve a problem, which is different from the coding assignments we have in a lot of other classes, but fundamentally just as important for a computer science education.
+In summary, the material for this class is really fun, but the inconsistent grading and unprofessional behavior from one of the TAs make it much more stressful than it should be. It's good for Georgia Tech that it's the last class, because if it were the first, a lot of students would get a degree elsewhere.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 20 hours / week
+
+Review 82
+QaHiGrgd+Pjfq59R17SqTA==August 17, 2024summer 2024
+If you don't really worry about the difference between an A and a B, because of how strict Dr. Communist Brito is about grades (12.2% A is a joke on this class, seriously), you will enjoy this class.
+If you're thinking only about A (which you shouldn't), this class will be a massive clusterf**k.
+Rating: 4 / 5Difficulty: 5 / 5Workload: 36 hours / week
+
+Review 83
+3eXrkhR5BL7TZ13Hm7YIHw==August 15, 2024summer 2024
+Everything that needs to be said about this class has already been said at this point.
+The material is essential for a Computer Science degree. It is a class worth taking, despite its numerous problems. Based only on the material, this course is easy to moderately difficult, depending on your background.
+The course itself is poorly organized, the graders are pedantic, and overall it's hard to see how the current iteration of the course is worthy of Georgia Tech. This causes a level of stress that is unjustified by the material. Despite this, you will be successful if you put in the effort, ignore the noise, and work at it.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 20 hours / week
+
+Review 84
+QaHiGrgd+Pjfq59R17SqTA==August 14, 2024summer 2024
+Avoid Leetcode
+It is apparent from one of the HWs that one of the question was structured such that it is similar to a Leetcode question that people who have memorised got trapped into answering it directly and got sent to OSI for cheating.
+Fair enough, because it's a memorised code and not something that a student came up with on their own.
+Rating: 2 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 85
+Rp+/iLY5IxXNMmn7CwtrJQ==August 14, 2024summer 2024
+This is a tough class. Partly because it is not structured the way other OMSCS classes are, many of us are usually taking this as the final class or one of the later classes. This was my 8th class. I struggled a lot adjusting to how the quizzes and homework feedback should be incorporated into your exams and assignments and was way behind early in the semester (My grades were 48% at end of HW4 and 55% on withdraw date, glad I stuck through and finished with a B).Only in the later half post exam 1, I really did figure out how the grading worked and what I needed to do to sail through. Also grading feedback takes its time, for example feedback for homework 1 came back after homework 2 submission deadline was over. So, I had points deducted for similar mistakes on both the homeworks and couldn't really incorporate the feedback for some of the assignments. For regrades, there is a bureaucratic process where you first need to elicit feedback for a regrade request from your fellow students and then make an official request. This was so inconsistent where for a same kind of issue some students agreed that it needs to be regraded and some did not. Programming assignments were introduced for this class, what was frustrating was students are not allowed to share their test cases. This is unlike many other courses for example HPCA or GIOS where it is allowed and encouraged to share testing framework. I do not agree with the TA's justification that the test cases are part of the understanding process for the algorithm design. Most of the cases in gradescope which were used to dock the points were fringe edge cases. Exam problems by themselves are not that hard as long as you interpret them the way TA's intended to :), which was a problem this semester.
+Being used to working in a professional courteous environment where written communication with colleagues is very formal and polite, it sometimes gets irritating when some of the TAs don't answer a straight forward question asked on the forums but reply with mocking undertones which would potentially be cases to report as abuse in my company.
+Shoutout to Joves for taking the time out for exam study prep, without which I wouldn't have passed this course.
+Also to Aja for the post encouraging people to stay on course after exam1, I was considering withdrawing and decided against.
+Overall I did still enjoy the course material, solving the problems on the exam and the ones behind the textbook.
+Dont be scared, put in the time and learn how to solve the problems in the textbook on your own you will sail through.
+Rating: 4 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 86
+f3jgHHOzhTaeyZL4My9S9Q==August 13, 2024summer 2024
+I got an A on this course. First time to take the course. Glad that I graduate.
+** I dont have job so I spent about 50 hours on this course every week**
+The lecture videos are really intuitive and I truly enjoyed.
+Dr. Brito is nice. He frequently held office hours and he listened to students' advice/complaints on the exam and gave them points back.
+Shout out to Joves!! Great man willing to spare his own time to held marathon office hours for students even when he was not the TA this semester. I wish he was the head TA in summer semester. Kudos to him!
+However, I really had a very very stressful and anxious semester. I felt this was the most pressure semester that I had in OMSCS program even when just submitting a homework.
+Three things that make me feel sad about the course:
+TAs. I dont want to name some specific people and complain. I feel there were good TAs that were responsible and willing to help, like Tim W. However some TAs really didnt help at all. They often avoided to answer the questions like by reiterating students' questions in a sarcastic tone which is really condescending and made me feel so sad for the student
+I was flagged in the last HW. I dont need to do that HW to get an A, and I just wanted to practice my coding. One of the questions in this HW was from leetcode. I CITED the leetcode question, but still got flagged. Really upset to end my OMSCS journey in this way.
+Assignments. They used Gradescope for coding HWs. Only simplest test cases were given to students, and they had around 20 or more hidden cases. It understandable to have hidden cases, but I feel students were only notified "you got 4/20 in this HW" which did not help anything at all. We cannot really learn from the coding hws. They could have mentioned like "this type of corner cases is worth noticing", but not even one. Our purpose is learning, not just the grades.
+In general, I truly hope the course could get improved since most of OMSCS students need to take this course as the last course before graduation. It shouldnt be a bitter ending like this. I dont know if someone from the department could see my comment and help with the course. If not, for all students, try to avoid it or cultivate a strong heart to prepare for it.
+Rating: 2 / 5Difficulty: 4 / 5Workload: 50 hours / week
+
+Review 87
+QaHiGrgd+Pjfq59R17SqTA==August 13, 2024summer 2024
+I don't have beef with the TAs and how they're run (in fact I did agree with some badass things Jamie did to some of the students) but how invisible Brito is with his f&*%ed up Exams (which everyone had seen on Exam 2), his weird grading regimes, and his unwillingness to work with students on a sensible path forward, despite constant reminders by the TAs to address student's concerns.
+OMSCS had been fun until this last course which I had to clear. Really makes a salty leaving from the entire programme which I am really ambivalent on recommending to others - not that they needed any more introduction these days.
+To that effect, I have decided to suspend my annual donation to the College of Computing OMSCS Fellowship Fund. The huge % of W grades in this semester is enough to buff up their coffers anyway.
+Rating: 2 / 5Difficulty: 5 / 5Workload: 38 hours / week
+
+Review 88
+br09Dorz45zpn9ySp+NC7g==August 9, 2024summer 2024
+I completely agree with the other student on the rigid rules that you need master to succeed in this course. What shocked me the most is how the professor managed to turn an algorithm course from quantitative to qualitative.
+That's right, the homework/exams and grading of this course is rather qualitative than quantitative. To succeed, writing is more important than coding, saying the obvious is more important than deep thinking. And don't get me wrong, the TAs will not let go any chance to take points off your submission. During the course, you spend way more time to master these skills and to figure out what the professor and TAs actually want, than to learn algorithms.
+Avoid this course if you can. If you cannot, bend down you knee and join the gang.
+Rating: 2 / 5Difficulty: 2 / 5Workload: 8 hours / week
+
+Review 89
+ex/+WEggftoEEjwISXXHLg==August 9, 2024summer 2024
+To preface - I have a 4.0 and I got an A in the course. I’m not a slouch that failed and came here to whine. What you’ve heard about the course is true. It SUCKS.
+This course doesn’t suck because the material is hard or because the workload is high. Algorithms aren’t that tough to figure out, and analyzing their correctness, runtime, and completeness isn’t hard either. It barely qualifies as math (in the way this course teaches it).
+This course sucks because of how Dr. Brito and his gang of pedantic shitstains have designed it. You don’t need to do a ton of work or study an insane amount to keep up, you just need to play their ridiculous game. They’ve created a network of rules and an entire linguistic framework that you need to master if you want to do well. In no way is this a productive or useful way to spend your time if your goal is to master algorithms.
+My advice - if you have any interest in the specializations that don’t require GA, just do one of those specializations. If you must take GA, master their game.
+Rating: 1 / 5Difficulty: 3 / 5Workload: 15 hours / week
+
+Review 90
+CEIGYVyIqPsZQIhIgvrwmQ==August 8, 2024summer 2024
+Dr. Gerandy Brito, from Cuba's shores,
+Teaches Algorithms with tough, rigid cores.
+Grading metrics, oh so malicious!
+Leaves us confused, feeling fictitious.
+Student welfare? Left in the dust,
+In his eyes, succeed we must.
+Grading requests? A slow reply,
+Leaves us all, wondering why.
+Just like a tax officer, strict and stern,
+Fairness and empathy, hard to discern.
+Sending students, without cause or clarity,
+Straight to OSI, with cold severity.
+Oh, Dr. Brito, we struggle and strive,
+In your class, just to survive.
+Communist roots, with methods so rough,
+In your algorithms class, the going is tough!
+Rating: 1 / 5Difficulty: 5 / 5Workload: 40 hours / week
+
+Review 91
+hZ8cIAXOZAXnAf1ZLWkMmA==August 5, 2024summer 2024
+This course requires significant improvements, starting with a thorough reassessment of the role of teaching assistants (TAs). I am extremely dissatisfied with the current level of involvement of TAs, who seem to be running nearly the entire course, from setting assignments to crafting exam questions. It is evident that these TAs do not possess the qualifications of a competent professor, and their dominant role in the course is inappropriate. TAs should assist professors, not replace them in core teaching duties.
+Furthermore, if the professor is already aware of this setup and permits it, then it must be stated that their performance does not meet the standards expected at Georgia Tech. In a course where the stakes of assignments and exams are so high, the presence of significant ambiguities in the coursework and exam questions represents a serious educational failure. The professor needs to take a more active role in overseeing and reviewing the coursework and exam designs to rectify these issues and ensure that the educational quality of the course is restored to an acceptable level.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 30 hours / week
+
+Review 92
+plbmwzcIJX9pB7AD3WS20w==August 5, 2024summer 2024
+I recommend not to take this course because exam have 66 percent questions subjective and TA are free to cut marks as much as they can. You can get 20 of 20 or 1 out of 20 even if you are correct. It all depends on how TA interpret it. Regrade request depends on whims and attitude of TA, If same TA reads regrade request, It is useless to get makrs in regrade request.
+MCQ questions and quizes have negative marking and form 33 percent in exam. Quizes are only 10 - 14 percent. Coding home work are restricted to special constraint of classes and uses, coding outside rules lands you to heavy peanlity.
+I recommend to go for Interactive Intelligence specialization to avoid this course.
+I got C grade in first attempt, and B grade in second attempt. I should get B grade in first attempt and A grade in second attempt.
+Course is getting tougher with time due to unpredictable grading, and introduction of new rules in homeworks.
+you can know it from https://lite.gatech.edu
+grade distribution in all years.
+last summer as per chart 11 percent student dropped the course and 20 percent student got grade below B which is needed as minimum for graduation in all specialization except interactive intelligence.
+Over all trend was in 2019 (dropped + grade below B) were 20 percent.
+Now it is 30 percent.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 15 hours / week
+
+Review 93
+QaHiGrgd+Pjfq59R17SqTA==August 4, 2024summer 2024
+Thank the lords I escaped this class with a 70.67.
+Really, this class brings the worst amongst the TAs.
+Look, I think Joves did a great job given the circumstances. Unfortunately he wasn't an official TA in Summer 2024 and only hosted the Exam Preps. Rocko doesn't traditionally take Summers, so we are left with the remaining TAs.
+Surprised that Gerandy Brito took some of the Office Hours. Then again he's invisible everywhere else otherwise. One of the questions with regards to the Quizzes has yet to be resolved, even after the TAs tried to prod on him countless times to react.
+2 of the Homeworks were turned into Coding Projects, with the additional caveat that you are not allowed to share sample outputs with other students. The result caused a huge backlash in Reddit. Apparently they offered to replace one of the grades with another optional homework, but I didn't bother to bite it because I sensed there was a trap time-wise to take it. It turned out to be a smart move.
+When I did CIOS, I came across TA names which I swore to god which I never seen them before.
+All-in-all, I rather people take this during the summer. You feel less pain than the marathonic 16 weeks and dealing with additional lectures which are randomly tested in the MCQ portion of the exams - the importance of which is unfortunately downplayed even though it's "fair game".
+Rating: 1 / 5Difficulty: 5 / 5Workload: 35 hours / week
+
+Review 94
+mECB6r1sPNaIC0cswoLfDQ==August 4, 2024summer 2024
+Probably the worst class so far for me at 8 classes. Unfortunately, it is a required class.
+Some TA's (mentioned a few times in other reviews) interactions are condescending, and unhelpful to students. Some refuse to answer questions surfacing due to ambiguous wording in homework (Exam 2, HW6), which was supposed to be their job to be clear.
+Grading is inconsistent and unnecessarily strict sometimes. Some students get away with missing answers while others are penalized.
+The final optional homework caused a large number of students to be marked for academic violation, which caused a great amount of stress. The problem with this homework is it is optional, and seemed to be designed in a short amount of time, so it's very simple to solve with known algorithm, which caused many students to have similar answers.
+Rating: 1 / 5Difficulty: 2 / 5Workload: 12 hours / week
+
+Review 95
+rXqIfikWpIfFu8kzNGzVRg==August 4, 2024summer 2024
+Overall, this course is an incredibly stressful graduation gatekeeper with good intentions but needs administrative intervention.
+Exam Weight Imbalance
+69% of your grade is earned in the combined 7.5 hours of 3 EXTREMELY stressful exams.
+The remaining 31% of your grade is earned over the other 1,800+ hours in the semester on homework and projects that keep you stressed all week over whether you're completing them correctly.
+You can work your behind off for 1,800 hours on HW and projects that ill-prepared you for the exams and then blow 69% of your grade in only 7.5 hours.
+TAs
+Condescending and need to work on professionalism.
+One TA, in particular, goes out of his way to respond to a good portion of questions with dry jokes or memes when the student they're responding to is not in a great place.
+Another TA named Joves (who wasn't even officially working over the summer) still graciously hosted his 6-hour pre-exam prep sessions for us, only to have another TA comment in Ed that "Copying the Joves style is not necessarily the best strategy"—effectively diminishing the value that Joves spends so much personal time on delivering.
+The TAs will say tone-deaf things such as "it's very rare for CS 6515 to deserve to be a students first, second, or third priority in life." and "Enjoy the exam!" when they well know that the stress of this course, THEY'RE ADMINISTERING allows it to be no less than 1st priority in our life and that the exams are of the most stressful 150-minute chunks of our entire OMSCS career.
+HW, Project & Exam Question Quality
+The questions are either of poor quality, lack detail or include too much extraneous detail.
+When a HW thread has nearly 700 comments of questions and answers (looking at you HW 3) you know that the assignment outline is of poor quality.
+Misuse Of Ed & Canvas
+My last point above also leads me to this: IMO, staff misuse Ed. Everything is condensed into MASSIVE mega threads, making it challenging to find the answer you're looking for. This highly restricts the usefulness of Ed's search functionality. Instead, staff should make better use of categories and subcategories and allow new posts for every question.
+On one assignment, course staff left Canvas misconfigured so some students could see their exam scores immediately, and others were left in suspense until grading was complete.
+Health Impacts
+I gained 20lbs+ of body weight over the duration of the few times I repeated this course due to the stress.
+I heard similar stories of others gaining weight, going on medication, and attending mental health counseling.
+None of the nine other courses I completed in OMSCS had this impact on my mental or physical health.
+In closing, I hope 6515 staff can take this feedback seriously and make structural changes to this course. In the meantime, I feel for those who must complete this course. There has to be a better algorithm to teach us algorithms.
+Rating: 1 / 5Difficulty: 5 / 5Workload: 35 hours / week
+
+Review 96
+zDItZBTNIhVmIEEic0jcsw==August 3, 2024summer 2024
+It was a roller coaster ride that didn't end on a high note. This is my final and 11th class and the 1st one where I couldn't maintain an A. Cutoff for A is 85, B is 70. For reference, I scored 82.
+Pros:
+Good study material even if you knew it before. Homeworks and exam questions are challenging and make you think. You will feel accomplished when you solve those.
+Lectures and office hours by Dr. Brito are useful and well put.
+There is a marathon OH session(>4-5 hrs) before each exam, I never attended them but skimmed through the recordings. It's quite an effort by TA Joves and props for arranging it.
+TAs on Ed try to respond to your questions or doubts promptly.
+That's the end of pros.
+Cons:
+There are 2 cons but are impactful dampeners to put it mildly.
+TAs have moved beyond simple goals of right or wrong and instead take pleasure and pride in trivial and pedantic details to dock points. Let me try to elaborate a little.
+For one homework, I was docked 4 points because I used the word "subroutine" in my explanation a few too many times and was called I relied on pseudocode. To TA's credit, he/she returned it after regrade but that actually indicates the mindset of the grading staff. Granted this is theory heavy class so you need to explain your point clearly or get penalized for handwavy explanations. But what happens when you have the pendulum swing to the other extreme? In another instance I was deducted points for giving 2 different runtimes even though I qualified what necessary conditions are needed for the 2nd runtime. Because TA doesn't want to see 2 different runtimes, thats the end of it. There are many other instances but I end with another gem of a reason to dock points. I was deducted for missing out the termination condition of algorithm in algo section but TA recognized that I did explain that in the correctness section of algo. Bottom line, TAs expect from students a clear and correct answer and if the sentence structure deviates from their image in minds, expect docking of points.
+"Practice what you preach". Graders and Dr.Brito expect students to write clear and complete answers but somehow think it doesn't applies on them with same rigor. In exam 2, one of the questions was worded ambiguously, which lead some minority students to take a course that Dr.Brito (lecturer of the course) recognized wasn't his intention but called valid interpretation given the circumstances. One may guess that since the author of question has accepted his mistake, the grading will be reflective of his own mistake. You are incorrect. In their infinite wisdom, all they did was award entire class +4 pts or 1.3% of total grade to all the students and yet punish the minority students who took the other interpretation which made the problem unsolvable using any lecture algorithms. This is the lamest way to correct their gross mistake by bumping up entire class average and leave behind the real victims of the confusion.(i.e. give victims +4 pts with one hand but took away 12-16 pts with the other). If I were to apply their own standards, they completely botched up exam 2 question and shouldn't let any student fail that question which contributes around 7.5% of total grade.
+Finally, graders apply double penalties such as Algo is incorrect ( major penalty) and secondary penalties of any dependent steps of failed algo because, you guessed it, incorrect algo can't prove whatever subsequent explanations you made there after.
+Lastly, borderline harsh on my part when I say it but I believe its true that this is probably the only space where some of the graders may have any authority in their lives and are too full of themselves. Right or Wrong answer is just a part of the grade when in fact it should be the only thing. You have to read the mind of graders and if you share the same bandwidth as graders irrespective of correctness of your solution, you will sail through with less heartburn.
+Rating: 3 / 5Difficulty: 4 / 5Workload: 18 hours / week
+
+Review 97
+nkIdCh5DU4CklZZD2TmZdQ==August 3, 2024summer 2024
+It took me a second attempt to pass, but in the end, I enjoyed the experience! (yes, I must be sick). I feel that the previous reviews summarize the class fairly well (both the good and bad ones). Yeah, the grading isn’t entirely fair and you will lose points on problems that are ambiguously defined, but there’s a lesson learned there – that life isn’t fair! I would have never learned as much as I did through this experience if the assessments would have been normal, so as long as you can take a utilitarian approach to a single grad school course and just go with “the end justifies the means,” you may be satisfied like I was. I appreciate that the degree has this last hurdle to pass.
+Rating: 4 / 5Difficulty: 5 / 5Workload: 25 hours / week
+
+Review 98
+vjTAghAYVf8qQ3jSGLg+fA==August 1, 2024summer 2024
+I was excited to learn for this course but ended up disappointed. This course is harsh & students are penalized heavily. For homework, referencing online sources are allowed and after citing sources, solutions were flagged for academic dishonestly (not a direct copy, but the logic follows a similar format as online sources). The solution has to follow parameters set by the question (e.g. it must be a divide and conquer approach), hence the solution approaches are already limited
+Rating: 1 / 5Difficulty: 5 / 5Workload: 20 hours / week
+
+Review 99
+tetCdLOcmhTWCuaat2HjAg==July 26, 2024spring 2024
+Video version: https://youtu.be/Azi7fpis-Hc
+While this course isn't perfect, I really enjoyed it. Unfortunately, its shortcomings are amplified by administrative issues. If GA wasn't required for most specializations and wasn't so impacted, I think it would have much better reviews. As it stands, this is just about the worst class to have in your last semester because it's so exam heavy (read: stressful) and so different from other OMSCS classes; it's basically a math class.
+I thought the lectures were great, as well as the required textbook. The weekly quizzes were OK. There were some ambiguous questions, but overall they were fair. The homework was a good barometer for what to expect on exams, both in terms of format and difficulty. One bit of advice--don't worry too much about your homework grade. Look at it as exam prep, and if you get any points off just make sure you understand why.
+The exams are definitely stressful because they make up such a large portion of your grade and there are so few questions. With that being said, so long as you adequately prepare, they're not too bad.
+Coding projects were easy and didn't take very long.
+My advice:
+Successfully complete all recommended practice problems under exam conditions
+Watch all office hours (weekly and exam prep) and understand each explanation/solution
+Actively participate in a study group
+Don't stress
+Yes, the class isn't perfect. The exams are stressful and some TAs can be rude. Still, this was one of the most interesting and enjoyable courses I took in OMSCS. I just wish the administration could figure out how to make it available to students earlier in the program.
+Rating: 4 / 5Difficulty: 4 / 5Workload: 15 hours / week
+
+Review 100
+AKIULDq0TCEmiKRoPhhUHg==July 25, 2024summer 2024
+This was the worst course I took in the entire program. The TAs were incredibly unhelpful, and the grading seemed completely arbitrary. When confronted about their inconsistent practices, they would deny any issues and continue with the same behavior. Jamie should not be in a teaching position or have any interaction with students. This was the worst TA experience I've had in my extensive academic career.
+I had high hopes for this course as it was in a new area for me, and I had plenty of time to dedicate to it. Although I am familiar with algorithms, I found that 30-50% of my time was wasted on figuring out obscure formatting rules, creating responses that were either too brief or too lengthy, and getting marked down pointlessly. The problems were often intentionally misleading. For instance, many students lost 2 points on a homework assignment for not "posing it as a ***** problem," even though it clearly was one. The reasons behind such grading decisions were never explained, suggesting that the marks were intended to punish rather than educate.
+The model solutions provided were often incomplete or incorrect, which is problematic for students who learn through mimicry or memorization. The regrade process was ineffective, and the TAs did not follow through on their promises. I also discovered that the TAs are active moderators on Reddit, which made me question their priorities and commitment to the course.
+The tests were similar to Leetcode challenges, but with the added stress of ensuring your answers matched the model solutions, all in written English. There were multiple instances, like the summer midterm, where errors in the questions led to several valid interpretations, requiring a complete regrade. This course does not test math or logic skills but rather focuses on solving trivial riddles and assessing your English prose skills.
+With a 75% pass rate, it's clear that a significant number of students are retaking the course. I estimate the first pass rate (B or higher) to be around 50-60%, which is unacceptable. The course design and grading practices show a lack of interest in improving the learning experience. Even the new coding assignments reflect Jamie's inability to self-reflect or innovate, as evidenced by a course average of 50% on the first one, which was blamed on the students' lack of testing.
+TL;DR: Avoid this course at all costs. Georgia Tech should be ashamed of it, and most of the TAs should be replaced. I maintained a 4.0 GPA before this course, including in ML and DL, so it's not a matter of slacking. The effort you put into this course will not be reflected in your grades, which fail to accurately measure your understanding of algorithms. The staff is resistant to criticism and self-improvement, preferring to congratulate themselves instead.
+Rating: 1 / 5Difficulty: 4 / 5Workload: 35 hours / week

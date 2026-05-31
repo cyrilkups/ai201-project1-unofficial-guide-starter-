@@ -50,13 +50,13 @@ This project covers Georgia Tech OMSCS course-selection and workload advice, wit
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
 
-**Chunk size:**
+**Chunk size:** 650 characters target per chunk
 
-**Overlap:**
+**Overlap:** 120 characters when a block has to be split
 
-**Why these choices fit your documents:**
+**Why these choices fit your documents:** My corpus mixes short official course pages with much longer student review pages, so I chunked by natural units first instead of splitting everything mechanically. Official OMSCS pages are cleaned into paragraph-sized sections, while OMSCentral pages are split into one review block at a time and then only split further if a single review runs long. I also capped OMSCentral ingestion at the 100 most recent reviews per course page so the corpus stays balanced and does not get overwhelmed by older repetitive reviews.
 
-**Final chunk count:**
+**Final chunk count:** 1,812 chunks across 11 loaded sources
 
 ---
 
